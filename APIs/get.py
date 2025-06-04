@@ -11,16 +11,16 @@ yesterday_date = current_date - timedelta(days=1)
 y_day = yesterday_date.strftime('%Y%m%d')
 
 urls = [
-    f"https://node.freeclashnode.com/uploads/{year}/{month}/0-{year}{month}{day}.yaml",
-    f"https://node.freeclashnode.com/uploads/{year}/{month}/1-{year}{month}{day}.yaml",
-    f"https://node.freeclashnode.com/uploads/{year}/{month}/2-{year}{month}{day}.yaml",
-    f"https://node.freeclashnode.com/uploads/{year}/{month}/3-{year}{month}{day}.yaml",
-    f"https://node.freeclashnode.com/uploads/{year}/{month}/4-{year}{month}{day}.yaml",
-    f"https://node.freeclashnode.com/uploads/{year}/{month}/0-{year}{month}{day}.txt",
-    f"https://node.freeclashnode.com/uploads/{year}/{month}/1-{year}{month}{day}.txt",
-    f"https://node.freeclashnode.com/uploads/{year}/{month}/2-{year}{month}{day}.txt",
-    f"https://node.freeclashnode.com/uploads/{year}/{month}/3-{year}{month}{day}.txt",
-    f"https://node.freeclashnode.com/uploads/{year}/{month}/4-{year}{month}{day}.txt"
+    f"https://node.freeclashnode.com/uploads/{year}/{month}/0-{day}.yaml",
+    f"https://node.freeclashnode.com/uploads/{year}/{month}/1-{day}.yaml",
+    f"https://node.freeclashnode.com/uploads/{year}/{month}/2-{day}.yaml",
+    f"https://node.freeclashnode.com/uploads/{year}/{month}/3-{day}.yaml",
+    f"https://node.freeclashnode.com/uploads/{year}/{month}/4-{day}.yaml",
+    f"https://node.freeclashnode.com/uploads/{year}/{month}/0-{day}.txt",
+    f"https://node.freeclashnode.com/uploads/{year}/{month}/1-{day}.txt",
+    f"https://node.freeclashnode.com/uploads/{year}/{month}/2-{day}.txt",
+    f"https://node.freeclashnode.com/uploads/{year}/{month}/3-{day}.txt",
+    f"https://node.freeclashnode.com/uploads/{year}/{month}/4-{day}.txt"
 ]
 
 def gets():
