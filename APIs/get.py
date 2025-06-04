@@ -31,7 +31,7 @@ def gets():
             response = requests.get(url, verify=False)
 
             if response.status_code == 200:
-                if "shareclash" in url:
+                if "freeclashnode" in url:
                     file_name = f"sc{i}.yaml"
                     decoded_text = response.content.decode('utf-8')  # 解码字符串为utf-8格式
                     data = yaml.safe_load(decoded_text)
