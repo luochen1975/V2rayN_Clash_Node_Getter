@@ -17,19 +17,27 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 6元高速机场：cczzuu.top
-  password: awsps0501
+  password: yijian0503
   port: 443
-  server: 34.212.26.32
+  server: 3.34.131.22
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 🇭🇰 香港|@stairnode
-  password: ENYGONDU94UW1G6X
-  port: 15010
-  server: 8tv68qhq.slashdevslashnetslashtun.net
+  network: ws
+  port: 8080
+  server: b959ad51-sxaf40-t323lh-1t0nn.hgc1.tcpbbr.net
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: ba78226c-b772-11ef-ab53-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 🇭🇰 香港2|@stairnode
@@ -42,18 +50,21 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 20273
+  port: 48345
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- alterId: 64
+  cipher: auto
   client-fingerprint: chrome
   name: 🇭🇰 香港3|@stairnode
-  password: 4KGHWKCKQAJOVPHO
-  port: 15003
-  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 49302
+  server: 183.236.51.38
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   name: 🇭🇰 香港4|@stairnode
   password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
@@ -62,33 +73,28 @@ proxies:
   skip-cert-verify: false
   sni: usla.mjt000.com
   type: trojan
-- alterId: 64
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港6|@stairnode
+  port: 50412
+  server: 103.30.78.122
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 086124a3-0084-405b-aea4-39b69d3836f3
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 🇭🇰 香港5|@stairnode
-  port: 52182
+  port: 43292
   server: 120.232.153.40
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰 香港6|@stairnode
-  network: ws
-  port: 30809
-  server: v9.heduian.link
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -105,36 +111,27 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 2
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 🇭🇰 香港8|@stairnode
-  network: ws
-  port: 30809
-  server: v9.heduian.link
+  port: 31209
+  server: 120.232.153.40
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- cipher: aes-256-gcm
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 🇭🇰 香港9|@stairnode
-  password: 4KGHWKCKQAJOVPHO
-  port: 15003
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 🇭🇰 香港10|@stairnode
-  password: Q5XH89ZLTSGOQASZ
-  port: 15007
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  name: 🇹🇼 台湾|@stairnode
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 9097152:93638
+    mode: tls
+  port: 2377
+  server: 60.249.28.136
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -143,7 +140,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505250813455-KDSmts8jZf.download.microsoft.com
+    host: 202505282364048-i8kTAe6y0O.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -161,42 +158,29 @@ proxies:
     path: /lornlqecrjwe
     skip-cert-verify: false
     tls: true
-  port: 14312
+  port: 37859
   server: 43.226.17.17
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇯🇵 日本3|@stairnode
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 52.195.15.105
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 🇯🇵 日本4|@stairnode
-  password: TF63RS7M0DB9OJ3B
-  port: 18010
+  name: 🇯🇵 日本3|@stairnode
+  password: 6EZ5QKFX60AVSUYT
+  port: 18008
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 🇰🇷 韩国|@stairnode
-  password: qwerREWQ@@
-  port: 4857
-  server: 125.141.26.12
+  name: 🇯🇵 日本4|@stairnode
+  port: 51036
+  server: 206.237.127.188
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇰🇷 韩国2|@stairnode
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 3.38.139.172
-  tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: af73136a-bbfa-4f95-a3e0-6c3005aa8ae1
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -213,13 +197,59 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡2|@stairnode
+  port: 49302
+  server: 183.236.51.38
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡3|@stairnode
+  password: bf109e1a-2b99-11ed-bb74-f23c9164ca5d
+  port: 27231
+  server: ddd0977f-sxaf40-t3b4w3-ywms.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  sni: ddd0977f-sxaf40-t3b4w3-ywms.cm5.cnkuaishou.com
+  type: trojan
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡4|@stairnode
+  port: 59652
+  server: 183.236.51.38
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国|@stairnode
+  password: qwerREWQ@@
+  port: 4857
+  server: 125.141.26.12
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国2|@stairnode
+  password: qwerREWQ@@
+  port: 36379
+  server: p080.panda001.net
+  tfo: false
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 🇺🇸 美国2|@stairnode
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505250813455-KDSmts8jZf.download.microsoft.com
+    host: 202505282364048-i8kTAe6y0O.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -241,17 +271,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国4|@stairnode
-  port: 41597
-  server: 120.232.153.41
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -268,6 +287,23 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国4|@stairnode
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -294,23 +330,25 @@ proxy-groups:
   - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
-  - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港6|@stairnode
+  - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港7|@stairnode
   - 🇭🇰 香港8|@stairnode
-  - 🇭🇰 香港9|@stairnode
-  - 🇭🇰 香港10|@stairnode
+  - 🇹🇼 台湾|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
   - 🇯🇵 日本4|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 🇸🇬 新加坡2|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇸🇬 新加坡4|@stairnode
   - 🇰🇷 韩国|@stairnode
   - 🇰🇷 韩国2|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国4|@stairnode
   - 🇺🇸 美国3|@stairnode
+  - 🇺🇸 美国4|@stairnode
   - 🇺🇸 美国5|@stairnode
   type: select
 - interval: 300
@@ -321,23 +359,25 @@ proxy-groups:
   - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
-  - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港6|@stairnode
+  - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港7|@stairnode
   - 🇭🇰 香港8|@stairnode
-  - 🇭🇰 香港9|@stairnode
-  - 🇭🇰 香港10|@stairnode
+  - 🇹🇼 台湾|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
   - 🇯🇵 日本4|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 🇸🇬 新加坡2|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇸🇬 新加坡4|@stairnode
   - 🇰🇷 韩国|@stairnode
   - 🇰🇷 韩国2|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国4|@stairnode
   - 🇺🇸 美国3|@stairnode
+  - 🇺🇸 美国4|@stairnode
   - 🇺🇸 美国5|@stairnode
   tolerance: 50
   type: url-test
@@ -352,23 +392,25 @@ proxy-groups:
   - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
-  - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港6|@stairnode
+  - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港7|@stairnode
   - 🇭🇰 香港8|@stairnode
-  - 🇭🇰 香港9|@stairnode
-  - 🇭🇰 香港10|@stairnode
+  - 🇹🇼 台湾|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
   - 🇯🇵 日本4|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 🇸🇬 新加坡2|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇸🇬 新加坡4|@stairnode
   - 🇰🇷 韩国|@stairnode
   - 🇰🇷 韩国2|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国4|@stairnode
   - 🇺🇸 美国3|@stairnode
+  - 🇺🇸 美国4|@stairnode
   - 🇺🇸 美国5|@stairnode
   type: select
 - name: 📲 电报信息
@@ -380,23 +422,25 @@ proxy-groups:
   - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
-  - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港6|@stairnode
+  - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港7|@stairnode
   - 🇭🇰 香港8|@stairnode
-  - 🇭🇰 香港9|@stairnode
-  - 🇭🇰 香港10|@stairnode
+  - 🇹🇼 台湾|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
   - 🇯🇵 日本4|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 🇸🇬 新加坡2|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇸🇬 新加坡4|@stairnode
   - 🇰🇷 韩国|@stairnode
   - 🇰🇷 韩国2|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国4|@stairnode
   - 🇺🇸 美国3|@stairnode
+  - 🇺🇸 美国4|@stairnode
   - 🇺🇸 美国5|@stairnode
   type: select
 - name: Ⓜ️ 微软服务
@@ -408,23 +452,25 @@ proxy-groups:
   - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
-  - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港6|@stairnode
+  - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港7|@stairnode
   - 🇭🇰 香港8|@stairnode
-  - 🇭🇰 香港9|@stairnode
-  - 🇭🇰 香港10|@stairnode
+  - 🇹🇼 台湾|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
   - 🇯🇵 日本4|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 🇸🇬 新加坡2|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇸🇬 新加坡4|@stairnode
   - 🇰🇷 韩国|@stairnode
   - 🇰🇷 韩国2|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国4|@stairnode
   - 🇺🇸 美国3|@stairnode
+  - 🇺🇸 美国4|@stairnode
   - 🇺🇸 美国5|@stairnode
   type: select
 - name: 🍎 苹果服务
@@ -436,23 +482,25 @@ proxy-groups:
   - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
-  - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港6|@stairnode
+  - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港7|@stairnode
   - 🇭🇰 香港8|@stairnode
-  - 🇭🇰 香港9|@stairnode
-  - 🇭🇰 香港10|@stairnode
+  - 🇹🇼 台湾|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
   - 🇯🇵 日本4|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 🇸🇬 新加坡2|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇸🇬 新加坡4|@stairnode
   - 🇰🇷 韩国|@stairnode
   - 🇰🇷 韩国2|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国4|@stairnode
   - 🇺🇸 美国3|@stairnode
+  - 🇺🇸 美国4|@stairnode
   - 🇺🇸 美国5|@stairnode
   type: select
 - name: 📢 谷歌FCM
@@ -465,23 +513,25 @@ proxy-groups:
   - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
-  - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港6|@stairnode
+  - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港7|@stairnode
   - 🇭🇰 香港8|@stairnode
-  - 🇭🇰 香港9|@stairnode
-  - 🇭🇰 香港10|@stairnode
+  - 🇹🇼 台湾|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
   - 🇯🇵 日本4|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 🇸🇬 新加坡2|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇸🇬 新加坡4|@stairnode
   - 🇰🇷 韩国|@stairnode
   - 🇰🇷 韩国2|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国4|@stairnode
   - 🇺🇸 美国3|@stairnode
+  - 🇺🇸 美国4|@stairnode
   - 🇺🇸 美国5|@stairnode
   type: select
 - name: 🎯 全球直连
@@ -510,23 +560,25 @@ proxy-groups:
   - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
-  - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港6|@stairnode
+  - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港7|@stairnode
   - 🇭🇰 香港8|@stairnode
-  - 🇭🇰 香港9|@stairnode
-  - 🇭🇰 香港10|@stairnode
+  - 🇹🇼 台湾|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
   - 🇯🇵 日本4|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 🇸🇬 新加坡2|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇸🇬 新加坡4|@stairnode
   - 🇰🇷 韩国|@stairnode
   - 🇰🇷 韩国2|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国4|@stairnode
   - 🇺🇸 美国3|@stairnode
+  - 🇺🇸 美国4|@stairnode
   - 🇺🇸 美国5|@stairnode
   type: select
 rules:
