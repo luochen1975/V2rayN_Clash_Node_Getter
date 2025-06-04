@@ -7,7 +7,7 @@ current_date = datetime.now()
 year = current_date.strftime('%Y')
 month = current_date.strftime('%m')
 day = current_date.strftime('%Y%m%d')
-昨天_date = current_date - timedelta(days=1)
+yesterday_date = current_date - timedelta(days=1)
 y_day = yesterday_date.strftime('%Y%m%d')
 
 urls = [
