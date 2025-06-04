@@ -40,7 +40,7 @@ def gets():
                     file_name = f"cg{i-5}.txt"
                     decoded_text = response.content.decode('gbk')  # 解码字符串为utf-8格式
                     with open(file_name, 'w', encoding='gbk') as file:
-                        文件。write(decoded_text)
+                        file.write(decoded_text)
                     print(f"Text content from {url} saved to {file_name}")
             else:
                 print("Failed to fetch content from URL:", url)
