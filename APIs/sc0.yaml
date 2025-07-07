@@ -32,22 +32,104 @@ mixed-port: 7890
 mode: rule
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪_DE_德国
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.58
+  name: 🇷🇺_RU_俄罗斯
+  password: c40641c1f89e7acb
+  port: 57456
+  server: 62.133.63.212
   type: ss
+- name: 🇺🇸_US_美国_1
+  network: ws
+  password: 4b33b482-25bc-49e4-b866-878c914d945a
+  port: 443
+  server: 104.21.7.147
+  sni: 44444444.HuanGShANG.DPDNs.oRG
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 44444444.HuanGShANG.DPDNs.oRG
+    path: /kzefUfBUzMsQY6zyyQCjn8kmnN0ehd
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_2
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 38.54.57.90
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇺_RU_俄罗斯_1
+  password: c40641c1f89e7acb
+  port: 57456
+  server: tr.vpnsparta.pro
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国
+  network: ws
+  port: 30829
+  server: v29.heduian.link
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: ocbc.com
+    path: /oooo
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  password: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+  port: 15229
+  server: e16abc19-sz1ds0-szd8vg-1ryup.cu2.plebai.net
+  skip-cert-verify: false
+  type: trojan
+- name: 🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  password: fa050497-fc2a-45ee-89c0-96670c4ecb65
+  port: 443
+  server: 104.21.63.135
+  sni: Rrr4.8906004.xYZ
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: rrr4.8906004.xyz
+    path: /DZxb5QZyWgQPuXTwt
+- name: 🇺🇸_US_美国_3
+  network: ws
+  password: 512d9674-db12-44ca-a1b5-654244549b65
+  port: 443
+  server: cccvffgty.444752.xyz
+  sni: cccvffgty.444752.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: cccvffgty.444752.xyz
+    path: /HOi2k5ElZdeML7Ua7dX3JIrYk7zm
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇩🇪_DE_德国
+  - 🇷🇺_RU_俄罗斯
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇳_CN_中国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国_3
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇩🇪_DE_德国
+  - 🇷🇺_RU_俄罗斯
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇳_CN_中国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国_3
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -56,25 +138,53 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇩🇪_DE_德国
+  - 🇷🇺_RU_俄罗斯
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇳_CN_中国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国_3
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇩🇪_DE_德国
+  - 🇷🇺_RU_俄罗斯
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇳_CN_中国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国_3
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇩🇪_DE_德国
+  - 🇷🇺_RU_俄罗斯
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇳_CN_中国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国_3
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇩🇪_DE_德国
+  - 🇷🇺_RU_俄罗斯
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇳_CN_中国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国_3
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -97,7 +207,14 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇩🇪_DE_德国
+  - 🇷🇺_RU_俄罗斯
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇳_CN_中国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国_3
   type: select
 rule-providers:
   Apple:
