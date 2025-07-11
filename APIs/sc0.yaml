@@ -31,17 +31,11 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧_GB_英国->🇺🇸_US_美国
-  password: Bog0ELmMM9DSxDdQ
-  port: 443
-  server: 85.210.120.237
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇪🇸_ES_西班牙
-  password: MjJhY
-  port: 8388
-  server: uk.opensocks.site
+- cipher: aes-256-cfb
+  name: 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 156.146.40.194
   type: ss
 - alterId: 2
   cipher: auto
@@ -49,73 +43,45 @@ proxies:
   network: ws
   port: 30835
   server: 111.26.109.79
+  skip-cert-verify: true
+  sni: ''
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国
-  network: ws
-  port: 30829
-  server: 111.26.109.79
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国
-  network: ws
-  port: 30825
-  server: v25.heduian.link
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: v25.heduian.link
-    path: /oooo
-- cipher: chacha20-ietf-poly1305
-  name: 未知
-  password: WrYfzlAsqV4kKOJRPF2WHR
-  port: 49454
-  server: 23.177.185.63
+- cipher: aes-256-cfb
+  name: 🇲🇩_MD_摩尔多瓦
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 91.132.94.200
   type: ss
-- name: 🇺🇸_US_美国_1
+- name: 🇺🇸_US_美国_2
   network: ws
-  password: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
+  password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
   port: 443
-  server: 172.67.220.32
-  sni: eEEfGty6.999836.XYz
+  server: 104.21.6.179
+  sni: ZZzzzZZ.890601.XYZ
   type: trojan
   udp: true
   ws-opts:
-    headers:
-      host: eeefgty6.999836.xyz
-    path: /XmTzATQPJv9RO3xr1D40NK
+    path: /l96MZ8se5Kl2p8BiMhP42l
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇬🇧_GB_英国->🇺🇸_US_美国
-  - 🇪🇸_ES_西班牙
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
   - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
-  - 🇨🇳_CN_中国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 未知
-  - 🇺🇸_US_美国_1
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇺🇸_US_美国_2
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇬🇧_GB_英国->🇺🇸_US_美国
-  - 🇪🇸_ES_西班牙
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
   - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
-  - 🇨🇳_CN_中国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 未知
-  - 🇺🇸_US_美国_1
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇺🇸_US_美国_2
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -124,49 +90,37 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇬🇧_GB_英国->🇺🇸_US_美国
-  - 🇪🇸_ES_西班牙
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
   - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
-  - 🇨🇳_CN_中国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 未知
-  - 🇺🇸_US_美国_1
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇺🇸_US_美国_2
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇬🇧_GB_英国->🇺🇸_US_美国
-  - 🇪🇸_ES_西班牙
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
   - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
-  - 🇨🇳_CN_中国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 未知
-  - 🇺🇸_US_美国_1
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇺🇸_US_美国_2
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇬🇧_GB_英国->🇺🇸_US_美国
-  - 🇪🇸_ES_西班牙
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
   - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
-  - 🇨🇳_CN_中国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 未知
-  - 🇺🇸_US_美国_1
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇺🇸_US_美国_2
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇬🇧_GB_英国->🇺🇸_US_美国
-  - 🇪🇸_ES_西班牙
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
   - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
-  - 🇨🇳_CN_中国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 未知
-  - 🇺🇸_US_美国_1
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇺🇸_US_美国_2
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -189,13 +143,10 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇬🇧_GB_英国->🇺🇸_US_美国
-  - 🇪🇸_ES_西班牙
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
   - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
-  - 🇨🇳_CN_中国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 未知
-  - 🇺🇸_US_美国_1
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇺🇸_US_美国_2
   type: select
 rule-providers:
   Apple:
