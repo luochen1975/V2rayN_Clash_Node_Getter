@@ -31,93 +31,71 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- cipher: aes-256-cfb
-  name: 🇰🇷_KR_韩国
-  password: qwerREWQ@@
-  port: 15098
-  server: p222.panda001.net
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇩🇰_DK_丹麦->🇺🇸_US_美国
+  name: 🇺🇸_US_美国
   network: ws
-  port: 80
-  server: fastcup.net
-  type: vmess
-  uuid: 9c67ebbe-d620-4b6d-ad82-1ebc675e22c6
-  ws-opts:
-    headers:
-      host: cdn-node-oss-99.paofu.de
-    path: /profile/telegram@ssrsub
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国
-  network: ws
-  port: 30808
-  server: v8.heduian.link
+  port: 8880
+  server: 108.165.216.241
   skip-cert-verify: true
   sni: ''
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
   ws-opts:
     headers:
-      host: v8.heduian.link
-    path: /oooo
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  password: ae6e933b-8874-4bf4-a384-0de216ef2bf4
-  port: 40030
-  server: pr.fastsoonlink.com
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  network: ws
-  port: 30829
-  server: v29.heduian.link
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: ocbc.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
-  network: tcp
-  port: 3686
-  server: 0916af88-t064g0-t1l1nh-d6ar.77.iwskwai.com
-  type: vmess
-  uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3
+      host: TG.WangCai2.s2.db-link02.top
+    path: /dabai.in
 - cipher: aes-256-cfb
   name: 🇲🇩_MD_摩尔多瓦
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
+- cipher: aes-256-cfb
+  name: 🇲🇩_MD_摩尔多瓦_1
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 91.132.94.200
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵_JP_日本->🇺🇸_US_美国
+  network: ws
+  port: 8880
+  server: 103.116.7.241
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+  ws-opts:
+    headers:
+      host: TG.WangCai2.s2.db-link02.top
+    path: /dabai.in
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇦_UA_乌克兰
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇰🇷_KR_韩国
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+  - 🇺🇸_US_美国
   - 🇲🇩_MD_摩尔多瓦
+  - 🇲🇩_MD_摩尔多瓦_1
+  - 🇯🇵_JP_日本->🇺🇸_US_美国
+  - 🇺🇦_UA_乌克兰
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇰🇷_KR_韩国
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+  - 🇺🇸_US_美国
   - 🇲🇩_MD_摩尔多瓦
+  - 🇲🇩_MD_摩尔多瓦_1
+  - 🇯🇵_JP_日本->🇺🇸_US_美国
+  - 🇺🇦_UA_乌克兰
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -126,49 +104,41 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇰🇷_KR_韩国
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+  - 🇺🇸_US_美国
   - 🇲🇩_MD_摩尔多瓦
+  - 🇲🇩_MD_摩尔多瓦_1
+  - 🇯🇵_JP_日本->🇺🇸_US_美国
+  - 🇺🇦_UA_乌克兰
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇰🇷_KR_韩国
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+  - 🇺🇸_US_美国
   - 🇲🇩_MD_摩尔多瓦
+  - 🇲🇩_MD_摩尔多瓦_1
+  - 🇯🇵_JP_日本->🇺🇸_US_美国
+  - 🇺🇦_UA_乌克兰
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇰🇷_KR_韩国
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+  - 🇺🇸_US_美国
   - 🇲🇩_MD_摩尔多瓦
+  - 🇲🇩_MD_摩尔多瓦_1
+  - 🇯🇵_JP_日本->🇺🇸_US_美国
+  - 🇺🇦_UA_乌克兰
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇰🇷_KR_韩国
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+  - 🇺🇸_US_美国
   - 🇲🇩_MD_摩尔多瓦
+  - 🇲🇩_MD_摩尔多瓦_1
+  - 🇯🇵_JP_日本->🇺🇸_US_美国
+  - 🇺🇦_UA_乌克兰
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -191,13 +161,11 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇰🇷_KR_韩国
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+  - 🇺🇸_US_美国
   - 🇲🇩_MD_摩尔多瓦
+  - 🇲🇩_MD_摩尔多瓦_1
+  - 🇯🇵_JP_日本->🇺🇸_US_美国
+  - 🇺🇦_UA_乌克兰
   type: select
 rule-providers:
   Apple:
