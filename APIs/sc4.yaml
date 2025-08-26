@@ -4,102 +4,6 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- alterId: '0'
-  cipher: auto
-  name: '|41.27Mb_1'
-  network: tcp
-  port: '50002'
-  server: 47.104.186.133
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳CN|5.10Mb_1
-  network: tcp
-  port: '50007'
-  server: 112.132.215.34
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: JP_1
-  network: ws
-  port: 587
-  server: 138.3.217.167
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳CN|5.10Mb_2
-  network: tcp
-  port: '50007'
-  server: 112.132.215.34
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: JP_2
-  network: ws
-  port: 587
-  server: 138.3.217.167
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: JP_3
-  network: ws
-  port: 587
-  server: 138.3.217.167
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: '64'
-  cipher: auto
-  name: '|2.06Mb_1'
-  network: tcp
-  port: '50002'
-  server: 47.116.166.178
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '64'
-  cipher: auto
-  name: '|2.06Mb_2'
-  network: tcp
-  port: '50002'
-  server: 47.116.166.178
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: JP_4
-  network: ws
-  port: 587
-  server: 138.3.217.167
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
 - alterId: '64'
   cipher: auto
   name: 🇨🇳CN|2.57Mb
@@ -110,37 +14,137 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: '64'
   cipher: auto
-  name: '|2.74Mb_1'
+  name: '|2.06Mb'
+  network: tcp
+  port: '50002'
+  server: 47.116.166.178
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '64'
+  cipher: auto
+  name: 🇨🇳CN|7.50Mb
+  network: tcp
+  port: '50002'
+  server: 120.210.205.59
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: DE_1
+  network: ws
+  port: 443
+  server: 95.164.53.54
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- alterId: '64'
+  cipher: auto
+  name: '|2.74Mb'
   network: tcp
   port: '50112'
   server: 120.26.55.225
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '64'
+- name: NL_1
+  network: ws
+  port: 443
+  server: 2.59.183.181
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: HK_1
+  network: ws
+  port: 443
+  server: 219.76.13.166
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- alterId: '0'
   cipher: auto
-  name: '|2.74Mb_2'
+  name: 🇨🇳CN|5.10Mb
   network: tcp
-  port: '50112'
-  server: 120.26.55.225
+  port: '50007'
+  server: 112.132.215.34
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: US_1
   network: ws
   port: 4002
   server: 45.145.42.229
-  servername: zc.ylks0033.dpdns.org
+  servername: sw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: zc.ylks0033.dpdns.org
+      host: sw.bgm2024.dpdns.org
     path: /?ed=2560
+- name: NL_2
+  network: ws
+  port: 443
+  server: 2.59.183.181
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: KR_1
+  network: ws
+  port: 12257
+  server: 112.173.231.254
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: KR_2
+  network: ws
+  port: 12257
+  server: 112.173.231.254
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - alterId: '0'
   cipher: auto
-  name: '|41.27Mb_2'
+  name: '|41.27Mb'
   network: tcp
   port: '50002'
   server: 47.104.186.133
@@ -148,124 +152,16 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: '64'
   cipher: auto
-  name: 🇨🇳CN|7.50Mb_1
-  network: tcp
-  port: '50002'
-  server: 120.210.205.59
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '64'
-  cipher: auto
-  name: 🇨🇳CN|7.50Mb_2
-  network: tcp
-  port: '50002'
-  server: 120.210.205.59
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: US_2
-  network: ws
-  port: 4002
-  server: 45.145.42.229
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- alterId: '64'
-  cipher: auto
-  name: 🇨🇳CN|13.97Mb_1
+  name: 🇨🇳CN|13.97Mb
   network: tcp
   port: '59003'
   server: 183.236.51.36
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: KR_1
-  network: ws
-  port: 12375
-  server: 61.76.23.133
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: '64'
-  cipher: auto
-  name: 🇨🇳CN|13.97Mb_2
-  network: tcp
-  port: '59003'
-  server: 183.236.51.36
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: KR_2
-  network: ws
-  port: 50000
-  server: 121.155.240.168
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_3
-  network: ws
-  port: 443
-  server: bestcf.030101.xyz
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_4
-  network: ws
-  port: 443
-  server: bestcf.030101.xyz
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: NL_1
-  network: ws
-  port: 443
-  server: 158.101.214.54
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
 - name: KR_3
   network: ws
-  port: 50000
-  server: 121.155.240.168
+  port: 50001
+  server: 221.139.39.51
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -276,7 +172,161 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_5
+- name: KR_4
+  network: ws
+  port: 50001
+  server: 115.136.160.13
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: KR_5
+  network: ws
+  port: 50001
+  server: 221.139.39.51
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: DE_2
+  network: ws
+  port: 443
+  server: 176.124.198.172
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: KR_6
+  network: ws
+  port: 50001
+  server: 115.136.160.13
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: DE_3
+  network: ws
+  port: 443
+  server: 95.164.53.54
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: KR_7
+  network: ws
+  port: 26538
+  server: 211.216.189.208
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: DE_4
+  network: ws
+  port: 8443
+  server: 185.225.201.49
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: GB_1
+  network: ws
+  port: 443
+  server: 95.164.37.32
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: PL_1
+  network: ws
+  port: 2053
+  server: 45.144.48.81
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: HK_2
+  network: ws
+  port: 443
+  server: 219.76.13.183
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: DE_5
+  network: ws
+  port: 443
+  server: 176.124.198.172
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_2
   network: ws
   port: 443
   server: bestcf.030101.xyz
@@ -294,90 +344,48 @@ proxies:
   network: ws
   port: 4700
   server: '[2606'
-  servername: zc.ylks0033.dpdns.org
+  servername: bw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: zc.ylks0033.dpdns.org
+      host: bw.bgm2024.dpdns.org
     path: /?ed=2560
-- name: PL_1
-  network: ws
-  port: 443
-  server: 45.144.48.48
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_6
-  network: ws
-  port: 2087
-  server: 209.94.90.87
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_1
-  network: ws
-  port: 443
-  server: thaddeus.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_7
-  network: ws
-  port: 443
-  server: bestcf.030101.xyz
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CMCC-IPV6_2
   network: ws
   port: 4700
   server: '[2606'
-  servername: cx.ylks0033.dpdns.org
+  servername: sw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: cx.ylks0033.dpdns.org
+      host: sw.bgm2024.dpdns.org
     path: /?ed=2560
-- name: US_8
+- name: HK_3
   network: ws
-  port: 2087
-  server: 209.94.90.87
+  port: 443
+  server: 219.76.13.166
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 官方优选_1
+  network: ws
+  port: 443
+  server: arvind.ns.cloudflare.com
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -391,20 +399,6 @@ proxies:
 - name: 官方优选_2
   network: ws
   port: 443
-  server: sage.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_3
-  network: ws
-  port: 443
   server: kip.ns.cloudflare.com
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
@@ -416,38 +410,38 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_9
+- name: KR_8
+  network: ws
+  port: 26538
+  server: 211.216.189.208
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: GB_2
   network: ws
   port: 443
-  server: bestcf.030101.xyz
-  servername: edgd.esslh.filegear-sg.me
+  server: 217.163.76.201
+  servername: bw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: KR_4
-  network: ws
-  port: 50000
-  server: 121.155.240.168
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: PL_2
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 官方优选_3
   network: ws
   port: 443
-  server: 176.105.253.98
+  server: sage.ns.cloudflare.com
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -458,7 +452,21 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_10
+- name: CMCC-IPV6_3
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_3
   network: ws
   port: 443
   server: bestcf.030101.xyz
@@ -475,7 +483,231 @@ proxies:
 - name: 官方优选_4
   network: ws
   port: 443
-  server: lynn.ns.cloudflare.com
+  server: theo.ns.cloudflare.com
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 官方优选_5
+  network: ws
+  port: 443
+  server: ignacio.ns.cloudflare.com
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_4
+  network: ws
+  port: 443
+  server: 160.79.105.76
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 官方优选_6
+  network: ws
+  port: 443
+  server: thaddeus.ns.cloudflare.com
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: GB_3
+  network: ws
+  port: 443
+  server: 217.163.76.84
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_4
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_5
+  network: ws
+  port: 443
+  server: bestcf.030101.xyz
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_6
+  network: ws
+  port: 443
+  server: 108.165.152.131
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_7
+  network: ws
+  port: 443
+  server: 63.141.128.3
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SG_1
+  network: ws
+  port: 2053
+  server: 27.50.49.37
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_8
+  network: ws
+  port: 4002
+  server: 45.145.42.229
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 官方优选_7
+  network: ws
+  port: 443
+  server: sage.ns.cloudflare.com
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: GB_4
+  network: ws
+  port: 443
+  server: 217.163.76.201
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_9
+  network: ws
+  port: 443
+  server: bestcf.030101.xyz
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_10
+  network: ws
+  port: 443
+  server: 63.141.128.140
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: AT_1
+  network: ws
+  port: 443
+  server: 212.183.88.136
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: PL_2
+  network: ws
+  port: 443
+  server: 176.105.253.98
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -500,24 +732,52 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 官方优选_8
+  network: ws
+  port: 443
+  server: lynn.ns.cloudflare.com
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: AT_2
+  network: ws
+  port: 443
+  server: 212.183.88.94
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
 - name: US_12
   network: ws
   port: 443
-  server: bestcf.030101.xyz
-  servername: edgd.esslh.filegear-sg.me
+  server: 63.141.128.102
+  servername: sw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_5
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 官方优选_9
   network: ws
   port: 443
-  server: lynn.ns.cloudflare.com
+  server: kip.ns.cloudflare.com
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -528,147 +788,77 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: CMCC-IPV6_3
+- name: SG_2
   network: ws
-  port: 4700
-  server: '[2606'
-  servername: zc.ylks0033.dpdns.org
+  port: 8443
+  server: 92.243.74.180
+  servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: US_13
   network: ws
   port: 443
-  server: bestcf.030101.xyz
-  servername: edgd.esslh.filegear-sg.me
+  server: 63.141.128.88
+  servername: sw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: AT_3
+  network: ws
+  port: 443
+  server: 212.183.88.136
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
 - name: US_14
   network: ws
   port: 443
-  server: bestcf.030101.xyz
-  servername: edgd.esslh.filegear-sg.me
+  server: 160.79.104.102
+  servername: bw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_15
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: RU_1
   network: ws
   port: 443
-  server: bestcf.030101.xyz
-  servername: edgd.esslh.filegear-sg.me
+  server: 45.67.215.92
+  servername: sw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_16
-  network: ws
-  port: 443
-  server: bestcf.030101.xyz
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_1
-  network: ws
-  port: 2096
-  server: 27.50.49.188
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_17
-  network: ws
-  port: 443
-  server: bestcf.030101.xyz
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_6
-  network: ws
-  port: 443
-  server: arvind.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_7
-  network: ws
-  port: 443
-  server: lynn.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: PL_3
-  network: ws
-  port: 443
-  server: 176.105.253.98
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_8
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 官方优选_10
   network: ws
   port: 443
   server: pranab.ns.cloudflare.com
@@ -682,10 +872,10 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_9
+- name: 官方优选_11
   network: ws
   port: 443
-  server: sage.ns.cloudflare.com
+  server: ignacio.ns.cloudflare.com
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -696,10 +886,24 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_18
+- name: US_15
+  network: ws
+  port: 443
+  server: 160.79.105.76
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_16
   network: ws
   port: 2087
-  server: 108.165.152.98
+  server: 209.94.90.87
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -710,10 +914,136 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: PL_4
+- name: US_17
   network: ws
   port: 443
-  server: 176.105.253.98
+  server: 160.79.104.102
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SG_3
+  network: ws
+  port: 8443
+  server: 92.243.74.180
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: BR_1
+  network: ws
+  port: 443
+  server: 185.133.35.22
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: DE_6
+  network: ws
+  port: 8443
+  server: 185.225.201.49
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: PL_3
+  network: ws
+  port: 443
+  server: 45.144.48.48
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: GB_5
+  network: ws
+  port: 443
+  server: 217.163.76.84
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_18
+  network: ws
+  port: 443
+  server: 160.79.104.115
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_5
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: NL_3
+  network: ws
+  port: 443
+  server: 193.124.35.219
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 官方优选_12
+  network: ws
+  port: 443
+  server: duke.ns.cloudflare.com
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -741,18 +1071,32 @@ proxies:
 - name: US_20
   network: ws
   port: 443
-  server: bestcf.030101.xyz
-  servername: edgd.esslh.filegear-sg.me
+  server: 192.0.54.42
+  servername: bw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_10
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_21
+  network: ws
+  port: 443
+  server: 160.79.104.11
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 官方优选_13
   network: ws
   port: 443
   server: damien.ns.cloudflare.com
@@ -766,21 +1110,7 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_11
-  network: ws
-  port: 443
-  server: sage.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: PL_5
+- name: PL_4
   network: ws
   port: 443
   server: 176.105.253.98
@@ -794,160 +1124,20 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_12
-  network: ws
-  port: 443
-  server: duke.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: CMCC-IPV6_4
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 官方优选_13
-  network: ws
-  port: 443
-  server: sage.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: PL_6
-  network: ws
-  port: 2053
-  server: 45.144.48.81
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_14
-  network: ws
-  port: 443
-  server: thaddeus.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_15
-  network: ws
-  port: 443
-  server: duke.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_21
-  network: ws
-  port: 443
-  server: bestcf.030101.xyz
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_16
-  network: ws
-  port: 443
-  server: damien.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: CMCC-IPV6_5
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 官方优选_17
-  network: ws
-  port: 443
-  server: thaddeus.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: US_22
   network: ws
   port: 443
-  server: bestcf.030101.xyz
-  servername: edgd.esslh.filegear-sg.me
+  server: 160.79.104.11
+  servername: sw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
 - name: US_23
   network: ws
   port: 2087
@@ -962,38 +1152,10 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_18
+- name: 官方优选_14
   network: ws
   port: 443
-  server: arvind.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_2
-  network: ws
-  port: 2096
-  server: 27.50.49.188
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: PL_7
-  network: ws
-  port: 2053
-  server: 45.144.48.81
+  server: damien.ns.cloudflare.com
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -1006,50 +1168,8 @@ proxies:
     path: /?ed=2560&proxyip=ts.hpc.tw
 - name: US_24
   network: ws
-  port: 2083
-  server: 103.116.7.103
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_19
-  network: ws
-  port: 443
-  server: arvind.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_20
-  network: ws
-  port: 443
-  server: damien.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_21
-  network: ws
-  port: 443
-  server: theo.ns.cloudflare.com
+  port: 2096
+  server: 103.116.7.220
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -1062,47 +1182,61 @@ proxies:
     path: /?ed=2560&proxyip=ts.hpc.tw
 - name: US_25
   network: ws
-  port: 2087
-  server: 209.94.90.87
-  servername: edgd.esslh.filegear-sg.me
+  port: 443
+  server: 160.79.105.89
+  servername: bw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_26
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_6
   network: ws
-  port: 2083
-  server: 103.116.7.103
-  servername: edgd.esslh.filegear-sg.me
+  port: 4700
+  server: '[2606'
+  servername: sw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_27
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_7
   network: ws
-  port: 2087
-  server: 108.165.152.98
-  servername: edgd.esslh.filegear-sg.me
+  port: 4700
+  server: '[2606'
+  servername: bw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_22
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: AT_4
+  network: ws
+  port: 443
+  server: 212.183.88.94
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 官方优选_15
   network: ws
   port: 443
   server: arvind.ns.cloudflare.com
@@ -1116,10 +1250,10 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_3
+- name: US_26
   network: ws
-  port: 443
-  server: 27.50.49.207
+  port: 2096
+  server: 103.116.7.220
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -1130,220 +1264,136 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_27
+  network: ws
+  port: 443
+  server: 63.141.128.102
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
 - name: US_28
   network: ws
-  port: 2096
-  server: 103.116.7.220
-  servername: edgd.esslh.filegear-sg.me
+  port: 443
+  server: 63.141.128.88
+  servername: bw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_23
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: AT_5
   network: ws
   port: 443
-  server: pranab.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
+  server: 212.183.88.16
+  servername: sw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_24
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_8
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_9
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: NL_4
   network: ws
   port: 443
-  server: pranab.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
+  server: 193.124.35.219
+  servername: sw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_25
-  network: ws
-  port: 443
-  server: ignacio.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_26
-  network: ws
-  port: 443
-  server: kip.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
 - name: US_29
   network: ws
-  port: 2087
-  server: 108.165.152.98
-  servername: edgd.esslh.filegear-sg.me
+  port: 443
+  server: 192.0.54.42
+  servername: sw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: BR_2
+  network: ws
+  port: 443
+  server: 185.133.35.22
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
 - name: US_30
   network: ws
-  port: 2096
-  server: 103.116.7.220
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_4
-  network: ws
-  port: 8443
-  server: 92.243.74.180
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_27
-  network: ws
   port: 443
-  server: kip.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
+  server: 160.79.104.115
+  servername: bw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_28
-  network: ws
-  port: 443
-  server: damien.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_5
-  network: ws
-  port: 2096
-  server: 27.50.49.188
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_6
-  network: ws
-  port: 8443
-  server: 92.243.74.180
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_7
-  network: ws
-  port: 2096
-  server: 27.50.49.188
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
 - name: US_31
   network: ws
-  port: 2083
-  server: 103.116.7.103
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_29
-  network: ws
   port: 443
-  server: duke.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_8
-  network: ws
-  port: 443
-  server: 27.50.49.207
+  server: bestcf.030101.xyz
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -1368,52 +1418,10 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_30
+- name: PL_5
   network: ws
   port: 443
-  server: pranab.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: CMCC-IPV6_6
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: SG_9
-  network: ws
-  port: 443
-  server: 27.50.49.207
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_31
-  network: ws
-  port: 443
-  server: ignacio.ns.cloudflare.com
+  server: 45.144.48.48
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -1425,90 +1433,6 @@ proxies:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
 - name: US_33
-  network: ws
-  port: 2087
-  server: 161.145.150.26
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_10
-  network: ws
-  port: 2053
-  server: 27.50.49.37
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_34
-  network: ws
-  port: 443
-  server: 108.165.152.131
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_35
-  network: ws
-  port: 443
-  server: 108.165.152.131
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_36
-  network: ws
-  port: 2087
-  server: 161.145.150.26
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_32
-  network: ws
-  port: 443
-  server: ignacio.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_37
   network: ws
   port: 2083
   server: 103.116.7.103
@@ -1522,10 +1446,52 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_38
+- name: US_34
   network: ws
-  port: 2096
-  server: 103.116.7.220
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_10
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SG_4
+  network: ws
+  port: 2053
+  server: 64.49.14.41
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 官方优选_16
+  network: ws
+  port: 443
+  server: thaddeus.ns.cloudflare.com
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -1536,6 +1502,230 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SE_1
+  network: ws
+  port: 8443
+  server: 94.228.164.78
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SG_5
+  network: ws
+  port: 2096
+  server: 27.50.49.188
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 官方优选_17
+  network: ws
+  port: 443
+  server: pranab.ns.cloudflare.com
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: GB_6
+  network: ws
+  port: 443
+  server: 95.164.37.32
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SG_6
+  network: ws
+  port: 2096
+  server: 27.50.49.188
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_35
+  network: ws
+  port: 443
+  server: bestcf.030101.xyz
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CMCC-IPV6_11
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SG_7
+  network: ws
+  port: 2053
+  server: 64.49.14.41
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_12
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_36
+  network: ws
+  port: 2083
+  server: 103.116.7.103
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CMCC-IPV6_13
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 官方优选_18
+  network: ws
+  port: 443
+  server: lynn.ns.cloudflare.com
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: PL_6
+  network: ws
+  port: 2053
+  server: 45.144.48.81
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_37
+  network: ws
+  port: 2053
+  server: 77.91.126.60
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_14
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_38
+  network: ws
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
 - name: US_39
   network: ws
   port: 443
@@ -1550,6 +1740,216 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
+- name: DE_7
+  network: ws
+  port: 443
+  server: 109.120.155.142
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_15
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 官方优选_19
+  network: ws
+  port: 443
+  server: theo.ns.cloudflare.com
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 官方优选_20
+  network: ws
+  port: 443
+  server: duke.ns.cloudflare.com
+  servername: edgd.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgd.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: RU_2
+  network: ws
+  port: 443
+  server: 45.67.215.92
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_16
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_17
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_18
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_19
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_20
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_21
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_22
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_23
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: AT_6
+  network: ws
+  port: 443
+  server: 212.183.88.16
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: NL_5
+  network: ws
+  port: 443
+  server: 194.58.68.145
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
 - name: US_40
   network: ws
   port: 443
@@ -1564,315 +1964,77 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_11
+- name: NL_6
   network: ws
-  port: 8443
-  server: 92.243.74.180
-  servername: edgd.esslh.filegear-sg.me
+  port: 443
+  server: 207.174.30.74
+  servername: bw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SE_2
+  network: ws
+  port: 8443
+  server: 94.228.164.78
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: DE_8
+  network: ws
+  port: 443
+  server: 109.120.155.142
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
 - name: US_41
   network: ws
-  port: 2096
-  server: 103.116.7.220
-  servername: edgd.esslh.filegear-sg.me
+  port: 443
+  server: 63.141.128.3
+  servername: bw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
 - name: US_42
   network: ws
-  port: 2087
-  server: 108.165.152.98
-  servername: edgd.esslh.filegear-sg.me
+  port: 38589
+  server: 141.148.1.34
+  servername: sw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_43
-  network: ws
-  port: 443
-  server: 108.165.152.131
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: PL_8
-  network: ws
-  port: 443
-  server: 45.144.48.48
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: CMCC-IPV6_7
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
+      host: sw.bgm2024.dpdns.org
     path: /?ed=2560
-- name: CMCC-IPV6_8
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 官方优选_33
-  network: ws
-  port: 443
-  server: ignacio.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_12
-  network: ws
-  port: 443
-  server: 27.50.49.207
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_34
-  network: ws
-  port: 443
-  server: duke.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: CA_1
-  network: ws
-  port: 443
-  server: 140.238.158.238
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: NL_2
-  network: ws
-  port: 443
-  server: 158.101.214.54
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: US_44
-  network: ws
-  port: 443
-  server: bestcf.030101.xyz
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_45
-  network: ws
-  port: 2087
-  server: 161.145.150.26
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_35
-  network: ws
-  port: 443
-  server: theo.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_36
-  network: ws
-  port: 443
-  server: theo.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_37
-  network: ws
-  port: 443
-  server: lynn.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: PL_9
-  network: ws
-  port: 2053
-  server: 45.144.48.81
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: PL_10
-  network: ws
-  port: 443
-  server: 45.144.48.48
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: KR_5
-  network: ws
-  port: 12257
-  server: 112.173.231.254
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: KR_6
-  network: ws
-  port: 12257
-  server: 112.173.231.254
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: CMCC-IPV6_9
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: KR_7
+- name: KR_9
   network: ws
   port: 50009
   server: 221.158.11.177
@@ -1886,523 +2048,33 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: CMCC-IPV6_10
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: KR_8
-  network: ws
-  port: 50009
-  server: 221.158.11.177
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_38
+- name: BG_1
   network: ws
   port: 443
-  server: theo.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
+  server: 77.91.100.78
+  servername: bw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_13
-  network: ws
-  port: 2053
-  server: 27.50.49.37
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: PL_11
-  network: ws
-  port: 2053
-  server: 45.144.48.81
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_14
-  network: ws
-  port: 8443
-  server: 92.243.74.180
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: CA_2
-  network: ws
-  port: 443
-  server: 140.238.158.238
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_11
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: US_46
-  network: ws
-  port: 2087
-  server: 161.145.150.26
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_39
-  network: ws
-  port: 443
-  server: kip.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_40
-  network: ws
-  port: 443
-  server: thaddeus.ns.cloudflare.com
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: CMCC-IPV6_12
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_13
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_14
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_15
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_16
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: PL_12
-  network: ws
-  port: 443
-  server: 45.144.48.48
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: CMCC-IPV6_17
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_18
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_19
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_20
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_21
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_22
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_23
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
+      host: bw.bgm2024.dpdns.org
     path: /?ed=2560
 - name: CMCC-IPV6_24
   network: ws
   port: 4700
   server: '[2606'
-  servername: zc.ylks0033.dpdns.org
+  servername: sw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_25
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_26
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_27
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_28
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_29
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_30
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_31
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_32
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_33
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: cx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_34
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: KR_9
-  network: ws
-  port: 12257
-  server: 112.173.231.254
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: CMCC-IPV6_35
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: zc.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: zc.ylks0033.dpdns.org
+      host: sw.bgm2024.dpdns.org
     path: /?ed=2560
 - name: KR_10
   network: ws
@@ -2418,10 +2090,10 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: KR_11
+- name: US_43
   network: ws
-  port: 50009
-  server: 221.158.11.177
+  port: 2087
+  server: 161.145.150.26
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -2432,116 +2104,52 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: '0'
-  cipher: auto
-  name: Relay_🇺🇸US|54.75Mb
-  network: ws
-  port: '80'
-  server: test.flha.ru
-  type: vmess
-  uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d
-  ws-opts:
-    headers:
-      host: test.flha.ru
-    path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess
-- name: KR_12
-  network: ws
-  port: 12257
-  server: 112.173.231.254
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: '0'
-  cipher: auto
-  name: Relay_🏁ZZ-🇩🇪DE_141|68.57Mb_1
-  network: ws
-  port: '8080'
-  server: 1000ip.yangmie.online
-  type: vmess
-  uuid: e9123cce-e4bd-46cf-8466-708b363a9807
-  ws-opts:
-    headers:
-      host: gyde.aifjj.asia
-    path: /
-- alterId: '0'
-  cipher: auto
-  name: Relay_🏁ZZ-🇩🇪DE_141|68.57Mb_2
-  network: ws
-  port: '8080'
-  server: 1000ip.yangmie.online
-  type: vmess
-  uuid: e9123cce-e4bd-46cf-8466-708b363a9807
-  ws-opts:
-    headers:
-      host: gyde.aifjj.asia
-    path: /
-- name: HK_1
+- name: NL_7
   network: ws
   port: 443
-  server: 219.76.13.183
-  servername: edgd.esslh.filegear-sg.me
+  server: 194.58.68.145
+  servername: bw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: HK_2
-  network: ws
-  port: 443
-  server: 219.76.13.183
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: KR_13
-  network: ws
-  port: 50000
-  server: 121.155.240.168
-  servername: edgd.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgd.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: CMCC-IPV6_36
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_25
   network: ws
   port: 4700
   server: '[2606'
-  servername: cx.ylks0033.dpdns.org
+  servername: sw.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: cx.ylks0033.dpdns.org
+      host: sw.bgm2024.dpdns.org
     path: /?ed=2560
-- name: HK_3
+- name: NL_8
   network: ws
-  port: 8080
-  server: 141.11.91.67
+  port: 443
+  server: 207.174.30.74
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_44
+  network: ws
+  port: 2087
+  server: 161.145.150.26
   servername: edgd.esslh.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -2552,168 +2160,310 @@ proxies:
     headers:
       host: edgd.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_45
+  network: ws
+  port: 2053
+  server: 77.91.126.60
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_46
+  network: ws
+  port: 443
+  server: 150.136.87.192
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: BG_2
+  network: ws
+  port: 443
+  server: 77.91.100.78
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_26
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_27
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_28
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_47
+  network: ws
+  port: 38589
+  server: 141.148.1.34
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_29
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_30
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_31
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: sw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: sw.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_32
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: bw.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: bw.bgm2024.dpdns.org
+    path: /?ed=2560
+- alterId: '0'
+  cipher: auto
+  name: Relay_🏁ZZ-🇩🇪DE_141|68.57Mb
+  network: ws
+  port: '8080'
+  server: 1000ip.yangmie.online
+  type: vmess
+  uuid: e9123cce-e4bd-46cf-8466-708b363a9807
+  ws-opts:
+    headers:
+      host: gyde.aifjj.asia
+    path: /
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - '|41.27Mb_1'
-  - 🇨🇳CN|5.10Mb_1
-  - JP_1
-  - 🇨🇳CN|5.10Mb_2
-  - JP_2
-  - JP_3
-  - '|2.06Mb_1'
-  - '|2.06Mb_2'
-  - JP_4
   - 🇨🇳CN|2.57Mb
-  - '|2.74Mb_1'
-  - '|2.74Mb_2'
-  - US_1
-  - '|41.27Mb_2'
-  - 🇨🇳CN|7.50Mb_1
-  - 🇨🇳CN|7.50Mb_2
-  - US_2
-  - 🇨🇳CN|13.97Mb_1
-  - KR_1
-  - 🇨🇳CN|13.97Mb_2
-  - KR_2
-  - US_3
-  - US_4
+  - '|2.06Mb'
+  - 🇨🇳CN|7.50Mb
+  - DE_1
+  - '|2.74Mb'
   - NL_1
+  - HK_1
+  - 🇨🇳CN|5.10Mb
+  - US_1
+  - NL_2
+  - KR_1
+  - KR_2
+  - '|41.27Mb'
+  - 🇨🇳CN|13.97Mb
   - KR_3
-  - US_5
-  - CMCC-IPV6_1
-  - PL_1
-  - US_6
-  - 官方优选_1
-  - US_7
-  - CMCC-IPV6_2
-  - US_8
-  - 官方优选_2
-  - 官方优选_3
-  - US_9
   - KR_4
-  - PL_2
-  - US_10
-  - 官方优选_4
-  - US_11
-  - US_12
-  - 官方优选_5
+  - KR_5
+  - DE_2
+  - KR_6
+  - DE_3
+  - KR_7
+  - DE_4
+  - GB_1
+  - PL_1
+  - HK_2
+  - DE_5
+  - US_2
+  - CMCC-IPV6_1
+  - CMCC-IPV6_2
+  - HK_3
+  - 官方优选_1
+  - 官方优选_2
+  - KR_8
+  - GB_2
+  - 官方优选_3
   - CMCC-IPV6_3
-  - US_13
-  - US_14
-  - US_15
-  - US_16
-  - SG_1
-  - US_17
+  - US_3
+  - 官方优选_4
+  - 官方优选_5
+  - US_4
   - 官方优选_6
+  - GB_3
+  - CMCC-IPV6_4
+  - US_5
+  - US_6
+  - US_7
+  - SG_1
+  - US_8
   - 官方优选_7
-  - PL_3
+  - GB_4
+  - US_9
+  - US_10
+  - AT_1
+  - PL_2
+  - US_11
   - 官方优选_8
+  - AT_2
+  - US_12
   - 官方优选_9
-  - US_18
-  - PL_4
-  - US_19
-  - US_20
+  - SG_2
+  - US_13
+  - AT_3
+  - US_14
+  - RU_1
   - 官方优选_10
   - 官方优选_11
-  - PL_5
-  - 官方优选_12
-  - CMCC-IPV6_4
-  - 官方优选_13
-  - PL_6
-  - 官方优选_14
-  - 官方优选_15
-  - US_21
-  - 官方优选_16
+  - US_15
+  - US_16
+  - US_17
+  - SG_3
+  - BR_1
+  - DE_6
+  - PL_3
+  - GB_5
+  - US_18
   - CMCC-IPV6_5
-  - 官方优选_17
+  - NL_3
+  - 官方优选_12
+  - US_19
+  - US_20
+  - US_21
+  - 官方优选_13
+  - PL_4
   - US_22
   - US_23
-  - 官方优选_18
-  - SG_2
-  - PL_7
+  - 官方优选_14
   - US_24
-  - 官方优选_19
-  - 官方优选_20
-  - 官方优选_21
   - US_25
+  - CMCC-IPV6_6
+  - CMCC-IPV6_7
+  - AT_4
+  - 官方优选_15
   - US_26
   - US_27
-  - 官方优选_22
-  - SG_3
   - US_28
-  - 官方优选_23
-  - 官方优选_24
-  - 官方优选_25
-  - 官方优选_26
+  - AT_5
+  - CMCC-IPV6_8
+  - CMCC-IPV6_9
+  - NL_4
   - US_29
+  - BR_2
   - US_30
-  - SG_4
-  - 官方优选_27
-  - 官方优选_28
-  - SG_5
-  - SG_6
-  - SG_7
   - US_31
-  - 官方优选_29
-  - SG_8
   - US_32
-  - 官方优选_30
-  - CMCC-IPV6_6
-  - SG_9
-  - 官方优选_31
+  - PL_5
   - US_33
-  - SG_10
   - US_34
+  - CMCC-IPV6_10
+  - SG_4
+  - 官方优选_16
+  - SE_1
+  - SG_5
+  - 官方优选_17
+  - GB_6
+  - SG_6
   - US_35
+  - CMCC-IPV6_11
+  - SG_7
+  - CMCC-IPV6_12
   - US_36
-  - 官方优选_32
+  - CMCC-IPV6_13
+  - 官方优选_18
+  - PL_6
   - US_37
+  - CMCC-IPV6_14
   - US_38
   - US_39
-  - US_40
-  - SG_11
-  - US_41
-  - US_42
-  - US_43
-  - PL_8
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - 官方优选_33
-  - SG_12
-  - 官方优选_34
-  - CA_1
-  - NL_2
-  - US_44
-  - US_45
-  - 官方优选_35
-  - 官方优选_36
-  - 官方优选_37
-  - PL_9
-  - PL_10
-  - KR_5
-  - KR_6
-  - CMCC-IPV6_9
-  - KR_7
-  - CMCC-IPV6_10
-  - KR_8
-  - 官方优选_38
-  - SG_13
-  - PL_11
-  - SG_14
-  - CA_2
-  - CMCC-IPV6_11
-  - US_46
-  - 官方优选_39
-  - 官方优选_40
-  - CMCC-IPV6_12
-  - CMCC-IPV6_13
-  - CMCC-IPV6_14
+  - DE_7
   - CMCC-IPV6_15
+  - 官方优选_19
+  - 官方优选_20
+  - RU_2
   - CMCC-IPV6_16
-  - PL_12
   - CMCC-IPV6_17
   - CMCC-IPV6_18
   - CMCC-IPV6_19
@@ -2721,191 +2471,172 @@ proxy-groups:
   - CMCC-IPV6_21
   - CMCC-IPV6_22
   - CMCC-IPV6_23
+  - AT_6
+  - NL_5
+  - US_40
+  - NL_6
+  - SE_2
+  - DE_8
+  - US_41
+  - US_42
+  - KR_9
+  - BG_1
   - CMCC-IPV6_24
+  - KR_10
+  - US_43
+  - NL_7
   - CMCC-IPV6_25
+  - NL_8
+  - US_44
+  - US_45
+  - US_46
+  - BG_2
   - CMCC-IPV6_26
   - CMCC-IPV6_27
   - CMCC-IPV6_28
+  - US_47
   - CMCC-IPV6_29
   - CMCC-IPV6_30
   - CMCC-IPV6_31
   - CMCC-IPV6_32
-  - CMCC-IPV6_33
-  - CMCC-IPV6_34
-  - KR_9
-  - CMCC-IPV6_35
-  - KR_10
-  - KR_11
-  - Relay_🇺🇸US|54.75Mb
-  - KR_12
-  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb_1
-  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb_2
-  - HK_1
-  - HK_2
-  - KR_13
-  - CMCC-IPV6_36
-  - HK_3
+  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - '|41.27Mb_1'
-  - 🇨🇳CN|5.10Mb_1
-  - JP_1
-  - 🇨🇳CN|5.10Mb_2
-  - JP_2
-  - JP_3
-  - '|2.06Mb_1'
-  - '|2.06Mb_2'
-  - JP_4
   - 🇨🇳CN|2.57Mb
-  - '|2.74Mb_1'
-  - '|2.74Mb_2'
-  - US_1
-  - '|41.27Mb_2'
-  - 🇨🇳CN|7.50Mb_1
-  - 🇨🇳CN|7.50Mb_2
-  - US_2
-  - 🇨🇳CN|13.97Mb_1
-  - KR_1
-  - 🇨🇳CN|13.97Mb_2
-  - KR_2
-  - US_3
-  - US_4
+  - '|2.06Mb'
+  - 🇨🇳CN|7.50Mb
+  - DE_1
+  - '|2.74Mb'
   - NL_1
+  - HK_1
+  - 🇨🇳CN|5.10Mb
+  - US_1
+  - NL_2
+  - KR_1
+  - KR_2
+  - '|41.27Mb'
+  - 🇨🇳CN|13.97Mb
   - KR_3
-  - US_5
-  - CMCC-IPV6_1
-  - PL_1
-  - US_6
-  - 官方优选_1
-  - US_7
-  - CMCC-IPV6_2
-  - US_8
-  - 官方优选_2
-  - 官方优选_3
-  - US_9
   - KR_4
-  - PL_2
-  - US_10
-  - 官方优选_4
-  - US_11
-  - US_12
-  - 官方优选_5
+  - KR_5
+  - DE_2
+  - KR_6
+  - DE_3
+  - KR_7
+  - DE_4
+  - GB_1
+  - PL_1
+  - HK_2
+  - DE_5
+  - US_2
+  - CMCC-IPV6_1
+  - CMCC-IPV6_2
+  - HK_3
+  - 官方优选_1
+  - 官方优选_2
+  - KR_8
+  - GB_2
+  - 官方优选_3
   - CMCC-IPV6_3
-  - US_13
-  - US_14
-  - US_15
-  - US_16
-  - SG_1
-  - US_17
+  - US_3
+  - 官方优选_4
+  - 官方优选_5
+  - US_4
   - 官方优选_6
+  - GB_3
+  - CMCC-IPV6_4
+  - US_5
+  - US_6
+  - US_7
+  - SG_1
+  - US_8
   - 官方优选_7
-  - PL_3
+  - GB_4
+  - US_9
+  - US_10
+  - AT_1
+  - PL_2
+  - US_11
   - 官方优选_8
+  - AT_2
+  - US_12
   - 官方优选_9
-  - US_18
-  - PL_4
-  - US_19
-  - US_20
+  - SG_2
+  - US_13
+  - AT_3
+  - US_14
+  - RU_1
   - 官方优选_10
   - 官方优选_11
-  - PL_5
-  - 官方优选_12
-  - CMCC-IPV6_4
-  - 官方优选_13
-  - PL_6
-  - 官方优选_14
-  - 官方优选_15
-  - US_21
-  - 官方优选_16
+  - US_15
+  - US_16
+  - US_17
+  - SG_3
+  - BR_1
+  - DE_6
+  - PL_3
+  - GB_5
+  - US_18
   - CMCC-IPV6_5
-  - 官方优选_17
+  - NL_3
+  - 官方优选_12
+  - US_19
+  - US_20
+  - US_21
+  - 官方优选_13
+  - PL_4
   - US_22
   - US_23
-  - 官方优选_18
-  - SG_2
-  - PL_7
+  - 官方优选_14
   - US_24
-  - 官方优选_19
-  - 官方优选_20
-  - 官方优选_21
   - US_25
+  - CMCC-IPV6_6
+  - CMCC-IPV6_7
+  - AT_4
+  - 官方优选_15
   - US_26
   - US_27
-  - 官方优选_22
-  - SG_3
   - US_28
-  - 官方优选_23
-  - 官方优选_24
-  - 官方优选_25
-  - 官方优选_26
+  - AT_5
+  - CMCC-IPV6_8
+  - CMCC-IPV6_9
+  - NL_4
   - US_29
+  - BR_2
   - US_30
-  - SG_4
-  - 官方优选_27
-  - 官方优选_28
-  - SG_5
-  - SG_6
-  - SG_7
   - US_31
-  - 官方优选_29
-  - SG_8
   - US_32
-  - 官方优选_30
-  - CMCC-IPV6_6
-  - SG_9
-  - 官方优选_31
+  - PL_5
   - US_33
-  - SG_10
   - US_34
+  - CMCC-IPV6_10
+  - SG_4
+  - 官方优选_16
+  - SE_1
+  - SG_5
+  - 官方优选_17
+  - GB_6
+  - SG_6
   - US_35
+  - CMCC-IPV6_11
+  - SG_7
+  - CMCC-IPV6_12
   - US_36
-  - 官方优选_32
+  - CMCC-IPV6_13
+  - 官方优选_18
+  - PL_6
   - US_37
+  - CMCC-IPV6_14
   - US_38
   - US_39
-  - US_40
-  - SG_11
-  - US_41
-  - US_42
-  - US_43
-  - PL_8
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - 官方优选_33
-  - SG_12
-  - 官方优选_34
-  - CA_1
-  - NL_2
-  - US_44
-  - US_45
-  - 官方优选_35
-  - 官方优选_36
-  - 官方优选_37
-  - PL_9
-  - PL_10
-  - KR_5
-  - KR_6
-  - CMCC-IPV6_9
-  - KR_7
-  - CMCC-IPV6_10
-  - KR_8
-  - 官方优选_38
-  - SG_13
-  - PL_11
-  - SG_14
-  - CA_2
-  - CMCC-IPV6_11
-  - US_46
-  - 官方优选_39
-  - 官方优选_40
-  - CMCC-IPV6_12
-  - CMCC-IPV6_13
-  - CMCC-IPV6_14
+  - DE_7
   - CMCC-IPV6_15
+  - 官方优选_19
+  - 官方优选_20
+  - RU_2
   - CMCC-IPV6_16
-  - PL_12
   - CMCC-IPV6_17
   - CMCC-IPV6_18
   - CMCC-IPV6_19
@@ -2913,30 +2644,35 @@ proxy-groups:
   - CMCC-IPV6_21
   - CMCC-IPV6_22
   - CMCC-IPV6_23
+  - AT_6
+  - NL_5
+  - US_40
+  - NL_6
+  - SE_2
+  - DE_8
+  - US_41
+  - US_42
+  - KR_9
+  - BG_1
   - CMCC-IPV6_24
+  - KR_10
+  - US_43
+  - NL_7
   - CMCC-IPV6_25
+  - NL_8
+  - US_44
+  - US_45
+  - US_46
+  - BG_2
   - CMCC-IPV6_26
   - CMCC-IPV6_27
   - CMCC-IPV6_28
+  - US_47
   - CMCC-IPV6_29
   - CMCC-IPV6_30
   - CMCC-IPV6_31
   - CMCC-IPV6_32
-  - CMCC-IPV6_33
-  - CMCC-IPV6_34
-  - KR_9
-  - CMCC-IPV6_35
-  - KR_10
-  - KR_11
-  - Relay_🇺🇸US|54.75Mb
-  - KR_12
-  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb_1
-  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb_2
-  - HK_1
-  - HK_2
-  - KR_13
-  - CMCC-IPV6_36
-  - HK_3
+  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2945,163 +2681,139 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - '|41.27Mb_1'
-  - 🇨🇳CN|5.10Mb_1
-  - JP_1
-  - 🇨🇳CN|5.10Mb_2
-  - JP_2
-  - JP_3
-  - '|2.06Mb_1'
-  - '|2.06Mb_2'
-  - JP_4
   - 🇨🇳CN|2.57Mb
-  - '|2.74Mb_1'
-  - '|2.74Mb_2'
-  - US_1
-  - '|41.27Mb_2'
-  - 🇨🇳CN|7.50Mb_1
-  - 🇨🇳CN|7.50Mb_2
-  - US_2
-  - 🇨🇳CN|13.97Mb_1
-  - KR_1
-  - 🇨🇳CN|13.97Mb_2
-  - KR_2
-  - US_3
-  - US_4
+  - '|2.06Mb'
+  - 🇨🇳CN|7.50Mb
+  - DE_1
+  - '|2.74Mb'
   - NL_1
+  - HK_1
+  - 🇨🇳CN|5.10Mb
+  - US_1
+  - NL_2
+  - KR_1
+  - KR_2
+  - '|41.27Mb'
+  - 🇨🇳CN|13.97Mb
   - KR_3
-  - US_5
-  - CMCC-IPV6_1
-  - PL_1
-  - US_6
-  - 官方优选_1
-  - US_7
-  - CMCC-IPV6_2
-  - US_8
-  - 官方优选_2
-  - 官方优选_3
-  - US_9
   - KR_4
-  - PL_2
-  - US_10
-  - 官方优选_4
-  - US_11
-  - US_12
-  - 官方优选_5
+  - KR_5
+  - DE_2
+  - KR_6
+  - DE_3
+  - KR_7
+  - DE_4
+  - GB_1
+  - PL_1
+  - HK_2
+  - DE_5
+  - US_2
+  - CMCC-IPV6_1
+  - CMCC-IPV6_2
+  - HK_3
+  - 官方优选_1
+  - 官方优选_2
+  - KR_8
+  - GB_2
+  - 官方优选_3
   - CMCC-IPV6_3
-  - US_13
-  - US_14
-  - US_15
-  - US_16
-  - SG_1
-  - US_17
+  - US_3
+  - 官方优选_4
+  - 官方优选_5
+  - US_4
   - 官方优选_6
+  - GB_3
+  - CMCC-IPV6_4
+  - US_5
+  - US_6
+  - US_7
+  - SG_1
+  - US_8
   - 官方优选_7
-  - PL_3
+  - GB_4
+  - US_9
+  - US_10
+  - AT_1
+  - PL_2
+  - US_11
   - 官方优选_8
+  - AT_2
+  - US_12
   - 官方优选_9
-  - US_18
-  - PL_4
-  - US_19
-  - US_20
+  - SG_2
+  - US_13
+  - AT_3
+  - US_14
+  - RU_1
   - 官方优选_10
   - 官方优选_11
-  - PL_5
-  - 官方优选_12
-  - CMCC-IPV6_4
-  - 官方优选_13
-  - PL_6
-  - 官方优选_14
-  - 官方优选_15
-  - US_21
-  - 官方优选_16
+  - US_15
+  - US_16
+  - US_17
+  - SG_3
+  - BR_1
+  - DE_6
+  - PL_3
+  - GB_5
+  - US_18
   - CMCC-IPV6_5
-  - 官方优选_17
+  - NL_3
+  - 官方优选_12
+  - US_19
+  - US_20
+  - US_21
+  - 官方优选_13
+  - PL_4
   - US_22
   - US_23
-  - 官方优选_18
-  - SG_2
-  - PL_7
+  - 官方优选_14
   - US_24
-  - 官方优选_19
-  - 官方优选_20
-  - 官方优选_21
   - US_25
+  - CMCC-IPV6_6
+  - CMCC-IPV6_7
+  - AT_4
+  - 官方优选_15
   - US_26
   - US_27
-  - 官方优选_22
-  - SG_3
   - US_28
-  - 官方优选_23
-  - 官方优选_24
-  - 官方优选_25
-  - 官方优选_26
+  - AT_5
+  - CMCC-IPV6_8
+  - CMCC-IPV6_9
+  - NL_4
   - US_29
+  - BR_2
   - US_30
-  - SG_4
-  - 官方优选_27
-  - 官方优选_28
-  - SG_5
-  - SG_6
-  - SG_7
   - US_31
-  - 官方优选_29
-  - SG_8
   - US_32
-  - 官方优选_30
-  - CMCC-IPV6_6
-  - SG_9
-  - 官方优选_31
+  - PL_5
   - US_33
-  - SG_10
   - US_34
+  - CMCC-IPV6_10
+  - SG_4
+  - 官方优选_16
+  - SE_1
+  - SG_5
+  - 官方优选_17
+  - GB_6
+  - SG_6
   - US_35
+  - CMCC-IPV6_11
+  - SG_7
+  - CMCC-IPV6_12
   - US_36
-  - 官方优选_32
+  - CMCC-IPV6_13
+  - 官方优选_18
+  - PL_6
   - US_37
+  - CMCC-IPV6_14
   - US_38
   - US_39
-  - US_40
-  - SG_11
-  - US_41
-  - US_42
-  - US_43
-  - PL_8
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - 官方优选_33
-  - SG_12
-  - 官方优选_34
-  - CA_1
-  - NL_2
-  - US_44
-  - US_45
-  - 官方优选_35
-  - 官方优选_36
-  - 官方优选_37
-  - PL_9
-  - PL_10
-  - KR_5
-  - KR_6
-  - CMCC-IPV6_9
-  - KR_7
-  - CMCC-IPV6_10
-  - KR_8
-  - 官方优选_38
-  - SG_13
-  - PL_11
-  - SG_14
-  - CA_2
-  - CMCC-IPV6_11
-  - US_46
-  - 官方优选_39
-  - 官方优选_40
-  - CMCC-IPV6_12
-  - CMCC-IPV6_13
-  - CMCC-IPV6_14
+  - DE_7
   - CMCC-IPV6_15
+  - 官方优选_19
+  - 官方优选_20
+  - RU_2
   - CMCC-IPV6_16
-  - PL_12
   - CMCC-IPV6_17
   - CMCC-IPV6_18
   - CMCC-IPV6_19
@@ -3109,192 +2821,173 @@ proxy-groups:
   - CMCC-IPV6_21
   - CMCC-IPV6_22
   - CMCC-IPV6_23
+  - AT_6
+  - NL_5
+  - US_40
+  - NL_6
+  - SE_2
+  - DE_8
+  - US_41
+  - US_42
+  - KR_9
+  - BG_1
   - CMCC-IPV6_24
+  - KR_10
+  - US_43
+  - NL_7
   - CMCC-IPV6_25
+  - NL_8
+  - US_44
+  - US_45
+  - US_46
+  - BG_2
   - CMCC-IPV6_26
   - CMCC-IPV6_27
   - CMCC-IPV6_28
+  - US_47
   - CMCC-IPV6_29
   - CMCC-IPV6_30
   - CMCC-IPV6_31
   - CMCC-IPV6_32
-  - CMCC-IPV6_33
-  - CMCC-IPV6_34
-  - KR_9
-  - CMCC-IPV6_35
-  - KR_10
-  - KR_11
-  - Relay_🇺🇸US|54.75Mb
-  - KR_12
-  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb_1
-  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb_2
-  - HK_1
-  - HK_2
-  - KR_13
-  - CMCC-IPV6_36
-  - HK_3
+  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - '|41.27Mb_1'
-  - 🇨🇳CN|5.10Mb_1
-  - JP_1
-  - 🇨🇳CN|5.10Mb_2
-  - JP_2
-  - JP_3
-  - '|2.06Mb_1'
-  - '|2.06Mb_2'
-  - JP_4
   - 🇨🇳CN|2.57Mb
-  - '|2.74Mb_1'
-  - '|2.74Mb_2'
-  - US_1
-  - '|41.27Mb_2'
-  - 🇨🇳CN|7.50Mb_1
-  - 🇨🇳CN|7.50Mb_2
-  - US_2
-  - 🇨🇳CN|13.97Mb_1
-  - KR_1
-  - 🇨🇳CN|13.97Mb_2
-  - KR_2
-  - US_3
-  - US_4
+  - '|2.06Mb'
+  - 🇨🇳CN|7.50Mb
+  - DE_1
+  - '|2.74Mb'
   - NL_1
+  - HK_1
+  - 🇨🇳CN|5.10Mb
+  - US_1
+  - NL_2
+  - KR_1
+  - KR_2
+  - '|41.27Mb'
+  - 🇨🇳CN|13.97Mb
   - KR_3
-  - US_5
-  - CMCC-IPV6_1
-  - PL_1
-  - US_6
-  - 官方优选_1
-  - US_7
-  - CMCC-IPV6_2
-  - US_8
-  - 官方优选_2
-  - 官方优选_3
-  - US_9
   - KR_4
-  - PL_2
-  - US_10
-  - 官方优选_4
-  - US_11
-  - US_12
-  - 官方优选_5
+  - KR_5
+  - DE_2
+  - KR_6
+  - DE_3
+  - KR_7
+  - DE_4
+  - GB_1
+  - PL_1
+  - HK_2
+  - DE_5
+  - US_2
+  - CMCC-IPV6_1
+  - CMCC-IPV6_2
+  - HK_3
+  - 官方优选_1
+  - 官方优选_2
+  - KR_8
+  - GB_2
+  - 官方优选_3
   - CMCC-IPV6_3
-  - US_13
-  - US_14
-  - US_15
-  - US_16
-  - SG_1
-  - US_17
+  - US_3
+  - 官方优选_4
+  - 官方优选_5
+  - US_4
   - 官方优选_6
+  - GB_3
+  - CMCC-IPV6_4
+  - US_5
+  - US_6
+  - US_7
+  - SG_1
+  - US_8
   - 官方优选_7
-  - PL_3
+  - GB_4
+  - US_9
+  - US_10
+  - AT_1
+  - PL_2
+  - US_11
   - 官方优选_8
+  - AT_2
+  - US_12
   - 官方优选_9
-  - US_18
-  - PL_4
-  - US_19
-  - US_20
+  - SG_2
+  - US_13
+  - AT_3
+  - US_14
+  - RU_1
   - 官方优选_10
   - 官方优选_11
-  - PL_5
-  - 官方优选_12
-  - CMCC-IPV6_4
-  - 官方优选_13
-  - PL_6
-  - 官方优选_14
-  - 官方优选_15
-  - US_21
-  - 官方优选_16
+  - US_15
+  - US_16
+  - US_17
+  - SG_3
+  - BR_1
+  - DE_6
+  - PL_3
+  - GB_5
+  - US_18
   - CMCC-IPV6_5
-  - 官方优选_17
+  - NL_3
+  - 官方优选_12
+  - US_19
+  - US_20
+  - US_21
+  - 官方优选_13
+  - PL_4
   - US_22
   - US_23
-  - 官方优选_18
-  - SG_2
-  - PL_7
+  - 官方优选_14
   - US_24
-  - 官方优选_19
-  - 官方优选_20
-  - 官方优选_21
   - US_25
+  - CMCC-IPV6_6
+  - CMCC-IPV6_7
+  - AT_4
+  - 官方优选_15
   - US_26
   - US_27
-  - 官方优选_22
-  - SG_3
   - US_28
-  - 官方优选_23
-  - 官方优选_24
-  - 官方优选_25
-  - 官方优选_26
+  - AT_5
+  - CMCC-IPV6_8
+  - CMCC-IPV6_9
+  - NL_4
   - US_29
+  - BR_2
   - US_30
-  - SG_4
-  - 官方优选_27
-  - 官方优选_28
-  - SG_5
-  - SG_6
-  - SG_7
   - US_31
-  - 官方优选_29
-  - SG_8
   - US_32
-  - 官方优选_30
-  - CMCC-IPV6_6
-  - SG_9
-  - 官方优选_31
+  - PL_5
   - US_33
-  - SG_10
   - US_34
+  - CMCC-IPV6_10
+  - SG_4
+  - 官方优选_16
+  - SE_1
+  - SG_5
+  - 官方优选_17
+  - GB_6
+  - SG_6
   - US_35
+  - CMCC-IPV6_11
+  - SG_7
+  - CMCC-IPV6_12
   - US_36
-  - 官方优选_32
+  - CMCC-IPV6_13
+  - 官方优选_18
+  - PL_6
   - US_37
+  - CMCC-IPV6_14
   - US_38
   - US_39
-  - US_40
-  - SG_11
-  - US_41
-  - US_42
-  - US_43
-  - PL_8
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - 官方优选_33
-  - SG_12
-  - 官方优选_34
-  - CA_1
-  - NL_2
-  - US_44
-  - US_45
-  - 官方优选_35
-  - 官方优选_36
-  - 官方优选_37
-  - PL_9
-  - PL_10
-  - KR_5
-  - KR_6
-  - CMCC-IPV6_9
-  - KR_7
-  - CMCC-IPV6_10
-  - KR_8
-  - 官方优选_38
-  - SG_13
-  - PL_11
-  - SG_14
-  - CA_2
-  - CMCC-IPV6_11
-  - US_46
-  - 官方优选_39
-  - 官方优选_40
-  - CMCC-IPV6_12
-  - CMCC-IPV6_13
-  - CMCC-IPV6_14
+  - DE_7
   - CMCC-IPV6_15
+  - 官方优选_19
+  - 官方优选_20
+  - RU_2
   - CMCC-IPV6_16
-  - PL_12
   - CMCC-IPV6_17
   - CMCC-IPV6_18
   - CMCC-IPV6_19
@@ -3302,192 +2995,173 @@ proxy-groups:
   - CMCC-IPV6_21
   - CMCC-IPV6_22
   - CMCC-IPV6_23
+  - AT_6
+  - NL_5
+  - US_40
+  - NL_6
+  - SE_2
+  - DE_8
+  - US_41
+  - US_42
+  - KR_9
+  - BG_1
   - CMCC-IPV6_24
+  - KR_10
+  - US_43
+  - NL_7
   - CMCC-IPV6_25
+  - NL_8
+  - US_44
+  - US_45
+  - US_46
+  - BG_2
   - CMCC-IPV6_26
   - CMCC-IPV6_27
   - CMCC-IPV6_28
+  - US_47
   - CMCC-IPV6_29
   - CMCC-IPV6_30
   - CMCC-IPV6_31
   - CMCC-IPV6_32
-  - CMCC-IPV6_33
-  - CMCC-IPV6_34
-  - KR_9
-  - CMCC-IPV6_35
-  - KR_10
-  - KR_11
-  - Relay_🇺🇸US|54.75Mb
-  - KR_12
-  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb_1
-  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb_2
-  - HK_1
-  - HK_2
-  - KR_13
-  - CMCC-IPV6_36
-  - HK_3
+  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - '|41.27Mb_1'
-  - 🇨🇳CN|5.10Mb_1
-  - JP_1
-  - 🇨🇳CN|5.10Mb_2
-  - JP_2
-  - JP_3
-  - '|2.06Mb_1'
-  - '|2.06Mb_2'
-  - JP_4
   - 🇨🇳CN|2.57Mb
-  - '|2.74Mb_1'
-  - '|2.74Mb_2'
-  - US_1
-  - '|41.27Mb_2'
-  - 🇨🇳CN|7.50Mb_1
-  - 🇨🇳CN|7.50Mb_2
-  - US_2
-  - 🇨🇳CN|13.97Mb_1
-  - KR_1
-  - 🇨🇳CN|13.97Mb_2
-  - KR_2
-  - US_3
-  - US_4
+  - '|2.06Mb'
+  - 🇨🇳CN|7.50Mb
+  - DE_1
+  - '|2.74Mb'
   - NL_1
+  - HK_1
+  - 🇨🇳CN|5.10Mb
+  - US_1
+  - NL_2
+  - KR_1
+  - KR_2
+  - '|41.27Mb'
+  - 🇨🇳CN|13.97Mb
   - KR_3
-  - US_5
-  - CMCC-IPV6_1
-  - PL_1
-  - US_6
-  - 官方优选_1
-  - US_7
-  - CMCC-IPV6_2
-  - US_8
-  - 官方优选_2
-  - 官方优选_3
-  - US_9
   - KR_4
-  - PL_2
-  - US_10
-  - 官方优选_4
-  - US_11
-  - US_12
-  - 官方优选_5
+  - KR_5
+  - DE_2
+  - KR_6
+  - DE_3
+  - KR_7
+  - DE_4
+  - GB_1
+  - PL_1
+  - HK_2
+  - DE_5
+  - US_2
+  - CMCC-IPV6_1
+  - CMCC-IPV6_2
+  - HK_3
+  - 官方优选_1
+  - 官方优选_2
+  - KR_8
+  - GB_2
+  - 官方优选_3
   - CMCC-IPV6_3
-  - US_13
-  - US_14
-  - US_15
-  - US_16
-  - SG_1
-  - US_17
+  - US_3
+  - 官方优选_4
+  - 官方优选_5
+  - US_4
   - 官方优选_6
+  - GB_3
+  - CMCC-IPV6_4
+  - US_5
+  - US_6
+  - US_7
+  - SG_1
+  - US_8
   - 官方优选_7
-  - PL_3
+  - GB_4
+  - US_9
+  - US_10
+  - AT_1
+  - PL_2
+  - US_11
   - 官方优选_8
+  - AT_2
+  - US_12
   - 官方优选_9
-  - US_18
-  - PL_4
-  - US_19
-  - US_20
+  - SG_2
+  - US_13
+  - AT_3
+  - US_14
+  - RU_1
   - 官方优选_10
   - 官方优选_11
-  - PL_5
-  - 官方优选_12
-  - CMCC-IPV6_4
-  - 官方优选_13
-  - PL_6
-  - 官方优选_14
-  - 官方优选_15
-  - US_21
-  - 官方优选_16
+  - US_15
+  - US_16
+  - US_17
+  - SG_3
+  - BR_1
+  - DE_6
+  - PL_3
+  - GB_5
+  - US_18
   - CMCC-IPV6_5
-  - 官方优选_17
+  - NL_3
+  - 官方优选_12
+  - US_19
+  - US_20
+  - US_21
+  - 官方优选_13
+  - PL_4
   - US_22
   - US_23
-  - 官方优选_18
-  - SG_2
-  - PL_7
+  - 官方优选_14
   - US_24
-  - 官方优选_19
-  - 官方优选_20
-  - 官方优选_21
   - US_25
+  - CMCC-IPV6_6
+  - CMCC-IPV6_7
+  - AT_4
+  - 官方优选_15
   - US_26
   - US_27
-  - 官方优选_22
-  - SG_3
   - US_28
-  - 官方优选_23
-  - 官方优选_24
-  - 官方优选_25
-  - 官方优选_26
+  - AT_5
+  - CMCC-IPV6_8
+  - CMCC-IPV6_9
+  - NL_4
   - US_29
+  - BR_2
   - US_30
-  - SG_4
-  - 官方优选_27
-  - 官方优选_28
-  - SG_5
-  - SG_6
-  - SG_7
   - US_31
-  - 官方优选_29
-  - SG_8
   - US_32
-  - 官方优选_30
-  - CMCC-IPV6_6
-  - SG_9
-  - 官方优选_31
+  - PL_5
   - US_33
-  - SG_10
   - US_34
+  - CMCC-IPV6_10
+  - SG_4
+  - 官方优选_16
+  - SE_1
+  - SG_5
+  - 官方优选_17
+  - GB_6
+  - SG_6
   - US_35
+  - CMCC-IPV6_11
+  - SG_7
+  - CMCC-IPV6_12
   - US_36
-  - 官方优选_32
+  - CMCC-IPV6_13
+  - 官方优选_18
+  - PL_6
   - US_37
+  - CMCC-IPV6_14
   - US_38
   - US_39
-  - US_40
-  - SG_11
-  - US_41
-  - US_42
-  - US_43
-  - PL_8
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - 官方优选_33
-  - SG_12
-  - 官方优选_34
-  - CA_1
-  - NL_2
-  - US_44
-  - US_45
-  - 官方优选_35
-  - 官方优选_36
-  - 官方优选_37
-  - PL_9
-  - PL_10
-  - KR_5
-  - KR_6
-  - CMCC-IPV6_9
-  - KR_7
-  - CMCC-IPV6_10
-  - KR_8
-  - 官方优选_38
-  - SG_13
-  - PL_11
-  - SG_14
-  - CA_2
-  - CMCC-IPV6_11
-  - US_46
-  - 官方优选_39
-  - 官方优选_40
-  - CMCC-IPV6_12
-  - CMCC-IPV6_13
-  - CMCC-IPV6_14
+  - DE_7
   - CMCC-IPV6_15
+  - 官方优选_19
+  - 官方优选_20
+  - RU_2
   - CMCC-IPV6_16
-  - PL_12
   - CMCC-IPV6_17
   - CMCC-IPV6_18
   - CMCC-IPV6_19
@@ -3495,192 +3169,173 @@ proxy-groups:
   - CMCC-IPV6_21
   - CMCC-IPV6_22
   - CMCC-IPV6_23
+  - AT_6
+  - NL_5
+  - US_40
+  - NL_6
+  - SE_2
+  - DE_8
+  - US_41
+  - US_42
+  - KR_9
+  - BG_1
   - CMCC-IPV6_24
+  - KR_10
+  - US_43
+  - NL_7
   - CMCC-IPV6_25
+  - NL_8
+  - US_44
+  - US_45
+  - US_46
+  - BG_2
   - CMCC-IPV6_26
   - CMCC-IPV6_27
   - CMCC-IPV6_28
+  - US_47
   - CMCC-IPV6_29
   - CMCC-IPV6_30
   - CMCC-IPV6_31
   - CMCC-IPV6_32
-  - CMCC-IPV6_33
-  - CMCC-IPV6_34
-  - KR_9
-  - CMCC-IPV6_35
-  - KR_10
-  - KR_11
-  - Relay_🇺🇸US|54.75Mb
-  - KR_12
-  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb_1
-  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb_2
-  - HK_1
-  - HK_2
-  - KR_13
-  - CMCC-IPV6_36
-  - HK_3
+  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - '|41.27Mb_1'
-  - 🇨🇳CN|5.10Mb_1
-  - JP_1
-  - 🇨🇳CN|5.10Mb_2
-  - JP_2
-  - JP_3
-  - '|2.06Mb_1'
-  - '|2.06Mb_2'
-  - JP_4
   - 🇨🇳CN|2.57Mb
-  - '|2.74Mb_1'
-  - '|2.74Mb_2'
-  - US_1
-  - '|41.27Mb_2'
-  - 🇨🇳CN|7.50Mb_1
-  - 🇨🇳CN|7.50Mb_2
-  - US_2
-  - 🇨🇳CN|13.97Mb_1
-  - KR_1
-  - 🇨🇳CN|13.97Mb_2
-  - KR_2
-  - US_3
-  - US_4
+  - '|2.06Mb'
+  - 🇨🇳CN|7.50Mb
+  - DE_1
+  - '|2.74Mb'
   - NL_1
+  - HK_1
+  - 🇨🇳CN|5.10Mb
+  - US_1
+  - NL_2
+  - KR_1
+  - KR_2
+  - '|41.27Mb'
+  - 🇨🇳CN|13.97Mb
   - KR_3
-  - US_5
-  - CMCC-IPV6_1
-  - PL_1
-  - US_6
-  - 官方优选_1
-  - US_7
-  - CMCC-IPV6_2
-  - US_8
-  - 官方优选_2
-  - 官方优选_3
-  - US_9
   - KR_4
-  - PL_2
-  - US_10
-  - 官方优选_4
-  - US_11
-  - US_12
-  - 官方优选_5
+  - KR_5
+  - DE_2
+  - KR_6
+  - DE_3
+  - KR_7
+  - DE_4
+  - GB_1
+  - PL_1
+  - HK_2
+  - DE_5
+  - US_2
+  - CMCC-IPV6_1
+  - CMCC-IPV6_2
+  - HK_3
+  - 官方优选_1
+  - 官方优选_2
+  - KR_8
+  - GB_2
+  - 官方优选_3
   - CMCC-IPV6_3
-  - US_13
-  - US_14
-  - US_15
-  - US_16
-  - SG_1
-  - US_17
+  - US_3
+  - 官方优选_4
+  - 官方优选_5
+  - US_4
   - 官方优选_6
+  - GB_3
+  - CMCC-IPV6_4
+  - US_5
+  - US_6
+  - US_7
+  - SG_1
+  - US_8
   - 官方优选_7
-  - PL_3
+  - GB_4
+  - US_9
+  - US_10
+  - AT_1
+  - PL_2
+  - US_11
   - 官方优选_8
+  - AT_2
+  - US_12
   - 官方优选_9
-  - US_18
-  - PL_4
-  - US_19
-  - US_20
+  - SG_2
+  - US_13
+  - AT_3
+  - US_14
+  - RU_1
   - 官方优选_10
   - 官方优选_11
-  - PL_5
-  - 官方优选_12
-  - CMCC-IPV6_4
-  - 官方优选_13
-  - PL_6
-  - 官方优选_14
-  - 官方优选_15
-  - US_21
-  - 官方优选_16
+  - US_15
+  - US_16
+  - US_17
+  - SG_3
+  - BR_1
+  - DE_6
+  - PL_3
+  - GB_5
+  - US_18
   - CMCC-IPV6_5
-  - 官方优选_17
+  - NL_3
+  - 官方优选_12
+  - US_19
+  - US_20
+  - US_21
+  - 官方优选_13
+  - PL_4
   - US_22
   - US_23
-  - 官方优选_18
-  - SG_2
-  - PL_7
+  - 官方优选_14
   - US_24
-  - 官方优选_19
-  - 官方优选_20
-  - 官方优选_21
   - US_25
+  - CMCC-IPV6_6
+  - CMCC-IPV6_7
+  - AT_4
+  - 官方优选_15
   - US_26
   - US_27
-  - 官方优选_22
-  - SG_3
   - US_28
-  - 官方优选_23
-  - 官方优选_24
-  - 官方优选_25
-  - 官方优选_26
+  - AT_5
+  - CMCC-IPV6_8
+  - CMCC-IPV6_9
+  - NL_4
   - US_29
+  - BR_2
   - US_30
-  - SG_4
-  - 官方优选_27
-  - 官方优选_28
-  - SG_5
-  - SG_6
-  - SG_7
   - US_31
-  - 官方优选_29
-  - SG_8
   - US_32
-  - 官方优选_30
-  - CMCC-IPV6_6
-  - SG_9
-  - 官方优选_31
+  - PL_5
   - US_33
-  - SG_10
   - US_34
+  - CMCC-IPV6_10
+  - SG_4
+  - 官方优选_16
+  - SE_1
+  - SG_5
+  - 官方优选_17
+  - GB_6
+  - SG_6
   - US_35
+  - CMCC-IPV6_11
+  - SG_7
+  - CMCC-IPV6_12
   - US_36
-  - 官方优选_32
+  - CMCC-IPV6_13
+  - 官方优选_18
+  - PL_6
   - US_37
+  - CMCC-IPV6_14
   - US_38
   - US_39
-  - US_40
-  - SG_11
-  - US_41
-  - US_42
-  - US_43
-  - PL_8
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - 官方优选_33
-  - SG_12
-  - 官方优选_34
-  - CA_1
-  - NL_2
-  - US_44
-  - US_45
-  - 官方优选_35
-  - 官方优选_36
-  - 官方优选_37
-  - PL_9
-  - PL_10
-  - KR_5
-  - KR_6
-  - CMCC-IPV6_9
-  - KR_7
-  - CMCC-IPV6_10
-  - KR_8
-  - 官方优选_38
-  - SG_13
-  - PL_11
-  - SG_14
-  - CA_2
-  - CMCC-IPV6_11
-  - US_46
-  - 官方优选_39
-  - 官方优选_40
-  - CMCC-IPV6_12
-  - CMCC-IPV6_13
-  - CMCC-IPV6_14
+  - DE_7
   - CMCC-IPV6_15
+  - 官方优选_19
+  - 官方优选_20
+  - RU_2
   - CMCC-IPV6_16
-  - PL_12
   - CMCC-IPV6_17
   - CMCC-IPV6_18
   - CMCC-IPV6_19
@@ -3688,30 +3343,35 @@ proxy-groups:
   - CMCC-IPV6_21
   - CMCC-IPV6_22
   - CMCC-IPV6_23
+  - AT_6
+  - NL_5
+  - US_40
+  - NL_6
+  - SE_2
+  - DE_8
+  - US_41
+  - US_42
+  - KR_9
+  - BG_1
   - CMCC-IPV6_24
+  - KR_10
+  - US_43
+  - NL_7
   - CMCC-IPV6_25
+  - NL_8
+  - US_44
+  - US_45
+  - US_46
+  - BG_2
   - CMCC-IPV6_26
   - CMCC-IPV6_27
   - CMCC-IPV6_28
+  - US_47
   - CMCC-IPV6_29
   - CMCC-IPV6_30
   - CMCC-IPV6_31
   - CMCC-IPV6_32
-  - CMCC-IPV6_33
-  - CMCC-IPV6_34
-  - KR_9
-  - CMCC-IPV6_35
-  - KR_10
-  - KR_11
-  - Relay_🇺🇸US|54.75Mb
-  - KR_12
-  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb_1
-  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb_2
-  - HK_1
-  - HK_2
-  - KR_13
-  - CMCC-IPV6_36
-  - HK_3
+  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -3734,163 +3394,139 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - '|41.27Mb_1'
-  - 🇨🇳CN|5.10Mb_1
-  - JP_1
-  - 🇨🇳CN|5.10Mb_2
-  - JP_2
-  - JP_3
-  - '|2.06Mb_1'
-  - '|2.06Mb_2'
-  - JP_4
   - 🇨🇳CN|2.57Mb
-  - '|2.74Mb_1'
-  - '|2.74Mb_2'
-  - US_1
-  - '|41.27Mb_2'
-  - 🇨🇳CN|7.50Mb_1
-  - 🇨🇳CN|7.50Mb_2
-  - US_2
-  - 🇨🇳CN|13.97Mb_1
-  - KR_1
-  - 🇨🇳CN|13.97Mb_2
-  - KR_2
-  - US_3
-  - US_4
+  - '|2.06Mb'
+  - 🇨🇳CN|7.50Mb
+  - DE_1
+  - '|2.74Mb'
   - NL_1
+  - HK_1
+  - 🇨🇳CN|5.10Mb
+  - US_1
+  - NL_2
+  - KR_1
+  - KR_2
+  - '|41.27Mb'
+  - 🇨🇳CN|13.97Mb
   - KR_3
-  - US_5
-  - CMCC-IPV6_1
-  - PL_1
-  - US_6
-  - 官方优选_1
-  - US_7
-  - CMCC-IPV6_2
-  - US_8
-  - 官方优选_2
-  - 官方优选_3
-  - US_9
   - KR_4
-  - PL_2
-  - US_10
-  - 官方优选_4
-  - US_11
-  - US_12
-  - 官方优选_5
+  - KR_5
+  - DE_2
+  - KR_6
+  - DE_3
+  - KR_7
+  - DE_4
+  - GB_1
+  - PL_1
+  - HK_2
+  - DE_5
+  - US_2
+  - CMCC-IPV6_1
+  - CMCC-IPV6_2
+  - HK_3
+  - 官方优选_1
+  - 官方优选_2
+  - KR_8
+  - GB_2
+  - 官方优选_3
   - CMCC-IPV6_3
-  - US_13
-  - US_14
-  - US_15
-  - US_16
-  - SG_1
-  - US_17
+  - US_3
+  - 官方优选_4
+  - 官方优选_5
+  - US_4
   - 官方优选_6
+  - GB_3
+  - CMCC-IPV6_4
+  - US_5
+  - US_6
+  - US_7
+  - SG_1
+  - US_8
   - 官方优选_7
-  - PL_3
+  - GB_4
+  - US_9
+  - US_10
+  - AT_1
+  - PL_2
+  - US_11
   - 官方优选_8
+  - AT_2
+  - US_12
   - 官方优选_9
-  - US_18
-  - PL_4
-  - US_19
-  - US_20
+  - SG_2
+  - US_13
+  - AT_3
+  - US_14
+  - RU_1
   - 官方优选_10
   - 官方优选_11
-  - PL_5
-  - 官方优选_12
-  - CMCC-IPV6_4
-  - 官方优选_13
-  - PL_6
-  - 官方优选_14
-  - 官方优选_15
-  - US_21
-  - 官方优选_16
+  - US_15
+  - US_16
+  - US_17
+  - SG_3
+  - BR_1
+  - DE_6
+  - PL_3
+  - GB_5
+  - US_18
   - CMCC-IPV6_5
-  - 官方优选_17
+  - NL_3
+  - 官方优选_12
+  - US_19
+  - US_20
+  - US_21
+  - 官方优选_13
+  - PL_4
   - US_22
   - US_23
-  - 官方优选_18
-  - SG_2
-  - PL_7
+  - 官方优选_14
   - US_24
-  - 官方优选_19
-  - 官方优选_20
-  - 官方优选_21
   - US_25
+  - CMCC-IPV6_6
+  - CMCC-IPV6_7
+  - AT_4
+  - 官方优选_15
   - US_26
   - US_27
-  - 官方优选_22
-  - SG_3
   - US_28
-  - 官方优选_23
-  - 官方优选_24
-  - 官方优选_25
-  - 官方优选_26
+  - AT_5
+  - CMCC-IPV6_8
+  - CMCC-IPV6_9
+  - NL_4
   - US_29
+  - BR_2
   - US_30
-  - SG_4
-  - 官方优选_27
-  - 官方优选_28
-  - SG_5
-  - SG_6
-  - SG_7
   - US_31
-  - 官方优选_29
-  - SG_8
   - US_32
-  - 官方优选_30
-  - CMCC-IPV6_6
-  - SG_9
-  - 官方优选_31
+  - PL_5
   - US_33
-  - SG_10
   - US_34
+  - CMCC-IPV6_10
+  - SG_4
+  - 官方优选_16
+  - SE_1
+  - SG_5
+  - 官方优选_17
+  - GB_6
+  - SG_6
   - US_35
+  - CMCC-IPV6_11
+  - SG_7
+  - CMCC-IPV6_12
   - US_36
-  - 官方优选_32
+  - CMCC-IPV6_13
+  - 官方优选_18
+  - PL_6
   - US_37
+  - CMCC-IPV6_14
   - US_38
   - US_39
-  - US_40
-  - SG_11
-  - US_41
-  - US_42
-  - US_43
-  - PL_8
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - 官方优选_33
-  - SG_12
-  - 官方优选_34
-  - CA_1
-  - NL_2
-  - US_44
-  - US_45
-  - 官方优选_35
-  - 官方优选_36
-  - 官方优选_37
-  - PL_9
-  - PL_10
-  - KR_5
-  - KR_6
-  - CMCC-IPV6_9
-  - KR_7
-  - CMCC-IPV6_10
-  - KR_8
-  - 官方优选_38
-  - SG_13
-  - PL_11
-  - SG_14
-  - CA_2
-  - CMCC-IPV6_11
-  - US_46
-  - 官方优选_39
-  - 官方优选_40
-  - CMCC-IPV6_12
-  - CMCC-IPV6_13
-  - CMCC-IPV6_14
+  - DE_7
   - CMCC-IPV6_15
+  - 官方优选_19
+  - 官方优选_20
+  - RU_2
   - CMCC-IPV6_16
-  - PL_12
   - CMCC-IPV6_17
   - CMCC-IPV6_18
   - CMCC-IPV6_19
@@ -3898,30 +3534,35 @@ proxy-groups:
   - CMCC-IPV6_21
   - CMCC-IPV6_22
   - CMCC-IPV6_23
+  - AT_6
+  - NL_5
+  - US_40
+  - NL_6
+  - SE_2
+  - DE_8
+  - US_41
+  - US_42
+  - KR_9
+  - BG_1
   - CMCC-IPV6_24
+  - KR_10
+  - US_43
+  - NL_7
   - CMCC-IPV6_25
+  - NL_8
+  - US_44
+  - US_45
+  - US_46
+  - BG_2
   - CMCC-IPV6_26
   - CMCC-IPV6_27
   - CMCC-IPV6_28
+  - US_47
   - CMCC-IPV6_29
   - CMCC-IPV6_30
   - CMCC-IPV6_31
   - CMCC-IPV6_32
-  - CMCC-IPV6_33
-  - CMCC-IPV6_34
-  - KR_9
-  - CMCC-IPV6_35
-  - KR_10
-  - KR_11
-  - Relay_🇺🇸US|54.75Mb
-  - KR_12
-  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb_1
-  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb_2
-  - HK_1
-  - HK_2
-  - KR_13
-  - CMCC-IPV6_36
-  - HK_3
+  - Relay_🏁ZZ-🇩🇪DE_141|68.57Mb
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
