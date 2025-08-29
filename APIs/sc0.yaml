@@ -35,33 +35,43 @@ proxies:
   cipher: auto
   name: 🇨🇳_CN_中国->🇺🇸_US_美国
   network: ws
-  port: 30833
-  server: v33.heduian.link
+  port: 30829
+  server: v29.heduian.link
+  skip-cert-verify: true
+  sni: ''
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      host: v33.heduian.link
+      host: ocbc.com
     path: /oooo
-- cipher: aes-256-cfb
-  name: 🇫🇷_FR_法国
-  password: amazonskr05
-  port: 443
-  server: 15.237.179.114
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  network: ws
+  port: 30824
+  server: v24.heduian.link
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: v24.heduian.link
+    path: /oooo
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇫🇷_FR_法国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇫🇷_FR_法国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -71,28 +81,28 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇫🇷_FR_法国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇫🇷_FR_法国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇫🇷_FR_法国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇫🇷_FR_法国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -116,7 +126,7 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇫🇷_FR_法国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   type: select
 rule-providers:
   Apple:
