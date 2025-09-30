@@ -31,23 +31,41 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- cipher: aes-256-cfb
-  name: 🇮🇳_IN_印度
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 134.209.147.198
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  network: ws
+  port: 30829
+  server: v29.heduian.link
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: v29.heduian.link
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  fingerprint: ''
+  name: 🇺🇸_US_美国
+  network: tcp
+  port: 30475
+  server: 216.132.112.116
+  sni: ''
+  type: vmess
+  uuid: defa10be-f618-4b64-c815-049d2eacbd3f
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇮🇳_IN_印度
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇮🇳_IN_印度
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -56,25 +74,29 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇮🇳_IN_印度
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇮🇳_IN_印度
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇮🇳_IN_印度
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇮🇳_IN_印度
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -97,7 +119,8 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇮🇳_IN_印度
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国
   type: select
 rule-providers:
   Apple:
