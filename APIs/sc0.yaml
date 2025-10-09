@@ -31,17 +31,23 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪_DE_德国
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.177
+  type: ss
 - alterId: 2
   cipher: auto
   name: 🇨🇳_CN_中国->🇺🇸_US_美国
   network: ws
-  port: 30808
-  server: v8.heduian.link
+  port: 30824
+  server: v24.heduian.link
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      host: v8.heduian.link
+      host: v24.heduian.link
     path: /oooo
 - cipher: aes-256-cfb
   name: 🇬🇧_GB_英国
@@ -51,98 +57,94 @@ proxies:
   protocol: origin
   server: 62.100.205.48
   type: ssr
-- cipher: aes-256-cfb
-  name: 未知
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.166
-  type: ss
-- cipher: aes-256-cfb
-  name: 未知_1
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.150
-  type: ss
-- name: 🇺🇸_US_美国->🇮🇷_IR_伊朗
-  network: ws
-  password: YwuvGJk36B
-  port: 2053
-  server: creativecommons.org
-  sni: kotlet.arshiacomplus.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /yamtekodasayahhh
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: 🇮🇹_IT_意大利->🇺🇸_US_美国
-  network: tcp
-  port: 28927
-  server: 31.14.142.189
-  sni: ''
-  type: vmess
-  uuid: 46b16e33-97eb-4334-f632-072cbd4e6d86
-- cipher: aes-256-cfb
-  name: 未知_2
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.146
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪_DE_德国_1
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.193
   type: ss
 - alterId: 2
   cipher: auto
   name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
   network: ws
-  port: 30829
-  server: v29.heduian.link
+  port: 30808
+  server: v8.heduian.link
   sni: ''
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      host: ocbc.com
+      host: v8.heduian.link
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  network: ws
+  port: 30805
+  server: v5.heduian.link
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: v5.heduian.link
     path: /oooo
 - cipher: aes-256-cfb
-  name: 🇮🇳_IN_印度
+  name: 🇺🇸_US_美国
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 134.209.147.198
+  server: 104.192.226.106
   type: ss
 - cipher: aes-256-cfb
-  name: 未知_4
+  name: 未知
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.162
+  server: 103.186.154.220
   type: ss
+- cipher: aes-256-cfb
+  name: 未知_1
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.72
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇪🇸_ES_西班牙->🇺🇸_US_美国
+  network: ws
+  port: 23185
+  server: 212.192.15.244
+  type: vmess
+  uuid: 5115c9e9-a90c-4f9f-a38d-5985a5e52ebd
+  ws-opts:
+    path: /
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
+  - 🇩🇪_DE_德国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇬🇧_GB_英国
+  - 🇩🇪_DE_德国_1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇺🇸_US_美国
   - 未知
   - 未知_1
-  - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-  - 🇮🇹_IT_意大利->🇺🇸_US_美国
-  - 未知_2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇮🇳_IN_印度
-  - 未知_4
+  - 🇪🇸_ES_西班牙->🇺🇸_US_美国
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 🇩🇪_DE_德国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇬🇧_GB_英国
+  - 🇩🇪_DE_德国_1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇺🇸_US_美国
   - 未知
   - 未知_1
-  - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-  - 🇮🇹_IT_意大利->🇺🇸_US_美国
-  - 未知_2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇮🇳_IN_印度
-  - 未知_4
+  - 🇪🇸_ES_西班牙->🇺🇸_US_美国
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -151,61 +153,61 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
+  - 🇩🇪_DE_德国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇬🇧_GB_英国
+  - 🇩🇪_DE_德国_1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇺🇸_US_美国
   - 未知
   - 未知_1
-  - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-  - 🇮🇹_IT_意大利->🇺🇸_US_美国
-  - 未知_2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇮🇳_IN_印度
-  - 未知_4
+  - 🇪🇸_ES_西班牙->🇺🇸_US_美国
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇩🇪_DE_德国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇬🇧_GB_英国
+  - 🇩🇪_DE_德国_1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇺🇸_US_美国
   - 未知
   - 未知_1
-  - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-  - 🇮🇹_IT_意大利->🇺🇸_US_美国
-  - 未知_2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇮🇳_IN_印度
-  - 未知_4
+  - 🇪🇸_ES_西班牙->🇺🇸_US_美国
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇩🇪_DE_德国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇬🇧_GB_英国
+  - 🇩🇪_DE_德国_1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇺🇸_US_美国
   - 未知
   - 未知_1
-  - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-  - 🇮🇹_IT_意大利->🇺🇸_US_美国
-  - 未知_2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇮🇳_IN_印度
-  - 未知_4
+  - 🇪🇸_ES_西班牙->🇺🇸_US_美国
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇩🇪_DE_德国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇬🇧_GB_英国
+  - 🇩🇪_DE_德国_1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇺🇸_US_美国
   - 未知
   - 未知_1
-  - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-  - 🇮🇹_IT_意大利->🇺🇸_US_美国
-  - 未知_2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇮🇳_IN_印度
-  - 未知_4
+  - 🇪🇸_ES_西班牙->🇺🇸_US_美国
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -228,16 +230,16 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
+  - 🇩🇪_DE_德国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇬🇧_GB_英国
+  - 🇩🇪_DE_德国_1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇺🇸_US_美国
   - 未知
   - 未知_1
-  - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-  - 🇮🇹_IT_意大利->🇺🇸_US_美国
-  - 未知_2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇮🇳_IN_印度
-  - 未知_4
+  - 🇪🇸_ES_西班牙->🇺🇸_US_美国
   type: select
 rule-providers:
   Apple:
