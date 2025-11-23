@@ -32,28 +32,64 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🏁RELAY-104.21.30.167-0827
+  name: 🇭🇰HK²_3|0.6MB/s|0%|YT|D+|X|KeepHistory
   network: ws
-  port: 443
-  server: sssssssxxxx.2032.pp.ua
-  servername: sssssssxxxx.2032.pp.ua
-  tls: true
+  port: 80
+  server: 6bbacbda-t1ekg0-t2uo6p-yjq0.hk3.p5pv.com
+  servername: 6bbacbda-t1ekg0-t2uo6p-yjq0.hk3.p5pv.com
   type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  uuid: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: sssssssxxxx.2032.pp.ua
-    path: /6We3U9Df1WGxgFnoFPw1
+      Host: 6bbacbda-t1ekg0-t2uo6p-yjq0.hk3.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: hkt.gotochinatown.net
+  type: vmess
+  uuid: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
 - name: 🇨🇳_CN_中国
   network: tcp
-  password: BxceQaOe
+  password: ZZRSKlyjjAR36CS0CD8uYFBgNODpgTeC9A7aERSp3aFaq42na8KZzuDIn3D9Yw3xX3A6e
   port: 443
-  server: 219.79.165.55
+  server: levuior.missionsec.us
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: levuior.missionsec.us
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP²_2|0.6MB/s|GPT⁺|GM|YT|TK|X
+  network: ws
+  port: 443
+  server: n1744454503.4u9ma.icu
+  tls: true
+  type: vmess
+  uuid: 6319c3a4-d27e-423e-8a46-f63c24a99519
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  name: 🇧🇬_BG_保加利亚
+  network: ws
+  port: 24443
+  server: 178.239.123.216
+  servername: vless3.datatestvless.click
+  tls: true
+  type: vless
+  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+  ws-opts:
+    headers:
+      Host: vless3.datatestvless.click
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇸🇦_SA_沙特阿拉伯
@@ -67,20 +103,24 @@ proxies:
   tls: true
   type: vless
   uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇦_SA_沙特阿拉伯_1
-  network: tcp
+- cipher: aes-256-cfb
+  name: 🇮🇪_IE_爱尔兰
+  password: amazonskr05
   port: 443
-  reality-opts:
-    public-key: 4Y3V5AIralE3HIAYXCe3beUGsUiBei0mCmbhPXGAgHg
-    short-id: 2fc1abafec7cb87b
-  server: 77.110.101.240
-  servername: kinopoisk.ru
+  server: 3.252.162.214
+  type: ss
+- name: 🇺🇸_US_美国
+  network: ws
+  password: eb7339c5-70e4-4c7b-b5ef-4128adc8136a
+  port: 2053
+  server: 38.180.72.162
+  sni: joss.gpj1.web.id
   tls: true
-  type: vless
-  uuid: cf97c9a9-441e-43e1-9bd2-f66a198cd87b
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/38.180.72.162=2053
 - fingerprint: chrome
   name: 🇷🇺_RU_俄罗斯
   network: ws
@@ -94,18 +134,89 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/91.103.253.193=443
-- encryption: none
-  name: 🇸🇦_SA_沙特阿拉伯_2
+- cipher: aes-256-cfb
+  name: 🇮🇪_IE_爱尔兰_1
+  password: amazonskr05
+  port: 443
+  server: 34.245.193.205
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 🇮🇹IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory
+  network: tcp
+  port: 30805
+  server: v5.heduian.link
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇨🇭_CH_瑞士
   network: ws
-  port: 2087
-  server: usa1.tunnelx.space
-  servername: ws.usa1.tunnelx.space
-  type: vless
-  uuid: 393040206-client-475
+  password: 0311306e-56d4-4aa1-bde5-8cede7fcd3e4
+  port: 443
+  server: 138.124.30.8
+  sni: joss.gpj1.web.id
+  type: trojan
   ws-opts:
     headers:
-      Host: ws.usa1.tunnelx.space
-    path: /assets/img/banner_v3.webp/#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/138.124.30.8=443
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US²_1|0.9MB/s|0%|GPT⁺|YT|TK|NF|X|KeepSucceed
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- encryption: none
+  name: 🇺🇸_US_美国_1
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+  type: vless
+  uuid: 6d651624-65eb-40c6-94ae-d0e5df90c0ad
+  ws-opts:
+    headers:
+      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+- encryption: none
+  name: 🇺🇸_US_美国_2
+  network: ws
+  port: 80
+  server: 172.66.156.81
+  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+  type: vless
+  uuid: 6d651624-65eb-40c6-94ae-d0e5df90c0ad
+  ws-opts:
+    headers:
+      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+- name: 🇨🇳_CN_中国_1
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.79.165.55
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇩🇪_DE_德国
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
+  type: ss
+- name: 🇬🇧_GB_英国
+  network: ws
+  password: d69e725c-7c7e-4c75-9786-4859b4e0bbc6
+  port: 443
+  server: 109.169.76.23
+  sni: joss.gpj1.web.id
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/109.169.76.23=443
 - alterId: 2
   cipher: auto
   name: 🇬🇧 英国 01
@@ -115,141 +226,66 @@ proxies:
   servername: v36.heduian.link
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇷🇺_RU_俄罗斯_1
+- name: 🇺🇸_US_美国_3
   network: ws
-  port: 1443
-  server: 81.161.98.228
-  servername: cdn.filterai.ru
-  tls: true
+  port: 80
+  server: usa.fastlynew.hosting-ip.com
+  servername: cd123.global.ssl.fastly.net
   type: vless
-  uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
+  uuid: b7c88dc6-1513-49c0-be12-1cfe37bcd25b
   ws-opts:
     headers:
-      Host: cdn.filterai.ru
-    path: /websocketpl
-- cipher: aes-128-gcm
-  name: 🇨🇳_CN_中国_1
-  password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74
-  port: 23344
-  server: 103.219.103.217
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺_RU_俄罗斯_2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: a7pE0PrtV-p1g975c57xFrQ8MBI4G_Ozd7eWiq4L6lU
-    short-id: f1d00cbbb31154b1
-  server: 92.51.38.205
-  servername: id.sber.ru
-  tls: true
-  type: vless
-  uuid: acb2c1bd-8f2e-4567-bd06-9243feaacfdc
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺_RU_俄罗斯_3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GjFTD96cethyxcRuToHUwv741QoDB9-V7LRsxEh6jTU
-    short-id: ab1cd2
-    spider-x: /
-  server: 147.45.234.51
-  servername: www.vk.com
-  tls: true
-  type: vless
-  uuid: fd0718a1-c463-4297-8ba9-a7f4b93ce436
-- cipher: aes-128-gcm
-  name: 🇨🇳_CN_中国_2
-  password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74
-  port: 21712
-  server: 103.219.103.217
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸_US_美国
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A
-    short-id: a4844ba7
-  server: 64.23.189.238
-  servername: www.gstatic.com
-  tls: true
-  type: vless
-  uuid: a7e04b44-855e-4fe7-8fa0-31894e928bce
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺_RU_俄罗斯_4
-  network: tcp
-  port: 4249
-  reality-opts:
-    public-key: B59-Z34-VHLbRz8jdcSBCvtVrfyCH7VU4Zyw3aSVUGQ
-    short-id: a20d3ed244c76426
-  server: 151.236.93.64
-  servername: sun6-22.userapi.com
-  tls: true
-  type: vless
-  uuid: cf97c9a9-441e-43e1-9bd2-f66a198cd87b
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇧🇬_BG_保加利亚
-  network: tcp
-  port: 54746
-  reality-opts:
-    public-key: DvKMFkm82Jkp6Jk_7pXYb0fMXq1MsLMNxDeQfcCSbEA
-    short-id: ab12cd34
-    spider-x: /
-  server: nl-2.shvurgceo.online
-  servername: vk.com
-  tls: true
-  type: vless
-  uuid: a596c0ec-4754-407d-a161-9ff6ff8b105f
+      Host: cd123.global.ssl.fastly.net
+    path: /
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🏁RELAY-104.21.30.167-0827
+  - 🇭🇰HK²_3|0.6MB/s|0%|YT|D+|X|KeepHistory
+  - 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
   - 🇨🇳_CN_中国
-  - 🇸🇦_SA_沙特阿拉伯
-  - 🇸🇦_SA_沙特阿拉伯_1
-  - 🇷🇺_RU_俄罗斯
-  - 🇸🇦_SA_沙特阿拉伯_2
-  - 🇬🇧 英国 01
-  - 🇷🇺_RU_俄罗斯_1
-  - 🇨🇳_CN_中国_1
-  - 🇷🇺_RU_俄罗斯_2
-  - 🇷🇺_RU_俄罗斯_3
-  - 🇨🇳_CN_中国_2
-  - 🇺🇸_US_美国
-  - 🇷🇺_RU_俄罗斯_4
+  - 🇯🇵JP²_2|0.6MB/s|GPT⁺|GM|YT|TK|X
   - 🇧🇬_BG_保加利亚
+  - 🇸🇦_SA_沙特阿拉伯
+  - 🇮🇪_IE_爱尔兰
+  - 🇺🇸_US_美国
+  - 🇷🇺_RU_俄罗斯
+  - 🇮🇪_IE_爱尔兰_1
+  - 🇮🇹IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory
+  - 🇨🇭_CH_瑞士
+  - 🇺🇸US²_1|0.9MB/s|0%|GPT⁺|YT|TK|NF|X|KeepSucceed
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇨🇳_CN_中国_1
+  - 🇩🇪_DE_德国
+  - 🇬🇧_GB_英国
+  - 🇬🇧 英国 01
+  - 🇺🇸_US_美国_3
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🏁RELAY-104.21.30.167-0827
+  - 🇭🇰HK²_3|0.6MB/s|0%|YT|D+|X|KeepHistory
+  - 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
   - 🇨🇳_CN_中国
-  - 🇸🇦_SA_沙特阿拉伯
-  - 🇸🇦_SA_沙特阿拉伯_1
-  - 🇷🇺_RU_俄罗斯
-  - 🇸🇦_SA_沙特阿拉伯_2
-  - 🇬🇧 英国 01
-  - 🇷🇺_RU_俄罗斯_1
-  - 🇨🇳_CN_中国_1
-  - 🇷🇺_RU_俄罗斯_2
-  - 🇷🇺_RU_俄罗斯_3
-  - 🇨🇳_CN_中国_2
-  - 🇺🇸_US_美国
-  - 🇷🇺_RU_俄罗斯_4
+  - 🇯🇵JP²_2|0.6MB/s|GPT⁺|GM|YT|TK|X
   - 🇧🇬_BG_保加利亚
+  - 🇸🇦_SA_沙特阿拉伯
+  - 🇮🇪_IE_爱尔兰
+  - 🇺🇸_US_美国
+  - 🇷🇺_RU_俄罗斯
+  - 🇮🇪_IE_爱尔兰_1
+  - 🇮🇹IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory
+  - 🇨🇭_CH_瑞士
+  - 🇺🇸US²_1|0.9MB/s|0%|GPT⁺|YT|TK|NF|X|KeepSucceed
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇨🇳_CN_中国_1
+  - 🇩🇪_DE_德国
+  - 🇬🇧_GB_英国
+  - 🇬🇧 英国 01
+  - 🇺🇸_US_美国_3
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎯 全球直连
@@ -268,21 +304,26 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🏁RELAY-104.21.30.167-0827
+  - 🇭🇰HK²_3|0.6MB/s|0%|YT|D+|X|KeepHistory
+  - 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
   - 🇨🇳_CN_中国
-  - 🇸🇦_SA_沙特阿拉伯
-  - 🇸🇦_SA_沙特阿拉伯_1
-  - 🇷🇺_RU_俄罗斯
-  - 🇸🇦_SA_沙特阿拉伯_2
-  - 🇬🇧 英国 01
-  - 🇷🇺_RU_俄罗斯_1
-  - 🇨🇳_CN_中国_1
-  - 🇷🇺_RU_俄罗斯_2
-  - 🇷🇺_RU_俄罗斯_3
-  - 🇨🇳_CN_中国_2
-  - 🇺🇸_US_美国
-  - 🇷🇺_RU_俄罗斯_4
+  - 🇯🇵JP²_2|0.6MB/s|GPT⁺|GM|YT|TK|X
   - 🇧🇬_BG_保加利亚
+  - 🇸🇦_SA_沙特阿拉伯
+  - 🇮🇪_IE_爱尔兰
+  - 🇺🇸_US_美国
+  - 🇷🇺_RU_俄罗斯
+  - 🇮🇪_IE_爱尔兰_1
+  - 🇮🇹IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory
+  - 🇨🇭_CH_瑞士
+  - 🇺🇸US²_1|0.9MB/s|0%|GPT⁺|YT|TK|NF|X|KeepSucceed
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇨🇳_CN_中国_1
+  - 🇩🇪_DE_德国
+  - 🇬🇧_GB_英国
+  - 🇬🇧 英国 01
+  - 🇺🇸_US_美国_3
   type: select
 rule-providers:
   BanAD:
