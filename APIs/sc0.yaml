@@ -44,17 +44,6 @@ proxies:
   server: 47.240.15.210
   type: ss
 - cipher: none
-  name: 香港丨yoyapai.com_1
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 8001
-  server: 47.242.145.136
-  type: ss
-- cipher: none
   name: 香港節點
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
@@ -64,17 +53,6 @@ proxies:
     path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
   port: 443
   server: 8.223.63.150
-  type: ss
-- cipher: none
-  name: 日本
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 443
-  server: 38.47.52.212
   type: ss
 - cipher: none
   name: 香港
@@ -88,7 +66,7 @@ proxies:
   server: 68.64.176.135
   type: ss
 - cipher: none
-  name: 🇨🇳TW臺灣節點丨yoyapai.com
+  name: 日本
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -96,10 +74,65 @@ proxies:
     mode: websocket
     path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
   port: 443
-  server: 114.33.57.170
+  server: 38.47.52.212
   type: ss
 - cipher: none
-  name: 香港丨yoyapai.com_2
+  name: 🇯🇵JP
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 21353
+  server: 202.84.53.85
+  type: ss
+- cipher: none
+  name: 🇯🇵JP_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 17892
+  server: 202.84.53.85
+  type: ss
+- cipher: none
+  name: 🇯🇵JP日本丨yoyapai.com
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 115.163.106.137
+  type: ss
+- cipher: none
+  name: 🇯🇵JP_2
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 12145
+  server: 202.84.53.85
+  type: ss
+- cipher: none
+  name: 🇯🇵JP_3
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 11738
+  server: 202.84.53.85
+  type: ss
+- cipher: none
+  name: 香港丨yoyapai.com_1
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
@@ -110,29 +143,7 @@ proxies:
   server: 8.218.36.133
   type: ss
 - cipher: none
-  name: 新加坡節點
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 443
-  server: 47.236.119.109
-  type: ss
-- cipher: none
-  name: 臺灣
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 10443
-  server: 203.69.248.40
-  type: ss
-- cipher: none
-  name: 🇯🇵JP
+  name: 🇯🇵JP_4
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
@@ -140,6 +151,17 @@ proxies:
     mode: websocket
     path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   port: 30816
+  server: 202.84.53.85
+  type: ss
+- cipher: none
+  name: 🇯🇵JP_5
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 19999
   server: 202.84.53.85
   type: ss
 - cipher: none
@@ -154,94 +176,18 @@ proxies:
   server: 23.111.14.164
   type: ss
 - cipher: none
-  name: 🇸🇬SG新加坡_1
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 443
-  server: 64.120.95.193
-  type: ss
-- cipher: none
-  name: 🇯🇵JP_1
+  name: 臺灣
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
     host: ylnhh.us.ci
     mode: websocket
     path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 140.238.50.134
+  port: 10443
+  server: 203.69.248.40
   type: ss
 - cipher: none
-  name: 🇯🇵JP_2
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 140.238.51.35
-  type: ss
-- client-fingerprint: chrome
-  name: 香港丨yoyapai.com_3
-  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-  port: 8300
-  server: 96078085-t9l0g0-tcj7b6-d70y.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: 96078085-t9l0g0-tcj7b6-d70y.hkt.east.wctype.com
-  tls: true
-  type: anytls
-  udp: false
-- cipher: none
-  name: 新加坡節點_1
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 185.36.192.43
-  type: ss
-- cipher: none
-  name: 臺灣丨yoyapai.com
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 2053
-  server: 125.227.233.197
-  type: ss
-- cipher: none
-  name: 🇯🇵JP_3
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 12145
-  server: 202.84.53.85
-  type: ss
-- cipher: none
-  name: 日本節點
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 45.77.178.100
-  type: ss
-- cipher: none
-  name: 🇸🇬SG新加坡丨yoyapai.com
+  name: 🇨🇳TW臺灣節點丨yoyapai.com
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -249,54 +195,10 @@ proxies:
     mode: websocket
     path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
   port: 443
-  server: 103.241.62.245
+  server: 114.33.57.170
   type: ss
 - cipher: none
-  name: 🇯🇵JP日本
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 14985
-  server: 45.77.23.80
-  type: ss
-- cipher: none
-  name: 🇯🇵JP日本丨yoyapai.com
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 8443
-  server: 140.83.34.214
-  type: ss
-- cipher: none
-  name: 🇰🇷KR韓國丨yoyapai.com
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 8443
-  server: 168.107.5.23
-  type: ss
-- cipher: none
-  name: 🇯🇵JP日本_1
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 155.248.181.189
-  type: ss
-- cipher: none
-  name: 🇭🇰HK香港
+  name: 新加坡節點
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -304,7 +206,7 @@ proxies:
     mode: websocket
     path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
   port: 443
-  server: 95.40.173.149
+  server: 47.236.119.109
   type: ss
 - cipher: none
   name: 日本_1
@@ -313,130 +215,9 @@ proxies:
   plugin-opts:
     host: ylnhh.us.ci
     mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 153.121.45.101
-  type: ss
-- cipher: none
-  name: 🇰🇷KR韓國
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 23705
-  server: 116.93.199.28
-  type: ss
-- cipher: none
-  name: 🇯🇵JP_4
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 216.238.54.35
-  type: ss
-- cipher: none
-  name: 🇰🇷KR
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 10296
-  server: 116.93.199.28
-  type: ss
-- cipher: none
-  name: 🇯🇵JP日本丨yoyapai.com_1
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 443
-  server: 115.163.106.137
-  type: ss
-- cipher: none
-  name: 🇸🇬SG新加坡_2
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 443
-  server: 38.180.9.42
-  type: ss
-- cipher: none
-  name: 🇰🇷KR韓國_1
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 10577
-  server: 221.146.116.77
-  type: ss
-- cipher: none
-  name: 韓國丨yoyapai.com
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 12126
-  server: 116.44.53.251
-  type: ss
-- cipher: none
-  name: 日本_2
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 18122
-  server: 155.248.168.35
-  type: ss
-- cipher: none
-  name: 日本_3
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
     path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   port: 443
   server: 89.116.88.19
-  type: ss
-- cipher: none
-  name: 🇰🇷KR_1
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 12666
-  server: 203.232.57.105
-  type: ss
-- cipher: none
-  name: 🇰🇷KR韓國_2
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 15602
-  server: 220.72.161.178
   type: ss
 - cipher: none
   name: 韓國
@@ -450,29 +231,29 @@ proxies:
   server: 211.48.77.114
   type: ss
 - cipher: none
-  name: 🇰🇷KR_2
+  name: 新加坡
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
     host: ylnhh.us.ci
     mode: websocket
     path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 19655
-  server: 211.48.77.114
+  port: 443
+  server: 103.241.62.245
   type: ss
 - cipher: none
-  name: 🇨🇳 TW台湾节点
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  name: 🇸🇬SG新加坡丨yoyapai.com
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
-    host: woshinidie-et3.pages.dev
+    host: mfvpn.fuchen.indevs.in
     mode: websocket
-    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
   port: 443
-  server: sub.danfeng.eu.org
+  server: 103.241.62.245
   type: ss
 - cipher: none
-  name: 德國
+  name: 日本_2
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
@@ -480,7 +261,29 @@ proxies:
     mode: websocket
     path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   port: 443
-  server: 143.20.160.38
+  server: 153.121.45.101
+  type: ss
+- cipher: none
+  name: 🇯🇵JP_6
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 89.116.88.19
+  type: ss
+- cipher: none
+  name: 🇯🇵JP日本丨yoyapai.com_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 8443
+  server: 140.83.34.214
   type: ss
 - cipher: none
   name: 🇯🇵JP日本節點
@@ -494,29 +297,7 @@ proxies:
   server: 140.238.51.35
   type: ss
 - cipher: none
-  name: 🇩🇪DE德國丨yoyapai.com
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 94.159.98.140
-  type: ss
-- cipher: none
-  name: 🇯🇵JP_5
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 89.116.88.19
-  type: ss
-- cipher: none
-  name: 🇮🇳IN印度丨yoyapai.com
+  name: 🇯🇵JP_7
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
@@ -524,10 +305,54 @@ proxies:
     mode: websocket
     path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   port: 443
-  server: 20.235.105.146
+  server: 140.238.51.35
   type: ss
 - cipher: none
-  name: 🇺🇸US_161
+  name: 🇭🇰HK香港
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 95.40.173.149
+  type: ss
+- cipher: none
+  name: 日本節點
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 45.77.178.100
+  type: ss
+- cipher: none
+  name: 🇯🇵JP日本
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 14985
+  server: 45.77.23.80
+  type: ss
+- cipher: none
+  name: 🇯🇵JP_8
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 216.238.54.35
+  type: ss
+- cipher: none
+  name: 🇯🇵JP日本_1
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
@@ -535,40 +360,29 @@ proxies:
     mode: websocket
     path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   port: 443
-  server: 154.194.0.16
+  server: 155.248.181.189
   type: ss
 - cipher: none
-  name: 🇩🇪DE
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 8443
-  server: 94.159.102.107
-  type: ss
-- cipher: none
-  name: 🇰🇷KR韓國_3
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 26545
-  server: 116.93.199.28
-  type: ss
-- cipher: none
-  name: 🇩🇪DE德国
+  name: 韓國丨yoyapai.com
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
     host: ylnhh.us.ci
     mode: websocket
     path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 94.159.98.123
+  port: 12126
+  server: 116.44.53.251
+  type: ss
+- cipher: none
+  name: 臺灣丨yoyapai.com
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 2053
+  server: 125.227.233.197
   type: ss
 - cipher: none
   name: 🇯🇵JP日本丨yoyapai.com_2
@@ -582,18 +396,18 @@ proxies:
   server: 158.51.109.218
   type: ss
 - cipher: none
-  name: 🇰🇷KR_3
+  name: 🇰🇷KR韓國丨yoyapai.com
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
     host: ylnhh.us.ci
     mode: websocket
     path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 21036
-  server: 116.93.199.28
+  port: 8443
+  server: 168.107.5.23
   type: ss
 - cipher: none
-  name: 🇩🇪DE德國節點
+  name: 🇯🇵JP_9
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
@@ -601,10 +415,32 @@ proxies:
     mode: websocket
     path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   port: 443
-  server: 169.150.210.199
+  server: 140.238.50.134
   type: ss
 - cipher: none
-  name: 新加坡節點_2
+  name: 🇸🇬SG新加坡_1
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 38.180.9.42
+  type: ss
+- cipher: none
+  name: 🇨🇳 TW台湾节点
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  port: 443
+  server: sub.danfeng.eu.org
+  type: ss
+- cipher: none
+  name: 新加坡節點_1
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -615,18 +451,29 @@ proxies:
   server: 45.77.255.153
   type: ss
 - cipher: none
-  name: 🇺🇸US_290
+  name: 新加坡節點_2
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
     host: ylnhh.us.ci
     mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   port: 443
-  server: 45.40.154.16
+  server: 185.36.192.43
   type: ss
 - cipher: none
-  name: 🇺🇸US_297
+  name: 🇸🇬SG新加坡_2
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 185.36.192.43
+  type: ss
+- cipher: none
+  name: 🇩🇪DE德國丨yoyapai.com
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
@@ -634,8 +481,75 @@ proxies:
     mode: websocket
     path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   port: 443
-  server: 45.40.147.16
+  server: 94.159.98.140
   type: ss
+- cipher: none
+  name: 🇩🇪DE
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 8443
+  server: 94.159.102.107
+  type: ss
+- cipher: none
+  name: 德國
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 143.20.160.38
+  type: ss
+- cipher: none
+  name: 🇩🇪DE德国
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 94.159.110.149
+  type: ss
+- cipher: none
+  name: 🇮🇳IN印度丨yoyapai.com
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 20.235.105.146
+  type: ss
+- cipher: none
+  name: 🇺🇸US_243
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 50.62.195.16
+  type: ss
+- name: 美國節點
+  password: trojan
+  port: 8444
+  server: 152.53.200.167
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
 - cipher: none
   name: 🇭🇰HK香港丨yoyapai.com
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -646,59 +560,6 @@ proxies:
     path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   port: 443
   server: 154.3.33.43
-  type: ss
-- cipher: none
-  name: 韓國_1
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 22140
-  server: 116.93.199.28
-  type: ss
-- cipher: none
-  name: 🇺🇸US_133
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 160.153.137.16
-  type: ss
-- cipher: none
-  name: 🇩🇪DE德国_1
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 94.159.110.149
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 美国节点
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: none
-  name: 🇺🇸US_美國
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 104.238.70.16
   type: ss
 - cipher: none
   name: 美國🇺🇸US
@@ -712,17 +573,6 @@ proxies:
   server: 31.58.226.196
   type: ss
 - cipher: none
-  name: 🇺🇸US_24
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 198.71.188.16
-  type: ss
-- cipher: none
   name: 🇺🇸US美國
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
@@ -734,18 +584,40 @@ proxies:
   server: 31.58.50.110
   type: ss
 - cipher: none
-  name: 新加坡
+  name: 🇰🇷KR韓國
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 10577
+  server: 221.146.116.77
+  type: ss
+- cipher: none
+  name: 🇭🇰 HK
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  port: 443
+  server: cf.008500.xyz
+  type: ss
+- cipher: none
+  name: 🇺🇸US_297
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
     host: ylnhh.us.ci
     mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 2053
-  server: 140.245.42.216
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 45.40.147.16
   type: ss
 - cipher: none
-  name: 🇸🇬SG新加坡_3
+  name: 🇩🇪DE德國丨yoyapai.com_1
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -753,11 +625,173 @@ proxies:
     mode: websocket
     path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
   port: 443
-  server: 116.251.217.65
+  server: 185.186.26.101
+  type: ss
+- cipher: none
+  name: 🇺🇸US_161
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 154.194.0.16
+  type: ss
+- cipher: none
+  name: 🇰🇷KR
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 12666
+  server: 203.232.57.105
+  type: ss
+- cipher: none
+  name: 🇰🇷KR_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 19655
+  server: 211.48.77.114
+  type: ss
+- cipher: none
+  name: 🇺🇸US_美國
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 104.238.70.16
+  type: ss
+- cipher: none
+  name: 🇺🇸US_24
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 198.71.188.16
   type: ss
 - alterId: 0
   cipher: auto
   name: 美国
+  port: 180
+  server: 82.198.246.97
+  servername: www.bing.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美国节点
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: none
+  name: 🇰🇷KR韓國_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 50001
+  server: 59.24.1.109
+  type: ss
+- cipher: none
+  name: 🇸🇪SE瑞典節點
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 8443
+  server: 46.246.96.59
+  type: ss
+- cipher: none
+  name: 瑞典🇸🇪SE丨yoyapai.com
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 8443
+  server: 188.126.77.155
+  type: ss
+- cipher: none
+  name: 🇺🇸US
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 103.133.1.38
+  type: ss
+- cipher: none
+  name: 🇺🇸US_133
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 160.153.137.16
+  type: ss
+- cipher: none
+  name: 🇺🇸US_27
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 198.12.144.16
+  type: ss
+- cipher: none
+  name: 韓國_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 12312
+  server: 211.48.77.114
+  type: ss
+- cipher: none
+  name: 🇺🇸US_290
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 45.40.154.16
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 美国_1
   port: 180
   server: 82.198.246.97
   skip-cert-verify: false
@@ -775,6 +809,26 @@ proxies:
   port: 443
   server: 50.62.88.16
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 美国节点_1
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: none
+  name: 🇺🇸US_235
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 69.84.182.16
+  type: ss
 - cipher: none
   name: 印度
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -787,7 +841,40 @@ proxies:
   server: 103.181.177.88
   type: ss
 - cipher: none
-  name: 🇺🇸US_27
+  name: 🇭🇰 HK_1
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  port: 443
+  server: cf.zhetengsha.eu.org
+  type: ss
+- cipher: none
+  name: 新加坡_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 2053
+  server: 140.245.42.216
+  type: ss
+- cipher: none
+  name: 🇸🇬 SG新加坡节点
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  port: 443
+  server: store.ubi.com
+  type: ss
+- cipher: none
+  name: 🇺🇸US_56
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
@@ -795,10 +882,10 @@ proxies:
     mode: websocket
     path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   port: 443
-  server: 198.12.144.16
+  server: 190.93.246.16
   type: ss
 - cipher: none
-  name: 🇩🇪DE德國丨yoyapai.com_1
+  name: 🇺🇸US_1
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -806,7 +893,29 @@ proxies:
     mode: websocket
     path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
   port: 443
-  server: 185.186.26.101
+  server: 170.114.45.38
+  type: ss
+- cipher: none
+  name: 🇯🇵 JP
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  port: 443
+  server: saas.sin.fan
+  type: ss
+- cipher: none
+  name: 🇩🇪DE德国节点
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 2053
+  server: 45.14.247.168
   type: ss
 - cipher: none
   name: 🇺🇸US美國節點
@@ -820,7 +929,7 @@ proxies:
   server: 50.62.90.16
   type: ss
 - cipher: none
-  name: 🇺🇸US_243
+  name: 🇩🇪DE德國節點
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
@@ -828,28 +937,18 @@ proxies:
     mode: websocket
     path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   port: 443
-  server: 50.62.195.16
+  server: 169.150.210.199
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 美国_1
-  port: 180
-  server: 82.198.246.97
-  servername: www.bing.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: none
-  name: 🇭🇰 HK
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  name: 🇩🇪DE德国_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
-    host: woshinidie-et3.pages.dev
+    host: ylnhh.us.ci
     mode: websocket
-    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   port: 443
-  server: cf.008500.xyz
+  server: 94.159.98.123
   type: ss
 - name: 美國
   password: 8r<[9'l6hAO#8ZQi
@@ -864,7 +963,7 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /tro8sFW1S91B6sZrM1?ed=2560
 - cipher: none
-  name: 🇸🇬 SG新加坡节点
+  name: 🇭🇰 HK_2
   password: 79960b0b-7d31-4263-8915-6511b0e137a8
   plugin: v2ray-plugin
   plugin-opts:
@@ -872,38 +971,18 @@ proxies:
     mode: websocket
     path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
   port: 443
-  server: store.ubi.com
+  server: cf.877774.xyz
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 美国节点_1
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: none
-  name: 🇰🇷KR韓國_4
+  name: 🇸🇬SG
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
     host: ylnhh.us.ci
     mode: websocket
     path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 50001
-  server: 59.24.1.109
-  type: ss
-- cipher: none
-  name: 🇭🇰 HK_1
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: woshinidie-et3.pages.dev
-    mode: websocket
-    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
   port: 443
-  server: cf.zhetengsha.eu.org
+  server: 129.226.150.167
   type: ss
 - cipher: none
   name: 🇸🇬 SG新加坡
@@ -917,7 +996,40 @@ proxies:
   server: cf.090227.xyz
   type: ss
 - cipher: none
-  name: 🇸🇪SE瑞典節點
+  name: 🇺🇸US_2
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 216.205.52.16
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 45.147.248.115
+  type: ss
+- cipher: none
+  name: 🇸🇬SG_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 43.134.164.53
+  type: ss
+- cipher: none
+  name: 🇸🇪SE瑞典節點_1
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -927,6 +1039,92 @@ proxies:
   port: 443
   server: 51.20.160.11
   type: ss
+- cipher: none
+  name: 🇩🇪DE_2
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 89.169.6.69
+  type: ss
+- cipher: none
+  name: 🇯🇵 JP_1
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  port: 443
+  server: cdns.doon.eu.org
+  type: ss
+- cipher: none
+  name: 🇰🇷KR韓國_2
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 15602
+  server: 220.72.161.178
+  type: ss
+- cipher: none
+  name: 🇩🇪DE德國
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 139.144.77.162
+  type: ss
+- cipher: none
+  name: 🇸🇬SG新加坡_3
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 116.251.217.65
+  type: ss
+- cipher: none
+  name: 🇸🇬SG新加坡節點
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 124.156.202.172
+  type: ss
+- cipher: none
+  name: 🇸🇬SG新加坡丨yoyapai.com_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 164.52.2.98
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 美国节点_2
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: none
   name: 🇱🇻LV拉脫維亞
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
@@ -939,7 +1137,18 @@ proxies:
   server: 193.68.89.220
   type: ss
 - cipher: none
-  name: 🇺🇸US_235
+  name: 🇩🇪DE_3
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 8443
+  server: 135.125.191.9
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_4
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
@@ -947,10 +1156,56 @@ proxies:
     mode: websocket
     path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   port: 443
-  server: 69.84.182.16
+  server: 83.147.253.18
   type: ss
 - cipher: none
-  name: 🇸🇪SE瑞典節點_1
+  name: 🇩🇪DE_5
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 2053
+  server: 45.43.88.13
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_6
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 94.141.123.231
+  type: ss
+- client-fingerprint: chrome
+  name: 🇩🇪_DE_德国
+  network: ws
+  port: 4001
+  server: 185.94.29.156
+  servername: sub.mot.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- cipher: none
+  name: 🇨🇦CA加拿大節點
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 192.99.169.176
+  type: ss
+- cipher: none
+  name: 🇸🇪SE瑞典節點_2
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -958,7 +1213,511 @@ proxies:
     mode: websocket
     path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
   port: 8443
-  server: 46.246.96.59
+  server: 91.223.169.88
+  type: ss
+- cipher: none
+  name: 韓國_2
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 22140
+  server: 116.93.199.28
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_7
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 139.162.141.75
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_8
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 139.162.174.148
+  type: ss
+- cipher: none
+  name: 🇰🇷KR韓國_3
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 23705
+  server: 116.93.199.28
+  type: ss
+- cipher: none
+  name: 🇰🇷KR_2
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 21036
+  server: 116.93.199.28
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_9
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 139.144.181.54
+  type: ss
+- cipher: none
+  name: 🇰🇷KR韓國_4
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 26545
+  server: 116.93.199.28
+  type: ss
+- cipher: none
+  name: 荷蘭🇳🇱NL
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 8443
+  server: 212.192.215.229
+  type: ss
+- cipher: none
+  name: 拉脫維亞
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 46.32.186.85
+  type: ss
+- cipher: none
+  name: 🇸🇬SG_2
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 206.189.158.106
+  type: ss
+- cipher: none
+  name: 拉脫維亞_1
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 46.32.185.152
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_10
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 78.40.216.169
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_11
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 172.104.143.156
+  type: ss
+- name: 韩国丨yoyapai.com
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+- cipher: none
+  name: 🇸🇬SG_3
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 188.166.247.45
+  type: ss
+- cipher: none
+  name: 🇰🇷KR_3
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 10296
+  server: 116.93.199.28
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_12
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 135.125.191.9
+  type: ss
+- cipher: none
+  name: 德國_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 2053
+  server: 188.241.241.3
+  type: ss
+- cipher: none
+  name: 🇩🇪DE德國丨yoyapai.com_2
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 172.104.250.194
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_13
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 167.235.149.67
+  type: ss
+- cipher: none
+  name: 🇱🇻LV拉脫維亞_1
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 8443
+  server: 195.135.254.173
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_14
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 139.162.150.12
+  type: ss
+- cipher: none
+  name: 🇸🇪SE瑞典節點_3
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 8443
+  server: 77.110.96.166
+  type: ss
+- cipher: none
+  name: 🇸🇬SG_4
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 20524
+  server: 209.17.118.112
+  type: ss
+- cipher: none
+  name: 🇳🇱NL荷蘭
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 5.253.189.215
+  type: ss
+- cipher: none
+  name: 拉脫維亞節點
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 37.128.207.179
+  type: ss
+- cipher: none
+  name: 🇱🇻LV拉脫維亞_2
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 195.123.210.147
+  type: ss
+- cipher: none
+  name: 香港丨yoyapai.com_2
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 8001
+  server: 47.242.145.136
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_15
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 167.235.224.25
+  type: ss
+- cipher: none
+  name: 🇰🇷KR韓國丨yoyapai.com_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 2083
+  server: 129.154.220.126
+  type: ss
+- cipher: none
+  name: 🇻🇳VN越南丨yoyapai.com
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 49678
+  server: 103.15.90.134
+  type: ss
+- cipher: none
+  name: 🇸🇬SG_5
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 143.42.66.91
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 美国_2
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 美国_3
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 美國_1
+  network: ws
+  port: 443
+  server: 192.200.160.20
+  servername: 639073677243557970.camry-perma.info
+  tls: true
+  type: vless
+  uuid: ee248e40-9468-4ef6-81b7-707a1e47c54a
+  ws-opts:
+    headers:
+      Host: 639073677243557970.camry-perma.info
+    path: /yaeungws?ed=2560
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国
+  network: ws
+  port: 443
+  server: 192.200.160.20
+  servername: 639073677243557970.camry-perma.info
+  tls: true
+  type: vless
+  uuid: ee248e40-9468-4ef6-81b7-707a1e47c54a
+  ws-opts:
+    headers:
+      Host: 639073677243557970.camry-perma.info
+    path: /yaeungws
+- alterId: 0
+  cipher: auto
+  name: 美国_4
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 美国_5
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 新加坡节点
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: none
+  name: 🇬🇧GB
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 8443
+  server: 57.129.137.51
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 美国_6
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: none
+  name: 🇩🇪DE_16
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 139.144.181.138
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_17
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 192.46.237.206
+  type: ss
+- cipher: none
+  name: 德國丨yoyapai.com
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 194.233.167.228
+  type: ss
+- cipher: none
+  name: 🇸🇬SG新加坡_4
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 64.120.95.193
+  type: ss
+- client-fingerprint: chrome
+  name: 香港丨yoyapai.com_3
+  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+  port: 8300
+  server: 96078085-t9l0g0-tcj7b6-d70y.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: 96078085-t9l0g0-tcj7b6-d70y.hkt.east.wctype.com
+  tls: true
+  type: anytls
+  udp: false
+- cipher: none
+  name: 日本_3
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 18122
+  server: 155.248.168.35
   type: ss
 - name: 美国丨yoyapai.com
   password: c870fe5a-0729-11f0-8cf9-f23c93136cb3
@@ -978,30 +1737,6 @@ proxies:
   tls: true
   type: anytls
   udp: false
-- cipher: none
-  name: 韓國_2
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 12312
-  server: 211.48.77.114
-  type: ss
-- client-fingerprint: chrome
-  name: 🇩🇪_DE_德国
-  network: ws
-  port: 4001
-  server: 185.94.29.156
-  servername: sub.mot.ip-ddns.com
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: sub.mot.ip-ddns.com
-    path: /
 - name: 美国丨yoyapai.com_2
   password: c870fe5a-0729-11f0-8cf9-f23c93136cb3
   port: 8300
@@ -1011,50 +1746,6 @@ proxies:
   tls: true
   type: anytls
   udp: false
-- cipher: none
-  name: 🇭🇰 HK_2
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: woshinidie-et3.pages.dev
-    mode: websocket
-    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  port: 443
-  server: cf.877774.xyz
-  type: ss
-- cipher: none
-  name: 🇯🇵 JP
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: woshinidie-et3.pages.dev
-    mode: websocket
-    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  port: 443
-  server: cdns.doon.eu.org
-  type: ss
-- cipher: none
-  name: 🇺🇸US_56
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 190.93.246.16
-  type: ss
-- cipher: none
-  name: 🇯🇵 JP_1
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: woshinidie-et3.pages.dev
-    mode: websocket
-    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  port: 443
-  server: saas.sin.fan
-  type: ss
 - name: 美国丨yoyapai.com_3
   password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
   port: 8300
@@ -1065,405 +1756,7 @@ proxies:
   type: anytls
   udp: false
 - cipher: none
-  name: 🇩🇪DE德国节点
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 2053
-  server: 45.14.247.168
-  type: ss
-- cipher: none
-  name: 新加坡_1
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 103.241.62.245
-  type: ss
-- cipher: none
-  name: 🇺🇸US
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 443
-  server: 103.133.1.38
-  type: ss
-- cipher: none
-  name: 🇸🇬SG新加坡節點
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 124.156.202.172
-  type: ss
-- cipher: none
-  name: 🇸🇬SG
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 129.226.150.167
-  type: ss
-- cipher: none
-  name: 🇸🇬SG_1
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 43.134.164.53
-  type: ss
-- cipher: none
-  name: 瑞典🇸🇪SE丨yoyapai.com
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 8443
-  server: 188.126.77.155
-  type: ss
-- cipher: none
-  name: 🇺🇸US_1
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 443
-  server: 170.114.45.38
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 美国_2
-  port: 30812
-  server: v12.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: none
-  name: 🇯🇵JP_6
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 21353
-  server: 202.84.53.85
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_1
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 443
-  server: 94.141.123.231
-  type: ss
-- name: 美國節點
-  password: trojan
-  port: 8444
-  server: 152.53.200.167
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国_3
-  port: 30812
-  server: v12.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: none
-  name: 🇩🇪DE_2
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 45.147.248.115
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 美国_4
-  port: 30812
-  server: v12.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: none
-  name: 🇸🇬SG新加坡丨yoyapai.com_1
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 164.52.2.98
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 美国_5
-  port: 30812
-  server: v12.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: none
-  name: 🇺🇸US_2
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 216.205.52.16
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 新加坡节点
-  port: 30812
-  server: v12.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: none
-  name: 🇯🇵JP_7
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 19999
-  server: 202.84.53.85
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_3
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 135.125.191.9
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_4
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 83.147.253.18
-  type: ss
-- cipher: none
-  name: 德國_1
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 2053
-  server: 188.241.241.3
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_5
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 89.169.6.69
-  type: ss
-- cipher: none
-  name: 拉脫維亞
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 443
-  server: 46.32.185.152
-  type: ss
-- cipher: none
-  name: 🇸🇪SE瑞典節點_2
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 8443
-  server: 91.223.169.88
-  type: ss
-- cipher: none
-  name: 🇬🇧GB
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 8443
-  server: 57.129.137.51
-  type: ss
-- cipher: none
-  name: 荷蘭🇳🇱NL
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 8443
-  server: 212.192.215.229
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_6
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 192.46.237.206
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_7
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 139.144.181.54
-  type: ss
-- cipher: none
-  name: 🇱🇻LV拉脫維亞_1
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 443
-  server: 195.123.210.147
-  type: ss
-- cipher: none
-  name: 🇳🇱NL荷蘭
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 443
-  server: 5.253.189.215
-  type: ss
-- cipher: none
-  name: 🇱🇻LV拉脫維亞_2
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 8443
-  server: 195.135.254.173
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_8
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 167.235.224.25
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_9
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 139.162.150.12
-  type: ss
-- cipher: none
-  name: 🇩🇪DE德國
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 139.144.77.162
-  type: ss
-- cipher: none
-  name: 德國丨yoyapai.com
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 194.233.167.228
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_10
+  name: 🇩🇪DE_18
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
@@ -1472,182 +1765,6 @@ proxies:
     path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   port: 8443
   server: 49.13.85.76
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_11
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 139.162.141.75
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_12
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 8443
-  server: 135.125.191.9
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_13
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 2053
-  server: 45.43.88.13
-  type: ss
-- cipher: none
-  name: 🇸🇪SE瑞典節點_3
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 8443
-  server: 77.110.96.166
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_14
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 172.104.143.156
-  type: ss
-- cipher: none
-  name: 🇩🇪DE德國丨yoyapai.com_2
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 172.104.250.194
-  type: ss
-- cipher: none
-  name: 拉脫維亞節點
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 443
-  server: 37.128.207.179
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_15
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 139.144.181.138
-  type: ss
-- cipher: none
-  name: 🇸🇬SG_2
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 443
-  server: 206.189.158.106
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_16
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 167.235.149.67
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_17
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 78.40.216.169
-  type: ss
-- cipher: none
-  name: 🇰🇷KR韓國丨yoyapai.com_1
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 2083
-  server: 129.154.220.126
-  type: ss
-- cipher: none
-  name: 🇯🇵JP_8
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 11738
-  server: 202.84.53.85
-  type: ss
-- cipher: none
-  name: 拉脫維亞_1
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 443
-  server: 46.32.186.85
-  type: ss
-- cipher: none
-  name: 🇨🇦CA加拿大節點
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 443
-  server: 192.99.169.176
-  type: ss
-- cipher: none
-  name: 🇩🇪DE_18
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 139.162.174.148
   type: ss
 - cipher: none
   name: 芬蘭
@@ -1660,454 +1777,558 @@ proxies:
   port: 2053
   server: 94.183.190.73
   type: ss
-- cipher: none
-  name: 🇸🇬SG_3
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+- cipher: chacha20-ietf-poly1305
+  name: 美国丨yoyapai.com_4
+  password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
-  server: 188.166.247.45
-  type: ss
-- cipher: none
-  name: 🇸🇬SG_4
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 20524
-  server: 209.17.118.112
-  type: ss
-- name: 美國_1
-  network: ws
-  port: 443
-  server: 192.200.160.20
-  servername: 639073677243557970.camry-perma.info
-  tls: true
-  type: vless
-  uuid: ee248e40-9468-4ef6-81b7-707a1e47c54a
-  ws-opts:
-    headers:
-      Host: 639073677243557970.camry-perma.info
-    path: /yaeungws?ed=2560
-- cipher: none
-  name: 🇯🇵JP_9
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 17892
-  server: 202.84.53.85
-  type: ss
-- client-fingerprint: chrome
-  name: 🇺🇸_US_美国
-  network: ws
-  port: 443
-  server: 192.200.160.20
-  servername: 639073677243557970.camry-perma.info
-  tls: true
-  type: vless
-  uuid: ee248e40-9468-4ef6-81b7-707a1e47c54a
-  ws-opts:
-    headers:
-      Host: 639073677243557970.camry-perma.info
-    path: /yaeungws
-- cipher: none
-  name: 🇻🇳VN越南丨yoyapai.com
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 49678
-  server: 103.15.90.134
-  type: ss
-- cipher: none
-  name: 🇸🇬SG新加坡_4
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  port: 443
-  server: 185.36.192.43
+  server: tinkered-pennies-puppies.freesocks.work
   type: ss
 - alterId: 0
   cipher: auto
-  name: 美国节点_2
+  name: 法国
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+- cipher: chacha20-ietf-poly1305
+  name: 法国丨yoyapai.com
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 美国_7
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: 2001:bc8:32d7:302::10
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+- alterId: 0
+  cipher: auto
+  name: 美国节点_3
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: AZERB.NET
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国节点
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: 2001:bc8:32d7:302::10
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 美国_8
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: TABRIZ.NET
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 法国_1
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: TURK1.NET.NET
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+- cipher: chacha20-ietf-poly1305
+  name: 乌克兰丨yoyapai.com
+  password: wwzVn2ZnHfqYa6l8EWh3eY
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 美国节点丨yoyapai.com
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 法国_2
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国_9
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::16
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: AZERB.NET
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+- alterId: 0
+  cipher: auto
+  name: 美国_10
   port: 30812
   server: v12.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: none
-  name: 🇸🇬SG_5
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  port: 443
-  server: 143.42.66.91
-  type: ss
-- name: 韩国丨yoyapai.com
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国_6
+  name: 美国_11
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::11
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: Azerb.NET
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 美国_12
   port: 30812
   server: v12.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 法国_3
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: AZERB.NET
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 英国
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
   - 香港丨yoyapai.com
-  - 香港丨yoyapai.com_1
   - 香港節點
-  - 日本
   - 香港
-  - 🇨🇳TW臺灣節點丨yoyapai.com
-  - 香港丨yoyapai.com_2
-  - 新加坡節點
-  - 臺灣
+  - 日本
   - 🇯🇵JP
-  - 🇸🇬SG新加坡
-  - 🇸🇬SG新加坡_1
   - 🇯🇵JP_1
-  - 🇯🇵JP_2
-  - 香港丨yoyapai.com_3
-  - 新加坡節點_1
-  - 臺灣丨yoyapai.com
-  - 🇯🇵JP_3
-  - 日本節點
-  - 🇸🇬SG新加坡丨yoyapai.com
-  - 🇯🇵JP日本
   - 🇯🇵JP日本丨yoyapai.com
-  - 🇰🇷KR韓國丨yoyapai.com
-  - 🇯🇵JP日本_1
-  - 🇭🇰HK香港
-  - 日本_1
-  - 🇰🇷KR韓國
+  - 🇯🇵JP_2
+  - 🇯🇵JP_3
+  - 香港丨yoyapai.com_1
   - 🇯🇵JP_4
-  - 🇰🇷KR
-  - 🇯🇵JP日本丨yoyapai.com_1
-  - 🇸🇬SG新加坡_2
-  - 🇰🇷KR韓國_1
-  - 韓國丨yoyapai.com
-  - 日本_2
-  - 日本_3
-  - 🇰🇷KR_1
-  - 🇰🇷KR韓國_2
-  - 韓國
-  - 🇰🇷KR_2
-  - 🇨🇳 TW台湾节点
-  - 德國
-  - 🇯🇵JP日本節點
-  - 🇩🇪DE德國丨yoyapai.com
   - 🇯🇵JP_5
-  - 🇮🇳IN印度丨yoyapai.com
-  - 🇺🇸US_161
-  - 🇩🇪DE
-  - 🇰🇷KR韓國_3
-  - 🇩🇪DE德国
-  - 🇯🇵JP日本丨yoyapai.com_2
-  - 🇰🇷KR_3
-  - 🇩🇪DE德國節點
-  - 新加坡節點_2
-  - 🇺🇸US_290
-  - 🇺🇸US_297
-  - 🇭🇰HK香港丨yoyapai.com
-  - 韓國_1
-  - 🇺🇸US_133
-  - 🇩🇪DE德国_1
-  - 美国节点
-  - 🇺🇸US_美國
-  - 美國🇺🇸US
-  - 🇺🇸US_24
-  - 🇺🇸US美國
+  - 🇸🇬SG新加坡
+  - 臺灣
+  - 🇨🇳TW臺灣節點丨yoyapai.com
+  - 新加坡節點
+  - 日本_1
+  - 韓國
   - 新加坡
-  - 🇸🇬SG新加坡_3
-  - 美国
-  - 🇺🇸US_美國_1
-  - 印度
-  - 🇺🇸US_27
-  - 🇩🇪DE德國丨yoyapai.com_1
-  - 🇺🇸US美國節點
-  - 🇺🇸US_243
-  - 美国_1
-  - 🇭🇰 HK
-  - 美國
-  - 🇸🇬 SG新加坡节点
-  - 美国节点_1
-  - 🇰🇷KR韓國_4
-  - 🇭🇰 HK_1
-  - 🇸🇬 SG新加坡
-  - 🇸🇪SE瑞典節點
-  - 🇱🇻LV拉脫維亞
-  - 🇺🇸US_235
-  - 🇸🇪SE瑞典節點_1
-  - 美国丨yoyapai.com
-  - 美国丨yoyapai.com_1
-  - 韓國_2
-  - 🇩🇪_DE_德国
-  - 美国丨yoyapai.com_2
-  - 🇭🇰 HK_2
-  - 🇯🇵 JP
-  - 🇺🇸US_56
-  - 🇯🇵 JP_1
-  - 美国丨yoyapai.com_3
-  - 🇩🇪DE德国节点
-  - 新加坡_1
-  - 🇺🇸US
-  - 🇸🇬SG新加坡節點
-  - 🇸🇬SG
-  - 🇸🇬SG_1
-  - 瑞典🇸🇪SE丨yoyapai.com
-  - 🇺🇸US_1
-  - 美国_2
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 日本_2
   - 🇯🇵JP_6
-  - 🇩🇪DE_1
-  - 美國節點
-  - 美国_3
-  - 🇩🇪DE_2
-  - 美国_4
-  - 🇸🇬SG新加坡丨yoyapai.com_1
-  - 美国_5
-  - 🇺🇸US_2
-  - 新加坡节点
+  - 🇯🇵JP日本丨yoyapai.com_1
+  - 🇯🇵JP日本節點
   - 🇯🇵JP_7
+  - 🇭🇰HK香港
+  - 日本節點
+  - 🇯🇵JP日本
+  - 🇯🇵JP_8
+  - 🇯🇵JP日本_1
+  - 韓國丨yoyapai.com
+  - 臺灣丨yoyapai.com
+  - 🇯🇵JP日本丨yoyapai.com_2
+  - 🇰🇷KR韓國丨yoyapai.com
+  - 🇯🇵JP_9
+  - 🇸🇬SG新加坡_1
+  - 🇨🇳 TW台湾节点
+  - 新加坡節點_1
+  - 新加坡節點_2
+  - 🇸🇬SG新加坡_2
+  - 🇩🇪DE德國丨yoyapai.com
+  - 🇩🇪DE
+  - 德國
+  - 🇩🇪DE德国
+  - 🇮🇳IN印度丨yoyapai.com
+  - 🇺🇸US_243
+  - 美國節點
+  - 🇭🇰HK香港丨yoyapai.com
+  - 美國🇺🇸US
+  - 🇺🇸US美國
+  - 🇰🇷KR韓國
+  - 🇭🇰 HK
+  - 🇺🇸US_297
+  - 🇩🇪DE德國丨yoyapai.com_1
+  - 🇺🇸US_161
+  - 🇰🇷KR
+  - 🇰🇷KR_1
+  - 🇺🇸US_美國
+  - 🇺🇸US_24
+  - 美国
+  - 美国节点
+  - 🇰🇷KR韓國_1
+  - 🇸🇪SE瑞典節點
+  - 瑞典🇸🇪SE丨yoyapai.com
+  - 🇺🇸US
+  - 🇺🇸US_133
+  - 🇺🇸US_27
+  - 韓國_1
+  - 🇺🇸US_290
+  - 美国_1
+  - 🇺🇸US_美國_1
+  - 美国节点_1
+  - 🇺🇸US_235
+  - 印度
+  - 🇭🇰 HK_1
+  - 新加坡_1
+  - 🇸🇬 SG新加坡节点
+  - 🇺🇸US_56
+  - 🇺🇸US_1
+  - 🇯🇵 JP
+  - 🇩🇪DE德国节点
+  - 🇺🇸US美國節點
+  - 🇩🇪DE德國節點
+  - 🇩🇪DE德国_1
+  - 美國
+  - 🇭🇰 HK_2
+  - 🇸🇬SG
+  - 🇸🇬 SG新加坡
+  - 🇺🇸US_2
+  - 🇩🇪DE_1
+  - 🇸🇬SG_1
+  - 🇸🇪SE瑞典節點_1
+  - 🇩🇪DE_2
+  - 🇯🇵 JP_1
+  - 🇰🇷KR韓國_2
+  - 🇩🇪DE德國
+  - 🇸🇬SG新加坡_3
+  - 🇸🇬SG新加坡節點
+  - 🇸🇬SG新加坡丨yoyapai.com_1
+  - 美国节点_2
+  - 🇱🇻LV拉脫維亞
   - 🇩🇪DE_3
   - 🇩🇪DE_4
-  - 德國_1
   - 🇩🇪DE_5
-  - 拉脫維亞
-  - 🇸🇪SE瑞典節點_2
-  - 🇬🇧GB
-  - 荷蘭🇳🇱NL
   - 🇩🇪DE_6
+  - 🇩🇪_DE_德国
+  - 🇨🇦CA加拿大節點
+  - 🇸🇪SE瑞典節點_2
+  - 韓國_2
   - 🇩🇪DE_7
-  - 🇱🇻LV拉脫維亞_1
-  - 🇳🇱NL荷蘭
-  - 🇱🇻LV拉脫維亞_2
   - 🇩🇪DE_8
+  - 🇰🇷KR韓國_3
+  - 🇰🇷KR_2
   - 🇩🇪DE_9
-  - 🇩🇪DE德國
-  - 德國丨yoyapai.com
+  - 🇰🇷KR韓國_4
+  - 荷蘭🇳🇱NL
+  - 拉脫維亞
+  - 🇸🇬SG_2
+  - 拉脫維亞_1
   - 🇩🇪DE_10
   - 🇩🇪DE_11
+  - 韩国丨yoyapai.com
+  - 🇸🇬SG_3
+  - 🇰🇷KR_3
   - 🇩🇪DE_12
-  - 🇩🇪DE_13
-  - 🇸🇪SE瑞典節點_3
-  - 🇩🇪DE_14
+  - 德國_1
   - 🇩🇪DE德國丨yoyapai.com_2
+  - 🇩🇪DE_13
+  - 🇱🇻LV拉脫維亞_1
+  - 🇩🇪DE_14
+  - 🇸🇪SE瑞典節點_3
+  - 🇸🇬SG_4
+  - 🇳🇱NL荷蘭
   - 拉脫維亞節點
+  - 🇱🇻LV拉脫維亞_2
+  - 香港丨yoyapai.com_2
   - 🇩🇪DE_15
-  - 🇸🇬SG_2
+  - 🇰🇷KR韓國丨yoyapai.com_1
+  - 🇻🇳VN越南丨yoyapai.com
+  - 🇸🇬SG_5
+  - 美国_2
+  - 美国_3
+  - 美國_1
+  - 🇺🇸_US_美国
+  - 美国_4
+  - 美国_5
+  - 新加坡节点
+  - 🇬🇧GB
+  - 美国_6
   - 🇩🇪DE_16
   - 🇩🇪DE_17
-  - 🇰🇷KR韓國丨yoyapai.com_1
-  - 🇯🇵JP_8
-  - 拉脫維亞_1
-  - 🇨🇦CA加拿大節點
+  - 德國丨yoyapai.com
+  - 🇸🇬SG新加坡_4
+  - 香港丨yoyapai.com_3
+  - 日本_3
+  - 美国丨yoyapai.com
+  - 美国丨yoyapai.com_1
+  - 美国丨yoyapai.com_2
+  - 美国丨yoyapai.com_3
   - 🇩🇪DE_18
   - 芬蘭
-  - 🇸🇬SG_3
-  - 🇸🇬SG_4
-  - 美國_1
-  - 🇯🇵JP_9
-  - 🇺🇸_US_美国
-  - 🇻🇳VN越南丨yoyapai.com
-  - 🇸🇬SG新加坡_4
-  - 美国节点_2
-  - 🇸🇬SG_5
-  - 韩国丨yoyapai.com
-  - 美国_6
+  - 美国丨yoyapai.com_4
+  - 法国
+  - 法国丨yoyapai.com
+  - 美国_7
+  - 美国节点_3
+  - 法国节点
+  - 美国_8
+  - 法国_1
+  - 乌克兰丨yoyapai.com
+  - 美国节点丨yoyapai.com
+  - 法国_2
+  - 美国_9
+  - 美国_10
+  - 美国_11
+  - 美国_12
+  - 法国_3
+  - 英国
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 香港丨yoyapai.com
-  - 香港丨yoyapai.com_1
   - 香港節點
-  - 日本
   - 香港
-  - 🇨🇳TW臺灣節點丨yoyapai.com
-  - 香港丨yoyapai.com_2
-  - 新加坡節點
-  - 臺灣
+  - 日本
   - 🇯🇵JP
-  - 🇸🇬SG新加坡
-  - 🇸🇬SG新加坡_1
   - 🇯🇵JP_1
-  - 🇯🇵JP_2
-  - 香港丨yoyapai.com_3
-  - 新加坡節點_1
-  - 臺灣丨yoyapai.com
-  - 🇯🇵JP_3
-  - 日本節點
-  - 🇸🇬SG新加坡丨yoyapai.com
-  - 🇯🇵JP日本
   - 🇯🇵JP日本丨yoyapai.com
-  - 🇰🇷KR韓國丨yoyapai.com
-  - 🇯🇵JP日本_1
-  - 🇭🇰HK香港
-  - 日本_1
-  - 🇰🇷KR韓國
+  - 🇯🇵JP_2
+  - 🇯🇵JP_3
+  - 香港丨yoyapai.com_1
   - 🇯🇵JP_4
-  - 🇰🇷KR
-  - 🇯🇵JP日本丨yoyapai.com_1
-  - 🇸🇬SG新加坡_2
-  - 🇰🇷KR韓國_1
-  - 韓國丨yoyapai.com
-  - 日本_2
-  - 日本_3
-  - 🇰🇷KR_1
-  - 🇰🇷KR韓國_2
-  - 韓國
-  - 🇰🇷KR_2
-  - 🇨🇳 TW台湾节点
-  - 德國
-  - 🇯🇵JP日本節點
-  - 🇩🇪DE德國丨yoyapai.com
   - 🇯🇵JP_5
-  - 🇮🇳IN印度丨yoyapai.com
-  - 🇺🇸US_161
-  - 🇩🇪DE
-  - 🇰🇷KR韓國_3
-  - 🇩🇪DE德国
-  - 🇯🇵JP日本丨yoyapai.com_2
-  - 🇰🇷KR_3
-  - 🇩🇪DE德國節點
-  - 新加坡節點_2
-  - 🇺🇸US_290
-  - 🇺🇸US_297
-  - 🇭🇰HK香港丨yoyapai.com
-  - 韓國_1
-  - 🇺🇸US_133
-  - 🇩🇪DE德国_1
-  - 美国节点
-  - 🇺🇸US_美國
-  - 美國🇺🇸US
-  - 🇺🇸US_24
-  - 🇺🇸US美國
+  - 🇸🇬SG新加坡
+  - 臺灣
+  - 🇨🇳TW臺灣節點丨yoyapai.com
+  - 新加坡節點
+  - 日本_1
+  - 韓國
   - 新加坡
-  - 🇸🇬SG新加坡_3
-  - 美国
-  - 🇺🇸US_美國_1
-  - 印度
-  - 🇺🇸US_27
-  - 🇩🇪DE德國丨yoyapai.com_1
-  - 🇺🇸US美國節點
-  - 🇺🇸US_243
-  - 美国_1
-  - 🇭🇰 HK
-  - 美國
-  - 🇸🇬 SG新加坡节点
-  - 美国节点_1
-  - 🇰🇷KR韓國_4
-  - 🇭🇰 HK_1
-  - 🇸🇬 SG新加坡
-  - 🇸🇪SE瑞典節點
-  - 🇱🇻LV拉脫維亞
-  - 🇺🇸US_235
-  - 🇸🇪SE瑞典節點_1
-  - 美国丨yoyapai.com
-  - 美国丨yoyapai.com_1
-  - 韓國_2
-  - 🇩🇪_DE_德国
-  - 美国丨yoyapai.com_2
-  - 🇭🇰 HK_2
-  - 🇯🇵 JP
-  - 🇺🇸US_56
-  - 🇯🇵 JP_1
-  - 美国丨yoyapai.com_3
-  - 🇩🇪DE德国节点
-  - 新加坡_1
-  - 🇺🇸US
-  - 🇸🇬SG新加坡節點
-  - 🇸🇬SG
-  - 🇸🇬SG_1
-  - 瑞典🇸🇪SE丨yoyapai.com
-  - 🇺🇸US_1
-  - 美国_2
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 日本_2
   - 🇯🇵JP_6
-  - 🇩🇪DE_1
-  - 美國節點
-  - 美国_3
-  - 🇩🇪DE_2
-  - 美国_4
-  - 🇸🇬SG新加坡丨yoyapai.com_1
-  - 美国_5
-  - 🇺🇸US_2
-  - 新加坡节点
+  - 🇯🇵JP日本丨yoyapai.com_1
+  - 🇯🇵JP日本節點
   - 🇯🇵JP_7
+  - 🇭🇰HK香港
+  - 日本節點
+  - 🇯🇵JP日本
+  - 🇯🇵JP_8
+  - 🇯🇵JP日本_1
+  - 韓國丨yoyapai.com
+  - 臺灣丨yoyapai.com
+  - 🇯🇵JP日本丨yoyapai.com_2
+  - 🇰🇷KR韓國丨yoyapai.com
+  - 🇯🇵JP_9
+  - 🇸🇬SG新加坡_1
+  - 🇨🇳 TW台湾节点
+  - 新加坡節點_1
+  - 新加坡節點_2
+  - 🇸🇬SG新加坡_2
+  - 🇩🇪DE德國丨yoyapai.com
+  - 🇩🇪DE
+  - 德國
+  - 🇩🇪DE德国
+  - 🇮🇳IN印度丨yoyapai.com
+  - 🇺🇸US_243
+  - 美國節點
+  - 🇭🇰HK香港丨yoyapai.com
+  - 美國🇺🇸US
+  - 🇺🇸US美國
+  - 🇰🇷KR韓國
+  - 🇭🇰 HK
+  - 🇺🇸US_297
+  - 🇩🇪DE德國丨yoyapai.com_1
+  - 🇺🇸US_161
+  - 🇰🇷KR
+  - 🇰🇷KR_1
+  - 🇺🇸US_美國
+  - 🇺🇸US_24
+  - 美国
+  - 美国节点
+  - 🇰🇷KR韓國_1
+  - 🇸🇪SE瑞典節點
+  - 瑞典🇸🇪SE丨yoyapai.com
+  - 🇺🇸US
+  - 🇺🇸US_133
+  - 🇺🇸US_27
+  - 韓國_1
+  - 🇺🇸US_290
+  - 美国_1
+  - 🇺🇸US_美國_1
+  - 美国节点_1
+  - 🇺🇸US_235
+  - 印度
+  - 🇭🇰 HK_1
+  - 新加坡_1
+  - 🇸🇬 SG新加坡节点
+  - 🇺🇸US_56
+  - 🇺🇸US_1
+  - 🇯🇵 JP
+  - 🇩🇪DE德国节点
+  - 🇺🇸US美國節點
+  - 🇩🇪DE德國節點
+  - 🇩🇪DE德国_1
+  - 美國
+  - 🇭🇰 HK_2
+  - 🇸🇬SG
+  - 🇸🇬 SG新加坡
+  - 🇺🇸US_2
+  - 🇩🇪DE_1
+  - 🇸🇬SG_1
+  - 🇸🇪SE瑞典節點_1
+  - 🇩🇪DE_2
+  - 🇯🇵 JP_1
+  - 🇰🇷KR韓國_2
+  - 🇩🇪DE德國
+  - 🇸🇬SG新加坡_3
+  - 🇸🇬SG新加坡節點
+  - 🇸🇬SG新加坡丨yoyapai.com_1
+  - 美国节点_2
+  - 🇱🇻LV拉脫維亞
   - 🇩🇪DE_3
   - 🇩🇪DE_4
-  - 德國_1
   - 🇩🇪DE_5
-  - 拉脫維亞
-  - 🇸🇪SE瑞典節點_2
-  - 🇬🇧GB
-  - 荷蘭🇳🇱NL
   - 🇩🇪DE_6
+  - 🇩🇪_DE_德国
+  - 🇨🇦CA加拿大節點
+  - 🇸🇪SE瑞典節點_2
+  - 韓國_2
   - 🇩🇪DE_7
-  - 🇱🇻LV拉脫維亞_1
-  - 🇳🇱NL荷蘭
-  - 🇱🇻LV拉脫維亞_2
   - 🇩🇪DE_8
+  - 🇰🇷KR韓國_3
+  - 🇰🇷KR_2
   - 🇩🇪DE_9
-  - 🇩🇪DE德國
-  - 德國丨yoyapai.com
+  - 🇰🇷KR韓國_4
+  - 荷蘭🇳🇱NL
+  - 拉脫維亞
+  - 🇸🇬SG_2
+  - 拉脫維亞_1
   - 🇩🇪DE_10
   - 🇩🇪DE_11
+  - 韩国丨yoyapai.com
+  - 🇸🇬SG_3
+  - 🇰🇷KR_3
   - 🇩🇪DE_12
-  - 🇩🇪DE_13
-  - 🇸🇪SE瑞典節點_3
-  - 🇩🇪DE_14
+  - 德國_1
   - 🇩🇪DE德國丨yoyapai.com_2
+  - 🇩🇪DE_13
+  - 🇱🇻LV拉脫維亞_1
+  - 🇩🇪DE_14
+  - 🇸🇪SE瑞典節點_3
+  - 🇸🇬SG_4
+  - 🇳🇱NL荷蘭
   - 拉脫維亞節點
+  - 🇱🇻LV拉脫維亞_2
+  - 香港丨yoyapai.com_2
   - 🇩🇪DE_15
-  - 🇸🇬SG_2
+  - 🇰🇷KR韓國丨yoyapai.com_1
+  - 🇻🇳VN越南丨yoyapai.com
+  - 🇸🇬SG_5
+  - 美国_2
+  - 美国_3
+  - 美國_1
+  - 🇺🇸_US_美国
+  - 美国_4
+  - 美国_5
+  - 新加坡节点
+  - 🇬🇧GB
+  - 美国_6
   - 🇩🇪DE_16
   - 🇩🇪DE_17
-  - 🇰🇷KR韓國丨yoyapai.com_1
-  - 🇯🇵JP_8
-  - 拉脫維亞_1
-  - 🇨🇦CA加拿大節點
+  - 德國丨yoyapai.com
+  - 🇸🇬SG新加坡_4
+  - 香港丨yoyapai.com_3
+  - 日本_3
+  - 美国丨yoyapai.com
+  - 美国丨yoyapai.com_1
+  - 美国丨yoyapai.com_2
+  - 美国丨yoyapai.com_3
   - 🇩🇪DE_18
   - 芬蘭
-  - 🇸🇬SG_3
-  - 🇸🇬SG_4
-  - 美國_1
-  - 🇯🇵JP_9
-  - 🇺🇸_US_美国
-  - 🇻🇳VN越南丨yoyapai.com
-  - 🇸🇬SG新加坡_4
-  - 美国节点_2
-  - 🇸🇬SG_5
-  - 韩国丨yoyapai.com
-  - 美国_6
+  - 美国丨yoyapai.com_4
+  - 法国
+  - 法国丨yoyapai.com
+  - 美国_7
+  - 美国节点_3
+  - 法国节点
+  - 美国_8
+  - 法国_1
+  - 乌克兰丨yoyapai.com
+  - 美国节点丨yoyapai.com
+  - 法国_2
+  - 美国_9
+  - 美国_10
+  - 美国_11
+  - 美国_12
+  - 法国_3
+  - 英国
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2117,664 +2338,732 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 香港丨yoyapai.com
-  - 香港丨yoyapai.com_1
   - 香港節點
-  - 日本
   - 香港
-  - 🇨🇳TW臺灣節點丨yoyapai.com
-  - 香港丨yoyapai.com_2
-  - 新加坡節點
-  - 臺灣
+  - 日本
   - 🇯🇵JP
-  - 🇸🇬SG新加坡
-  - 🇸🇬SG新加坡_1
   - 🇯🇵JP_1
-  - 🇯🇵JP_2
-  - 香港丨yoyapai.com_3
-  - 新加坡節點_1
-  - 臺灣丨yoyapai.com
-  - 🇯🇵JP_3
-  - 日本節點
-  - 🇸🇬SG新加坡丨yoyapai.com
-  - 🇯🇵JP日本
   - 🇯🇵JP日本丨yoyapai.com
-  - 🇰🇷KR韓國丨yoyapai.com
-  - 🇯🇵JP日本_1
-  - 🇭🇰HK香港
-  - 日本_1
-  - 🇰🇷KR韓國
+  - 🇯🇵JP_2
+  - 🇯🇵JP_3
+  - 香港丨yoyapai.com_1
   - 🇯🇵JP_4
-  - 🇰🇷KR
-  - 🇯🇵JP日本丨yoyapai.com_1
-  - 🇸🇬SG新加坡_2
-  - 🇰🇷KR韓國_1
-  - 韓國丨yoyapai.com
-  - 日本_2
-  - 日本_3
-  - 🇰🇷KR_1
-  - 🇰🇷KR韓國_2
-  - 韓國
-  - 🇰🇷KR_2
-  - 🇨🇳 TW台湾节点
-  - 德國
-  - 🇯🇵JP日本節點
-  - 🇩🇪DE德國丨yoyapai.com
   - 🇯🇵JP_5
-  - 🇮🇳IN印度丨yoyapai.com
-  - 🇺🇸US_161
-  - 🇩🇪DE
-  - 🇰🇷KR韓國_3
-  - 🇩🇪DE德国
-  - 🇯🇵JP日本丨yoyapai.com_2
-  - 🇰🇷KR_3
-  - 🇩🇪DE德國節點
-  - 新加坡節點_2
-  - 🇺🇸US_290
-  - 🇺🇸US_297
-  - 🇭🇰HK香港丨yoyapai.com
-  - 韓國_1
-  - 🇺🇸US_133
-  - 🇩🇪DE德国_1
-  - 美国节点
-  - 🇺🇸US_美國
-  - 美國🇺🇸US
-  - 🇺🇸US_24
-  - 🇺🇸US美國
+  - 🇸🇬SG新加坡
+  - 臺灣
+  - 🇨🇳TW臺灣節點丨yoyapai.com
+  - 新加坡節點
+  - 日本_1
+  - 韓國
   - 新加坡
-  - 🇸🇬SG新加坡_3
-  - 美国
-  - 🇺🇸US_美國_1
-  - 印度
-  - 🇺🇸US_27
-  - 🇩🇪DE德國丨yoyapai.com_1
-  - 🇺🇸US美國節點
-  - 🇺🇸US_243
-  - 美国_1
-  - 🇭🇰 HK
-  - 美國
-  - 🇸🇬 SG新加坡节点
-  - 美国节点_1
-  - 🇰🇷KR韓國_4
-  - 🇭🇰 HK_1
-  - 🇸🇬 SG新加坡
-  - 🇸🇪SE瑞典節點
-  - 🇱🇻LV拉脫維亞
-  - 🇺🇸US_235
-  - 🇸🇪SE瑞典節點_1
-  - 美国丨yoyapai.com
-  - 美国丨yoyapai.com_1
-  - 韓國_2
-  - 🇩🇪_DE_德国
-  - 美国丨yoyapai.com_2
-  - 🇭🇰 HK_2
-  - 🇯🇵 JP
-  - 🇺🇸US_56
-  - 🇯🇵 JP_1
-  - 美国丨yoyapai.com_3
-  - 🇩🇪DE德国节点
-  - 新加坡_1
-  - 🇺🇸US
-  - 🇸🇬SG新加坡節點
-  - 🇸🇬SG
-  - 🇸🇬SG_1
-  - 瑞典🇸🇪SE丨yoyapai.com
-  - 🇺🇸US_1
-  - 美国_2
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 日本_2
   - 🇯🇵JP_6
-  - 🇩🇪DE_1
-  - 美國節點
-  - 美国_3
-  - 🇩🇪DE_2
-  - 美国_4
-  - 🇸🇬SG新加坡丨yoyapai.com_1
-  - 美国_5
-  - 🇺🇸US_2
-  - 新加坡节点
+  - 🇯🇵JP日本丨yoyapai.com_1
+  - 🇯🇵JP日本節點
   - 🇯🇵JP_7
+  - 🇭🇰HK香港
+  - 日本節點
+  - 🇯🇵JP日本
+  - 🇯🇵JP_8
+  - 🇯🇵JP日本_1
+  - 韓國丨yoyapai.com
+  - 臺灣丨yoyapai.com
+  - 🇯🇵JP日本丨yoyapai.com_2
+  - 🇰🇷KR韓國丨yoyapai.com
+  - 🇯🇵JP_9
+  - 🇸🇬SG新加坡_1
+  - 🇨🇳 TW台湾节点
+  - 新加坡節點_1
+  - 新加坡節點_2
+  - 🇸🇬SG新加坡_2
+  - 🇩🇪DE德國丨yoyapai.com
+  - 🇩🇪DE
+  - 德國
+  - 🇩🇪DE德国
+  - 🇮🇳IN印度丨yoyapai.com
+  - 🇺🇸US_243
+  - 美國節點
+  - 🇭🇰HK香港丨yoyapai.com
+  - 美國🇺🇸US
+  - 🇺🇸US美國
+  - 🇰🇷KR韓國
+  - 🇭🇰 HK
+  - 🇺🇸US_297
+  - 🇩🇪DE德國丨yoyapai.com_1
+  - 🇺🇸US_161
+  - 🇰🇷KR
+  - 🇰🇷KR_1
+  - 🇺🇸US_美國
+  - 🇺🇸US_24
+  - 美国
+  - 美国节点
+  - 🇰🇷KR韓國_1
+  - 🇸🇪SE瑞典節點
+  - 瑞典🇸🇪SE丨yoyapai.com
+  - 🇺🇸US
+  - 🇺🇸US_133
+  - 🇺🇸US_27
+  - 韓國_1
+  - 🇺🇸US_290
+  - 美国_1
+  - 🇺🇸US_美國_1
+  - 美国节点_1
+  - 🇺🇸US_235
+  - 印度
+  - 🇭🇰 HK_1
+  - 新加坡_1
+  - 🇸🇬 SG新加坡节点
+  - 🇺🇸US_56
+  - 🇺🇸US_1
+  - 🇯🇵 JP
+  - 🇩🇪DE德国节点
+  - 🇺🇸US美國節點
+  - 🇩🇪DE德國節點
+  - 🇩🇪DE德国_1
+  - 美國
+  - 🇭🇰 HK_2
+  - 🇸🇬SG
+  - 🇸🇬 SG新加坡
+  - 🇺🇸US_2
+  - 🇩🇪DE_1
+  - 🇸🇬SG_1
+  - 🇸🇪SE瑞典節點_1
+  - 🇩🇪DE_2
+  - 🇯🇵 JP_1
+  - 🇰🇷KR韓國_2
+  - 🇩🇪DE德國
+  - 🇸🇬SG新加坡_3
+  - 🇸🇬SG新加坡節點
+  - 🇸🇬SG新加坡丨yoyapai.com_1
+  - 美国节点_2
+  - 🇱🇻LV拉脫維亞
   - 🇩🇪DE_3
   - 🇩🇪DE_4
-  - 德國_1
   - 🇩🇪DE_5
-  - 拉脫維亞
-  - 🇸🇪SE瑞典節點_2
-  - 🇬🇧GB
-  - 荷蘭🇳🇱NL
   - 🇩🇪DE_6
+  - 🇩🇪_DE_德国
+  - 🇨🇦CA加拿大節點
+  - 🇸🇪SE瑞典節點_2
+  - 韓國_2
   - 🇩🇪DE_7
-  - 🇱🇻LV拉脫維亞_1
-  - 🇳🇱NL荷蘭
-  - 🇱🇻LV拉脫維亞_2
   - 🇩🇪DE_8
+  - 🇰🇷KR韓國_3
+  - 🇰🇷KR_2
   - 🇩🇪DE_9
-  - 🇩🇪DE德國
-  - 德國丨yoyapai.com
+  - 🇰🇷KR韓國_4
+  - 荷蘭🇳🇱NL
+  - 拉脫維亞
+  - 🇸🇬SG_2
+  - 拉脫維亞_1
   - 🇩🇪DE_10
   - 🇩🇪DE_11
+  - 韩国丨yoyapai.com
+  - 🇸🇬SG_3
+  - 🇰🇷KR_3
   - 🇩🇪DE_12
-  - 🇩🇪DE_13
-  - 🇸🇪SE瑞典節點_3
-  - 🇩🇪DE_14
+  - 德國_1
   - 🇩🇪DE德國丨yoyapai.com_2
+  - 🇩🇪DE_13
+  - 🇱🇻LV拉脫維亞_1
+  - 🇩🇪DE_14
+  - 🇸🇪SE瑞典節點_3
+  - 🇸🇬SG_4
+  - 🇳🇱NL荷蘭
   - 拉脫維亞節點
+  - 🇱🇻LV拉脫維亞_2
+  - 香港丨yoyapai.com_2
   - 🇩🇪DE_15
-  - 🇸🇬SG_2
+  - 🇰🇷KR韓國丨yoyapai.com_1
+  - 🇻🇳VN越南丨yoyapai.com
+  - 🇸🇬SG_5
+  - 美国_2
+  - 美国_3
+  - 美國_1
+  - 🇺🇸_US_美国
+  - 美国_4
+  - 美国_5
+  - 新加坡节点
+  - 🇬🇧GB
+  - 美国_6
   - 🇩🇪DE_16
   - 🇩🇪DE_17
-  - 🇰🇷KR韓國丨yoyapai.com_1
-  - 🇯🇵JP_8
-  - 拉脫維亞_1
-  - 🇨🇦CA加拿大節點
+  - 德國丨yoyapai.com
+  - 🇸🇬SG新加坡_4
+  - 香港丨yoyapai.com_3
+  - 日本_3
+  - 美国丨yoyapai.com
+  - 美国丨yoyapai.com_1
+  - 美国丨yoyapai.com_2
+  - 美国丨yoyapai.com_3
   - 🇩🇪DE_18
   - 芬蘭
-  - 🇸🇬SG_3
-  - 🇸🇬SG_4
-  - 美國_1
-  - 🇯🇵JP_9
-  - 🇺🇸_US_美国
-  - 🇻🇳VN越南丨yoyapai.com
-  - 🇸🇬SG新加坡_4
-  - 美国节点_2
-  - 🇸🇬SG_5
-  - 韩国丨yoyapai.com
-  - 美国_6
+  - 美国丨yoyapai.com_4
+  - 法国
+  - 法国丨yoyapai.com
+  - 美国_7
+  - 美国节点_3
+  - 法国节点
+  - 美国_8
+  - 法国_1
+  - 乌克兰丨yoyapai.com
+  - 美国节点丨yoyapai.com
+  - 法国_2
+  - 美国_9
+  - 美国_10
+  - 美国_11
+  - 美国_12
+  - 法国_3
+  - 英国
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - 香港丨yoyapai.com
-  - 香港丨yoyapai.com_1
   - 香港節點
-  - 日本
   - 香港
-  - 🇨🇳TW臺灣節點丨yoyapai.com
-  - 香港丨yoyapai.com_2
-  - 新加坡節點
-  - 臺灣
+  - 日本
   - 🇯🇵JP
-  - 🇸🇬SG新加坡
-  - 🇸🇬SG新加坡_1
   - 🇯🇵JP_1
-  - 🇯🇵JP_2
-  - 香港丨yoyapai.com_3
-  - 新加坡節點_1
-  - 臺灣丨yoyapai.com
-  - 🇯🇵JP_3
-  - 日本節點
-  - 🇸🇬SG新加坡丨yoyapai.com
-  - 🇯🇵JP日本
   - 🇯🇵JP日本丨yoyapai.com
-  - 🇰🇷KR韓國丨yoyapai.com
-  - 🇯🇵JP日本_1
-  - 🇭🇰HK香港
-  - 日本_1
-  - 🇰🇷KR韓國
+  - 🇯🇵JP_2
+  - 🇯🇵JP_3
+  - 香港丨yoyapai.com_1
   - 🇯🇵JP_4
-  - 🇰🇷KR
-  - 🇯🇵JP日本丨yoyapai.com_1
-  - 🇸🇬SG新加坡_2
-  - 🇰🇷KR韓國_1
-  - 韓國丨yoyapai.com
-  - 日本_2
-  - 日本_3
-  - 🇰🇷KR_1
-  - 🇰🇷KR韓國_2
-  - 韓國
-  - 🇰🇷KR_2
-  - 🇨🇳 TW台湾节点
-  - 德國
-  - 🇯🇵JP日本節點
-  - 🇩🇪DE德國丨yoyapai.com
   - 🇯🇵JP_5
-  - 🇮🇳IN印度丨yoyapai.com
-  - 🇺🇸US_161
-  - 🇩🇪DE
-  - 🇰🇷KR韓國_3
-  - 🇩🇪DE德国
-  - 🇯🇵JP日本丨yoyapai.com_2
-  - 🇰🇷KR_3
-  - 🇩🇪DE德國節點
-  - 新加坡節點_2
-  - 🇺🇸US_290
-  - 🇺🇸US_297
-  - 🇭🇰HK香港丨yoyapai.com
-  - 韓國_1
-  - 🇺🇸US_133
-  - 🇩🇪DE德国_1
-  - 美国节点
-  - 🇺🇸US_美國
-  - 美國🇺🇸US
-  - 🇺🇸US_24
-  - 🇺🇸US美國
+  - 🇸🇬SG新加坡
+  - 臺灣
+  - 🇨🇳TW臺灣節點丨yoyapai.com
+  - 新加坡節點
+  - 日本_1
+  - 韓國
   - 新加坡
-  - 🇸🇬SG新加坡_3
-  - 美国
-  - 🇺🇸US_美國_1
-  - 印度
-  - 🇺🇸US_27
-  - 🇩🇪DE德國丨yoyapai.com_1
-  - 🇺🇸US美國節點
-  - 🇺🇸US_243
-  - 美国_1
-  - 🇭🇰 HK
-  - 美國
-  - 🇸🇬 SG新加坡节点
-  - 美国节点_1
-  - 🇰🇷KR韓國_4
-  - 🇭🇰 HK_1
-  - 🇸🇬 SG新加坡
-  - 🇸🇪SE瑞典節點
-  - 🇱🇻LV拉脫維亞
-  - 🇺🇸US_235
-  - 🇸🇪SE瑞典節點_1
-  - 美国丨yoyapai.com
-  - 美国丨yoyapai.com_1
-  - 韓國_2
-  - 🇩🇪_DE_德国
-  - 美国丨yoyapai.com_2
-  - 🇭🇰 HK_2
-  - 🇯🇵 JP
-  - 🇺🇸US_56
-  - 🇯🇵 JP_1
-  - 美国丨yoyapai.com_3
-  - 🇩🇪DE德国节点
-  - 新加坡_1
-  - 🇺🇸US
-  - 🇸🇬SG新加坡節點
-  - 🇸🇬SG
-  - 🇸🇬SG_1
-  - 瑞典🇸🇪SE丨yoyapai.com
-  - 🇺🇸US_1
-  - 美国_2
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 日本_2
   - 🇯🇵JP_6
-  - 🇩🇪DE_1
-  - 美國節點
-  - 美国_3
-  - 🇩🇪DE_2
-  - 美国_4
-  - 🇸🇬SG新加坡丨yoyapai.com_1
-  - 美国_5
-  - 🇺🇸US_2
-  - 新加坡节点
+  - 🇯🇵JP日本丨yoyapai.com_1
+  - 🇯🇵JP日本節點
   - 🇯🇵JP_7
+  - 🇭🇰HK香港
+  - 日本節點
+  - 🇯🇵JP日本
+  - 🇯🇵JP_8
+  - 🇯🇵JP日本_1
+  - 韓國丨yoyapai.com
+  - 臺灣丨yoyapai.com
+  - 🇯🇵JP日本丨yoyapai.com_2
+  - 🇰🇷KR韓國丨yoyapai.com
+  - 🇯🇵JP_9
+  - 🇸🇬SG新加坡_1
+  - 🇨🇳 TW台湾节点
+  - 新加坡節點_1
+  - 新加坡節點_2
+  - 🇸🇬SG新加坡_2
+  - 🇩🇪DE德國丨yoyapai.com
+  - 🇩🇪DE
+  - 德國
+  - 🇩🇪DE德国
+  - 🇮🇳IN印度丨yoyapai.com
+  - 🇺🇸US_243
+  - 美國節點
+  - 🇭🇰HK香港丨yoyapai.com
+  - 美國🇺🇸US
+  - 🇺🇸US美國
+  - 🇰🇷KR韓國
+  - 🇭🇰 HK
+  - 🇺🇸US_297
+  - 🇩🇪DE德國丨yoyapai.com_1
+  - 🇺🇸US_161
+  - 🇰🇷KR
+  - 🇰🇷KR_1
+  - 🇺🇸US_美國
+  - 🇺🇸US_24
+  - 美国
+  - 美国节点
+  - 🇰🇷KR韓國_1
+  - 🇸🇪SE瑞典節點
+  - 瑞典🇸🇪SE丨yoyapai.com
+  - 🇺🇸US
+  - 🇺🇸US_133
+  - 🇺🇸US_27
+  - 韓國_1
+  - 🇺🇸US_290
+  - 美国_1
+  - 🇺🇸US_美國_1
+  - 美国节点_1
+  - 🇺🇸US_235
+  - 印度
+  - 🇭🇰 HK_1
+  - 新加坡_1
+  - 🇸🇬 SG新加坡节点
+  - 🇺🇸US_56
+  - 🇺🇸US_1
+  - 🇯🇵 JP
+  - 🇩🇪DE德国节点
+  - 🇺🇸US美國節點
+  - 🇩🇪DE德國節點
+  - 🇩🇪DE德国_1
+  - 美國
+  - 🇭🇰 HK_2
+  - 🇸🇬SG
+  - 🇸🇬 SG新加坡
+  - 🇺🇸US_2
+  - 🇩🇪DE_1
+  - 🇸🇬SG_1
+  - 🇸🇪SE瑞典節點_1
+  - 🇩🇪DE_2
+  - 🇯🇵 JP_1
+  - 🇰🇷KR韓國_2
+  - 🇩🇪DE德國
+  - 🇸🇬SG新加坡_3
+  - 🇸🇬SG新加坡節點
+  - 🇸🇬SG新加坡丨yoyapai.com_1
+  - 美国节点_2
+  - 🇱🇻LV拉脫維亞
   - 🇩🇪DE_3
   - 🇩🇪DE_4
-  - 德國_1
   - 🇩🇪DE_5
-  - 拉脫維亞
-  - 🇸🇪SE瑞典節點_2
-  - 🇬🇧GB
-  - 荷蘭🇳🇱NL
   - 🇩🇪DE_6
+  - 🇩🇪_DE_德国
+  - 🇨🇦CA加拿大節點
+  - 🇸🇪SE瑞典節點_2
+  - 韓國_2
   - 🇩🇪DE_7
-  - 🇱🇻LV拉脫維亞_1
-  - 🇳🇱NL荷蘭
-  - 🇱🇻LV拉脫維亞_2
   - 🇩🇪DE_8
+  - 🇰🇷KR韓國_3
+  - 🇰🇷KR_2
   - 🇩🇪DE_9
-  - 🇩🇪DE德國
-  - 德國丨yoyapai.com
+  - 🇰🇷KR韓國_4
+  - 荷蘭🇳🇱NL
+  - 拉脫維亞
+  - 🇸🇬SG_2
+  - 拉脫維亞_1
   - 🇩🇪DE_10
   - 🇩🇪DE_11
+  - 韩国丨yoyapai.com
+  - 🇸🇬SG_3
+  - 🇰🇷KR_3
   - 🇩🇪DE_12
-  - 🇩🇪DE_13
-  - 🇸🇪SE瑞典節點_3
-  - 🇩🇪DE_14
+  - 德國_1
   - 🇩🇪DE德國丨yoyapai.com_2
+  - 🇩🇪DE_13
+  - 🇱🇻LV拉脫維亞_1
+  - 🇩🇪DE_14
+  - 🇸🇪SE瑞典節點_3
+  - 🇸🇬SG_4
+  - 🇳🇱NL荷蘭
   - 拉脫維亞節點
+  - 🇱🇻LV拉脫維亞_2
+  - 香港丨yoyapai.com_2
   - 🇩🇪DE_15
-  - 🇸🇬SG_2
+  - 🇰🇷KR韓國丨yoyapai.com_1
+  - 🇻🇳VN越南丨yoyapai.com
+  - 🇸🇬SG_5
+  - 美国_2
+  - 美国_3
+  - 美國_1
+  - 🇺🇸_US_美国
+  - 美国_4
+  - 美国_5
+  - 新加坡节点
+  - 🇬🇧GB
+  - 美国_6
   - 🇩🇪DE_16
   - 🇩🇪DE_17
-  - 🇰🇷KR韓國丨yoyapai.com_1
-  - 🇯🇵JP_8
-  - 拉脫維亞_1
-  - 🇨🇦CA加拿大節點
+  - 德國丨yoyapai.com
+  - 🇸🇬SG新加坡_4
+  - 香港丨yoyapai.com_3
+  - 日本_3
+  - 美国丨yoyapai.com
+  - 美国丨yoyapai.com_1
+  - 美国丨yoyapai.com_2
+  - 美国丨yoyapai.com_3
   - 🇩🇪DE_18
   - 芬蘭
-  - 🇸🇬SG_3
-  - 🇸🇬SG_4
-  - 美國_1
-  - 🇯🇵JP_9
-  - 🇺🇸_US_美国
-  - 🇻🇳VN越南丨yoyapai.com
-  - 🇸🇬SG新加坡_4
-  - 美国节点_2
-  - 🇸🇬SG_5
-  - 韩国丨yoyapai.com
-  - 美国_6
+  - 美国丨yoyapai.com_4
+  - 法国
+  - 法国丨yoyapai.com
+  - 美国_7
+  - 美国节点_3
+  - 法国节点
+  - 美国_8
+  - 法国_1
+  - 乌克兰丨yoyapai.com
+  - 美国节点丨yoyapai.com
+  - 法国_2
+  - 美国_9
+  - 美国_10
+  - 美国_11
+  - 美国_12
+  - 法国_3
+  - 英国
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
   - 香港丨yoyapai.com
-  - 香港丨yoyapai.com_1
   - 香港節點
-  - 日本
   - 香港
-  - 🇨🇳TW臺灣節點丨yoyapai.com
-  - 香港丨yoyapai.com_2
-  - 新加坡節點
-  - 臺灣
+  - 日本
   - 🇯🇵JP
-  - 🇸🇬SG新加坡
-  - 🇸🇬SG新加坡_1
   - 🇯🇵JP_1
-  - 🇯🇵JP_2
-  - 香港丨yoyapai.com_3
-  - 新加坡節點_1
-  - 臺灣丨yoyapai.com
-  - 🇯🇵JP_3
-  - 日本節點
-  - 🇸🇬SG新加坡丨yoyapai.com
-  - 🇯🇵JP日本
   - 🇯🇵JP日本丨yoyapai.com
-  - 🇰🇷KR韓國丨yoyapai.com
-  - 🇯🇵JP日本_1
-  - 🇭🇰HK香港
-  - 日本_1
-  - 🇰🇷KR韓國
+  - 🇯🇵JP_2
+  - 🇯🇵JP_3
+  - 香港丨yoyapai.com_1
   - 🇯🇵JP_4
-  - 🇰🇷KR
-  - 🇯🇵JP日本丨yoyapai.com_1
-  - 🇸🇬SG新加坡_2
-  - 🇰🇷KR韓國_1
-  - 韓國丨yoyapai.com
-  - 日本_2
-  - 日本_3
-  - 🇰🇷KR_1
-  - 🇰🇷KR韓國_2
-  - 韓國
-  - 🇰🇷KR_2
-  - 🇨🇳 TW台湾节点
-  - 德國
-  - 🇯🇵JP日本節點
-  - 🇩🇪DE德國丨yoyapai.com
   - 🇯🇵JP_5
-  - 🇮🇳IN印度丨yoyapai.com
-  - 🇺🇸US_161
-  - 🇩🇪DE
-  - 🇰🇷KR韓國_3
-  - 🇩🇪DE德国
-  - 🇯🇵JP日本丨yoyapai.com_2
-  - 🇰🇷KR_3
-  - 🇩🇪DE德國節點
-  - 新加坡節點_2
-  - 🇺🇸US_290
-  - 🇺🇸US_297
-  - 🇭🇰HK香港丨yoyapai.com
-  - 韓國_1
-  - 🇺🇸US_133
-  - 🇩🇪DE德国_1
-  - 美国节点
-  - 🇺🇸US_美國
-  - 美國🇺🇸US
-  - 🇺🇸US_24
-  - 🇺🇸US美國
+  - 🇸🇬SG新加坡
+  - 臺灣
+  - 🇨🇳TW臺灣節點丨yoyapai.com
+  - 新加坡節點
+  - 日本_1
+  - 韓國
   - 新加坡
-  - 🇸🇬SG新加坡_3
-  - 美国
-  - 🇺🇸US_美國_1
-  - 印度
-  - 🇺🇸US_27
-  - 🇩🇪DE德國丨yoyapai.com_1
-  - 🇺🇸US美國節點
-  - 🇺🇸US_243
-  - 美国_1
-  - 🇭🇰 HK
-  - 美國
-  - 🇸🇬 SG新加坡节点
-  - 美国节点_1
-  - 🇰🇷KR韓國_4
-  - 🇭🇰 HK_1
-  - 🇸🇬 SG新加坡
-  - 🇸🇪SE瑞典節點
-  - 🇱🇻LV拉脫維亞
-  - 🇺🇸US_235
-  - 🇸🇪SE瑞典節點_1
-  - 美国丨yoyapai.com
-  - 美国丨yoyapai.com_1
-  - 韓國_2
-  - 🇩🇪_DE_德国
-  - 美国丨yoyapai.com_2
-  - 🇭🇰 HK_2
-  - 🇯🇵 JP
-  - 🇺🇸US_56
-  - 🇯🇵 JP_1
-  - 美国丨yoyapai.com_3
-  - 🇩🇪DE德国节点
-  - 新加坡_1
-  - 🇺🇸US
-  - 🇸🇬SG新加坡節點
-  - 🇸🇬SG
-  - 🇸🇬SG_1
-  - 瑞典🇸🇪SE丨yoyapai.com
-  - 🇺🇸US_1
-  - 美国_2
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 日本_2
   - 🇯🇵JP_6
-  - 🇩🇪DE_1
-  - 美國節點
-  - 美国_3
-  - 🇩🇪DE_2
-  - 美国_4
-  - 🇸🇬SG新加坡丨yoyapai.com_1
-  - 美国_5
-  - 🇺🇸US_2
-  - 新加坡节点
+  - 🇯🇵JP日本丨yoyapai.com_1
+  - 🇯🇵JP日本節點
   - 🇯🇵JP_7
+  - 🇭🇰HK香港
+  - 日本節點
+  - 🇯🇵JP日本
+  - 🇯🇵JP_8
+  - 🇯🇵JP日本_1
+  - 韓國丨yoyapai.com
+  - 臺灣丨yoyapai.com
+  - 🇯🇵JP日本丨yoyapai.com_2
+  - 🇰🇷KR韓國丨yoyapai.com
+  - 🇯🇵JP_9
+  - 🇸🇬SG新加坡_1
+  - 🇨🇳 TW台湾节点
+  - 新加坡節點_1
+  - 新加坡節點_2
+  - 🇸🇬SG新加坡_2
+  - 🇩🇪DE德國丨yoyapai.com
+  - 🇩🇪DE
+  - 德國
+  - 🇩🇪DE德国
+  - 🇮🇳IN印度丨yoyapai.com
+  - 🇺🇸US_243
+  - 美國節點
+  - 🇭🇰HK香港丨yoyapai.com
+  - 美國🇺🇸US
+  - 🇺🇸US美國
+  - 🇰🇷KR韓國
+  - 🇭🇰 HK
+  - 🇺🇸US_297
+  - 🇩🇪DE德國丨yoyapai.com_1
+  - 🇺🇸US_161
+  - 🇰🇷KR
+  - 🇰🇷KR_1
+  - 🇺🇸US_美國
+  - 🇺🇸US_24
+  - 美国
+  - 美国节点
+  - 🇰🇷KR韓國_1
+  - 🇸🇪SE瑞典節點
+  - 瑞典🇸🇪SE丨yoyapai.com
+  - 🇺🇸US
+  - 🇺🇸US_133
+  - 🇺🇸US_27
+  - 韓國_1
+  - 🇺🇸US_290
+  - 美国_1
+  - 🇺🇸US_美國_1
+  - 美国节点_1
+  - 🇺🇸US_235
+  - 印度
+  - 🇭🇰 HK_1
+  - 新加坡_1
+  - 🇸🇬 SG新加坡节点
+  - 🇺🇸US_56
+  - 🇺🇸US_1
+  - 🇯🇵 JP
+  - 🇩🇪DE德国节点
+  - 🇺🇸US美國節點
+  - 🇩🇪DE德國節點
+  - 🇩🇪DE德国_1
+  - 美國
+  - 🇭🇰 HK_2
+  - 🇸🇬SG
+  - 🇸🇬 SG新加坡
+  - 🇺🇸US_2
+  - 🇩🇪DE_1
+  - 🇸🇬SG_1
+  - 🇸🇪SE瑞典節點_1
+  - 🇩🇪DE_2
+  - 🇯🇵 JP_1
+  - 🇰🇷KR韓國_2
+  - 🇩🇪DE德國
+  - 🇸🇬SG新加坡_3
+  - 🇸🇬SG新加坡節點
+  - 🇸🇬SG新加坡丨yoyapai.com_1
+  - 美国节点_2
+  - 🇱🇻LV拉脫維亞
   - 🇩🇪DE_3
   - 🇩🇪DE_4
-  - 德國_1
   - 🇩🇪DE_5
-  - 拉脫維亞
-  - 🇸🇪SE瑞典節點_2
-  - 🇬🇧GB
-  - 荷蘭🇳🇱NL
   - 🇩🇪DE_6
+  - 🇩🇪_DE_德国
+  - 🇨🇦CA加拿大節點
+  - 🇸🇪SE瑞典節點_2
+  - 韓國_2
   - 🇩🇪DE_7
-  - 🇱🇻LV拉脫維亞_1
-  - 🇳🇱NL荷蘭
-  - 🇱🇻LV拉脫維亞_2
   - 🇩🇪DE_8
+  - 🇰🇷KR韓國_3
+  - 🇰🇷KR_2
   - 🇩🇪DE_9
-  - 🇩🇪DE德國
-  - 德國丨yoyapai.com
+  - 🇰🇷KR韓國_4
+  - 荷蘭🇳🇱NL
+  - 拉脫維亞
+  - 🇸🇬SG_2
+  - 拉脫維亞_1
   - 🇩🇪DE_10
   - 🇩🇪DE_11
+  - 韩国丨yoyapai.com
+  - 🇸🇬SG_3
+  - 🇰🇷KR_3
   - 🇩🇪DE_12
-  - 🇩🇪DE_13
-  - 🇸🇪SE瑞典節點_3
-  - 🇩🇪DE_14
+  - 德國_1
   - 🇩🇪DE德國丨yoyapai.com_2
+  - 🇩🇪DE_13
+  - 🇱🇻LV拉脫維亞_1
+  - 🇩🇪DE_14
+  - 🇸🇪SE瑞典節點_3
+  - 🇸🇬SG_4
+  - 🇳🇱NL荷蘭
   - 拉脫維亞節點
+  - 🇱🇻LV拉脫維亞_2
+  - 香港丨yoyapai.com_2
   - 🇩🇪DE_15
-  - 🇸🇬SG_2
+  - 🇰🇷KR韓國丨yoyapai.com_1
+  - 🇻🇳VN越南丨yoyapai.com
+  - 🇸🇬SG_5
+  - 美国_2
+  - 美国_3
+  - 美國_1
+  - 🇺🇸_US_美国
+  - 美国_4
+  - 美国_5
+  - 新加坡节点
+  - 🇬🇧GB
+  - 美国_6
   - 🇩🇪DE_16
   - 🇩🇪DE_17
-  - 🇰🇷KR韓國丨yoyapai.com_1
-  - 🇯🇵JP_8
-  - 拉脫維亞_1
-  - 🇨🇦CA加拿大節點
+  - 德國丨yoyapai.com
+  - 🇸🇬SG新加坡_4
+  - 香港丨yoyapai.com_3
+  - 日本_3
+  - 美国丨yoyapai.com
+  - 美国丨yoyapai.com_1
+  - 美国丨yoyapai.com_2
+  - 美国丨yoyapai.com_3
   - 🇩🇪DE_18
   - 芬蘭
-  - 🇸🇬SG_3
-  - 🇸🇬SG_4
-  - 美國_1
-  - 🇯🇵JP_9
-  - 🇺🇸_US_美国
-  - 🇻🇳VN越南丨yoyapai.com
-  - 🇸🇬SG新加坡_4
-  - 美国节点_2
-  - 🇸🇬SG_5
-  - 韩国丨yoyapai.com
-  - 美国_6
+  - 美国丨yoyapai.com_4
+  - 法国
+  - 法国丨yoyapai.com
+  - 美国_7
+  - 美国节点_3
+  - 法国节点
+  - 美国_8
+  - 法国_1
+  - 乌克兰丨yoyapai.com
+  - 美国节点丨yoyapai.com
+  - 法国_2
+  - 美国_9
+  - 美国_10
+  - 美国_11
+  - 美国_12
+  - 法国_3
+  - 英国
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - 香港丨yoyapai.com
-  - 香港丨yoyapai.com_1
   - 香港節點
-  - 日本
   - 香港
-  - 🇨🇳TW臺灣節點丨yoyapai.com
-  - 香港丨yoyapai.com_2
-  - 新加坡節點
-  - 臺灣
+  - 日本
   - 🇯🇵JP
-  - 🇸🇬SG新加坡
-  - 🇸🇬SG新加坡_1
   - 🇯🇵JP_1
-  - 🇯🇵JP_2
-  - 香港丨yoyapai.com_3
-  - 新加坡節點_1
-  - 臺灣丨yoyapai.com
-  - 🇯🇵JP_3
-  - 日本節點
-  - 🇸🇬SG新加坡丨yoyapai.com
-  - 🇯🇵JP日本
   - 🇯🇵JP日本丨yoyapai.com
-  - 🇰🇷KR韓國丨yoyapai.com
-  - 🇯🇵JP日本_1
-  - 🇭🇰HK香港
-  - 日本_1
-  - 🇰🇷KR韓國
+  - 🇯🇵JP_2
+  - 🇯🇵JP_3
+  - 香港丨yoyapai.com_1
   - 🇯🇵JP_4
-  - 🇰🇷KR
-  - 🇯🇵JP日本丨yoyapai.com_1
-  - 🇸🇬SG新加坡_2
-  - 🇰🇷KR韓國_1
-  - 韓國丨yoyapai.com
-  - 日本_2
-  - 日本_3
-  - 🇰🇷KR_1
-  - 🇰🇷KR韓國_2
-  - 韓國
-  - 🇰🇷KR_2
-  - 🇨🇳 TW台湾节点
-  - 德國
-  - 🇯🇵JP日本節點
-  - 🇩🇪DE德國丨yoyapai.com
   - 🇯🇵JP_5
-  - 🇮🇳IN印度丨yoyapai.com
-  - 🇺🇸US_161
-  - 🇩🇪DE
-  - 🇰🇷KR韓國_3
-  - 🇩🇪DE德国
-  - 🇯🇵JP日本丨yoyapai.com_2
-  - 🇰🇷KR_3
-  - 🇩🇪DE德國節點
-  - 新加坡節點_2
-  - 🇺🇸US_290
-  - 🇺🇸US_297
-  - 🇭🇰HK香港丨yoyapai.com
-  - 韓國_1
-  - 🇺🇸US_133
-  - 🇩🇪DE德国_1
-  - 美国节点
-  - 🇺🇸US_美國
-  - 美國🇺🇸US
-  - 🇺🇸US_24
-  - 🇺🇸US美國
+  - 🇸🇬SG新加坡
+  - 臺灣
+  - 🇨🇳TW臺灣節點丨yoyapai.com
+  - 新加坡節點
+  - 日本_1
+  - 韓國
   - 新加坡
-  - 🇸🇬SG新加坡_3
-  - 美国
-  - 🇺🇸US_美國_1
-  - 印度
-  - 🇺🇸US_27
-  - 🇩🇪DE德國丨yoyapai.com_1
-  - 🇺🇸US美國節點
-  - 🇺🇸US_243
-  - 美国_1
-  - 🇭🇰 HK
-  - 美國
-  - 🇸🇬 SG新加坡节点
-  - 美国节点_1
-  - 🇰🇷KR韓國_4
-  - 🇭🇰 HK_1
-  - 🇸🇬 SG新加坡
-  - 🇸🇪SE瑞典節點
-  - 🇱🇻LV拉脫維亞
-  - 🇺🇸US_235
-  - 🇸🇪SE瑞典節點_1
-  - 美国丨yoyapai.com
-  - 美国丨yoyapai.com_1
-  - 韓國_2
-  - 🇩🇪_DE_德国
-  - 美国丨yoyapai.com_2
-  - 🇭🇰 HK_2
-  - 🇯🇵 JP
-  - 🇺🇸US_56
-  - 🇯🇵 JP_1
-  - 美国丨yoyapai.com_3
-  - 🇩🇪DE德国节点
-  - 新加坡_1
-  - 🇺🇸US
-  - 🇸🇬SG新加坡節點
-  - 🇸🇬SG
-  - 🇸🇬SG_1
-  - 瑞典🇸🇪SE丨yoyapai.com
-  - 🇺🇸US_1
-  - 美国_2
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 日本_2
   - 🇯🇵JP_6
-  - 🇩🇪DE_1
-  - 美國節點
-  - 美国_3
-  - 🇩🇪DE_2
-  - 美国_4
-  - 🇸🇬SG新加坡丨yoyapai.com_1
-  - 美国_5
-  - 🇺🇸US_2
-  - 新加坡节点
+  - 🇯🇵JP日本丨yoyapai.com_1
+  - 🇯🇵JP日本節點
   - 🇯🇵JP_7
+  - 🇭🇰HK香港
+  - 日本節點
+  - 🇯🇵JP日本
+  - 🇯🇵JP_8
+  - 🇯🇵JP日本_1
+  - 韓國丨yoyapai.com
+  - 臺灣丨yoyapai.com
+  - 🇯🇵JP日本丨yoyapai.com_2
+  - 🇰🇷KR韓國丨yoyapai.com
+  - 🇯🇵JP_9
+  - 🇸🇬SG新加坡_1
+  - 🇨🇳 TW台湾节点
+  - 新加坡節點_1
+  - 新加坡節點_2
+  - 🇸🇬SG新加坡_2
+  - 🇩🇪DE德國丨yoyapai.com
+  - 🇩🇪DE
+  - 德國
+  - 🇩🇪DE德国
+  - 🇮🇳IN印度丨yoyapai.com
+  - 🇺🇸US_243
+  - 美國節點
+  - 🇭🇰HK香港丨yoyapai.com
+  - 美國🇺🇸US
+  - 🇺🇸US美國
+  - 🇰🇷KR韓國
+  - 🇭🇰 HK
+  - 🇺🇸US_297
+  - 🇩🇪DE德國丨yoyapai.com_1
+  - 🇺🇸US_161
+  - 🇰🇷KR
+  - 🇰🇷KR_1
+  - 🇺🇸US_美國
+  - 🇺🇸US_24
+  - 美国
+  - 美国节点
+  - 🇰🇷KR韓國_1
+  - 🇸🇪SE瑞典節點
+  - 瑞典🇸🇪SE丨yoyapai.com
+  - 🇺🇸US
+  - 🇺🇸US_133
+  - 🇺🇸US_27
+  - 韓國_1
+  - 🇺🇸US_290
+  - 美国_1
+  - 🇺🇸US_美國_1
+  - 美国节点_1
+  - 🇺🇸US_235
+  - 印度
+  - 🇭🇰 HK_1
+  - 新加坡_1
+  - 🇸🇬 SG新加坡节点
+  - 🇺🇸US_56
+  - 🇺🇸US_1
+  - 🇯🇵 JP
+  - 🇩🇪DE德国节点
+  - 🇺🇸US美國節點
+  - 🇩🇪DE德國節點
+  - 🇩🇪DE德国_1
+  - 美國
+  - 🇭🇰 HK_2
+  - 🇸🇬SG
+  - 🇸🇬 SG新加坡
+  - 🇺🇸US_2
+  - 🇩🇪DE_1
+  - 🇸🇬SG_1
+  - 🇸🇪SE瑞典節點_1
+  - 🇩🇪DE_2
+  - 🇯🇵 JP_1
+  - 🇰🇷KR韓國_2
+  - 🇩🇪DE德國
+  - 🇸🇬SG新加坡_3
+  - 🇸🇬SG新加坡節點
+  - 🇸🇬SG新加坡丨yoyapai.com_1
+  - 美国节点_2
+  - 🇱🇻LV拉脫維亞
   - 🇩🇪DE_3
   - 🇩🇪DE_4
-  - 德國_1
   - 🇩🇪DE_5
-  - 拉脫維亞
-  - 🇸🇪SE瑞典節點_2
-  - 🇬🇧GB
-  - 荷蘭🇳🇱NL
   - 🇩🇪DE_6
+  - 🇩🇪_DE_德国
+  - 🇨🇦CA加拿大節點
+  - 🇸🇪SE瑞典節點_2
+  - 韓國_2
   - 🇩🇪DE_7
-  - 🇱🇻LV拉脫維亞_1
-  - 🇳🇱NL荷蘭
-  - 🇱🇻LV拉脫維亞_2
   - 🇩🇪DE_8
+  - 🇰🇷KR韓國_3
+  - 🇰🇷KR_2
   - 🇩🇪DE_9
-  - 🇩🇪DE德國
-  - 德國丨yoyapai.com
+  - 🇰🇷KR韓國_4
+  - 荷蘭🇳🇱NL
+  - 拉脫維亞
+  - 🇸🇬SG_2
+  - 拉脫維亞_1
   - 🇩🇪DE_10
   - 🇩🇪DE_11
+  - 韩国丨yoyapai.com
+  - 🇸🇬SG_3
+  - 🇰🇷KR_3
   - 🇩🇪DE_12
-  - 🇩🇪DE_13
-  - 🇸🇪SE瑞典節點_3
-  - 🇩🇪DE_14
+  - 德國_1
   - 🇩🇪DE德國丨yoyapai.com_2
+  - 🇩🇪DE_13
+  - 🇱🇻LV拉脫維亞_1
+  - 🇩🇪DE_14
+  - 🇸🇪SE瑞典節點_3
+  - 🇸🇬SG_4
+  - 🇳🇱NL荷蘭
   - 拉脫維亞節點
+  - 🇱🇻LV拉脫維亞_2
+  - 香港丨yoyapai.com_2
   - 🇩🇪DE_15
-  - 🇸🇬SG_2
+  - 🇰🇷KR韓國丨yoyapai.com_1
+  - 🇻🇳VN越南丨yoyapai.com
+  - 🇸🇬SG_5
+  - 美国_2
+  - 美国_3
+  - 美國_1
+  - 🇺🇸_US_美国
+  - 美国_4
+  - 美国_5
+  - 新加坡节点
+  - 🇬🇧GB
+  - 美国_6
   - 🇩🇪DE_16
   - 🇩🇪DE_17
-  - 🇰🇷KR韓國丨yoyapai.com_1
-  - 🇯🇵JP_8
-  - 拉脫維亞_1
-  - 🇨🇦CA加拿大節點
+  - 德國丨yoyapai.com
+  - 🇸🇬SG新加坡_4
+  - 香港丨yoyapai.com_3
+  - 日本_3
+  - 美国丨yoyapai.com
+  - 美国丨yoyapai.com_1
+  - 美国丨yoyapai.com_2
+  - 美国丨yoyapai.com_3
   - 🇩🇪DE_18
   - 芬蘭
-  - 🇸🇬SG_3
-  - 🇸🇬SG_4
-  - 美國_1
-  - 🇯🇵JP_9
-  - 🇺🇸_US_美国
-  - 🇻🇳VN越南丨yoyapai.com
-  - 🇸🇬SG新加坡_4
-  - 美国节点_2
-  - 🇸🇬SG_5
-  - 韩国丨yoyapai.com
-  - 美国_6
+  - 美国丨yoyapai.com_4
+  - 法国
+  - 法国丨yoyapai.com
+  - 美国_7
+  - 美国节点_3
+  - 法国节点
+  - 美国_8
+  - 法国_1
+  - 乌克兰丨yoyapai.com
+  - 美国节点丨yoyapai.com
+  - 法国_2
+  - 美国_9
+  - 美国_10
+  - 美国_11
+  - 美国_12
+  - 法国_3
+  - 英国
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -2798,166 +3087,183 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 香港丨yoyapai.com
-  - 香港丨yoyapai.com_1
   - 香港節點
-  - 日本
   - 香港
-  - 🇨🇳TW臺灣節點丨yoyapai.com
-  - 香港丨yoyapai.com_2
-  - 新加坡節點
-  - 臺灣
+  - 日本
   - 🇯🇵JP
-  - 🇸🇬SG新加坡
-  - 🇸🇬SG新加坡_1
   - 🇯🇵JP_1
-  - 🇯🇵JP_2
-  - 香港丨yoyapai.com_3
-  - 新加坡節點_1
-  - 臺灣丨yoyapai.com
-  - 🇯🇵JP_3
-  - 日本節點
-  - 🇸🇬SG新加坡丨yoyapai.com
-  - 🇯🇵JP日本
   - 🇯🇵JP日本丨yoyapai.com
-  - 🇰🇷KR韓國丨yoyapai.com
-  - 🇯🇵JP日本_1
-  - 🇭🇰HK香港
-  - 日本_1
-  - 🇰🇷KR韓國
+  - 🇯🇵JP_2
+  - 🇯🇵JP_3
+  - 香港丨yoyapai.com_1
   - 🇯🇵JP_4
-  - 🇰🇷KR
-  - 🇯🇵JP日本丨yoyapai.com_1
-  - 🇸🇬SG新加坡_2
-  - 🇰🇷KR韓國_1
-  - 韓國丨yoyapai.com
-  - 日本_2
-  - 日本_3
-  - 🇰🇷KR_1
-  - 🇰🇷KR韓國_2
-  - 韓國
-  - 🇰🇷KR_2
-  - 🇨🇳 TW台湾节点
-  - 德國
-  - 🇯🇵JP日本節點
-  - 🇩🇪DE德國丨yoyapai.com
   - 🇯🇵JP_5
-  - 🇮🇳IN印度丨yoyapai.com
-  - 🇺🇸US_161
-  - 🇩🇪DE
-  - 🇰🇷KR韓國_3
-  - 🇩🇪DE德国
-  - 🇯🇵JP日本丨yoyapai.com_2
-  - 🇰🇷KR_3
-  - 🇩🇪DE德國節點
-  - 新加坡節點_2
-  - 🇺🇸US_290
-  - 🇺🇸US_297
-  - 🇭🇰HK香港丨yoyapai.com
-  - 韓國_1
-  - 🇺🇸US_133
-  - 🇩🇪DE德国_1
-  - 美国节点
-  - 🇺🇸US_美國
-  - 美國🇺🇸US
-  - 🇺🇸US_24
-  - 🇺🇸US美國
+  - 🇸🇬SG新加坡
+  - 臺灣
+  - 🇨🇳TW臺灣節點丨yoyapai.com
+  - 新加坡節點
+  - 日本_1
+  - 韓國
   - 新加坡
-  - 🇸🇬SG新加坡_3
-  - 美国
-  - 🇺🇸US_美國_1
-  - 印度
-  - 🇺🇸US_27
-  - 🇩🇪DE德國丨yoyapai.com_1
-  - 🇺🇸US美國節點
-  - 🇺🇸US_243
-  - 美国_1
-  - 🇭🇰 HK
-  - 美國
-  - 🇸🇬 SG新加坡节点
-  - 美国节点_1
-  - 🇰🇷KR韓國_4
-  - 🇭🇰 HK_1
-  - 🇸🇬 SG新加坡
-  - 🇸🇪SE瑞典節點
-  - 🇱🇻LV拉脫維亞
-  - 🇺🇸US_235
-  - 🇸🇪SE瑞典節點_1
-  - 美国丨yoyapai.com
-  - 美国丨yoyapai.com_1
-  - 韓國_2
-  - 🇩🇪_DE_德国
-  - 美国丨yoyapai.com_2
-  - 🇭🇰 HK_2
-  - 🇯🇵 JP
-  - 🇺🇸US_56
-  - 🇯🇵 JP_1
-  - 美国丨yoyapai.com_3
-  - 🇩🇪DE德国节点
-  - 新加坡_1
-  - 🇺🇸US
-  - 🇸🇬SG新加坡節點
-  - 🇸🇬SG
-  - 🇸🇬SG_1
-  - 瑞典🇸🇪SE丨yoyapai.com
-  - 🇺🇸US_1
-  - 美国_2
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 日本_2
   - 🇯🇵JP_6
-  - 🇩🇪DE_1
-  - 美國節點
-  - 美国_3
-  - 🇩🇪DE_2
-  - 美国_4
-  - 🇸🇬SG新加坡丨yoyapai.com_1
-  - 美国_5
-  - 🇺🇸US_2
-  - 新加坡节点
+  - 🇯🇵JP日本丨yoyapai.com_1
+  - 🇯🇵JP日本節點
   - 🇯🇵JP_7
+  - 🇭🇰HK香港
+  - 日本節點
+  - 🇯🇵JP日本
+  - 🇯🇵JP_8
+  - 🇯🇵JP日本_1
+  - 韓國丨yoyapai.com
+  - 臺灣丨yoyapai.com
+  - 🇯🇵JP日本丨yoyapai.com_2
+  - 🇰🇷KR韓國丨yoyapai.com
+  - 🇯🇵JP_9
+  - 🇸🇬SG新加坡_1
+  - 🇨🇳 TW台湾节点
+  - 新加坡節點_1
+  - 新加坡節點_2
+  - 🇸🇬SG新加坡_2
+  - 🇩🇪DE德國丨yoyapai.com
+  - 🇩🇪DE
+  - 德國
+  - 🇩🇪DE德国
+  - 🇮🇳IN印度丨yoyapai.com
+  - 🇺🇸US_243
+  - 美國節點
+  - 🇭🇰HK香港丨yoyapai.com
+  - 美國🇺🇸US
+  - 🇺🇸US美國
+  - 🇰🇷KR韓國
+  - 🇭🇰 HK
+  - 🇺🇸US_297
+  - 🇩🇪DE德國丨yoyapai.com_1
+  - 🇺🇸US_161
+  - 🇰🇷KR
+  - 🇰🇷KR_1
+  - 🇺🇸US_美國
+  - 🇺🇸US_24
+  - 美国
+  - 美国节点
+  - 🇰🇷KR韓國_1
+  - 🇸🇪SE瑞典節點
+  - 瑞典🇸🇪SE丨yoyapai.com
+  - 🇺🇸US
+  - 🇺🇸US_133
+  - 🇺🇸US_27
+  - 韓國_1
+  - 🇺🇸US_290
+  - 美国_1
+  - 🇺🇸US_美國_1
+  - 美国节点_1
+  - 🇺🇸US_235
+  - 印度
+  - 🇭🇰 HK_1
+  - 新加坡_1
+  - 🇸🇬 SG新加坡节点
+  - 🇺🇸US_56
+  - 🇺🇸US_1
+  - 🇯🇵 JP
+  - 🇩🇪DE德国节点
+  - 🇺🇸US美國節點
+  - 🇩🇪DE德國節點
+  - 🇩🇪DE德国_1
+  - 美國
+  - 🇭🇰 HK_2
+  - 🇸🇬SG
+  - 🇸🇬 SG新加坡
+  - 🇺🇸US_2
+  - 🇩🇪DE_1
+  - 🇸🇬SG_1
+  - 🇸🇪SE瑞典節點_1
+  - 🇩🇪DE_2
+  - 🇯🇵 JP_1
+  - 🇰🇷KR韓國_2
+  - 🇩🇪DE德國
+  - 🇸🇬SG新加坡_3
+  - 🇸🇬SG新加坡節點
+  - 🇸🇬SG新加坡丨yoyapai.com_1
+  - 美国节点_2
+  - 🇱🇻LV拉脫維亞
   - 🇩🇪DE_3
   - 🇩🇪DE_4
-  - 德國_1
   - 🇩🇪DE_5
-  - 拉脫維亞
-  - 🇸🇪SE瑞典節點_2
-  - 🇬🇧GB
-  - 荷蘭🇳🇱NL
   - 🇩🇪DE_6
+  - 🇩🇪_DE_德国
+  - 🇨🇦CA加拿大節點
+  - 🇸🇪SE瑞典節點_2
+  - 韓國_2
   - 🇩🇪DE_7
-  - 🇱🇻LV拉脫維亞_1
-  - 🇳🇱NL荷蘭
-  - 🇱🇻LV拉脫維亞_2
   - 🇩🇪DE_8
+  - 🇰🇷KR韓國_3
+  - 🇰🇷KR_2
   - 🇩🇪DE_9
-  - 🇩🇪DE德國
-  - 德國丨yoyapai.com
+  - 🇰🇷KR韓國_4
+  - 荷蘭🇳🇱NL
+  - 拉脫維亞
+  - 🇸🇬SG_2
+  - 拉脫維亞_1
   - 🇩🇪DE_10
   - 🇩🇪DE_11
+  - 韩国丨yoyapai.com
+  - 🇸🇬SG_3
+  - 🇰🇷KR_3
   - 🇩🇪DE_12
-  - 🇩🇪DE_13
-  - 🇸🇪SE瑞典節點_3
-  - 🇩🇪DE_14
+  - 德國_1
   - 🇩🇪DE德國丨yoyapai.com_2
+  - 🇩🇪DE_13
+  - 🇱🇻LV拉脫維亞_1
+  - 🇩🇪DE_14
+  - 🇸🇪SE瑞典節點_3
+  - 🇸🇬SG_4
+  - 🇳🇱NL荷蘭
   - 拉脫維亞節點
+  - 🇱🇻LV拉脫維亞_2
+  - 香港丨yoyapai.com_2
   - 🇩🇪DE_15
-  - 🇸🇬SG_2
+  - 🇰🇷KR韓國丨yoyapai.com_1
+  - 🇻🇳VN越南丨yoyapai.com
+  - 🇸🇬SG_5
+  - 美国_2
+  - 美国_3
+  - 美國_1
+  - 🇺🇸_US_美国
+  - 美国_4
+  - 美国_5
+  - 新加坡节点
+  - 🇬🇧GB
+  - 美国_6
   - 🇩🇪DE_16
   - 🇩🇪DE_17
-  - 🇰🇷KR韓國丨yoyapai.com_1
-  - 🇯🇵JP_8
-  - 拉脫維亞_1
-  - 🇨🇦CA加拿大節點
+  - 德國丨yoyapai.com
+  - 🇸🇬SG新加坡_4
+  - 香港丨yoyapai.com_3
+  - 日本_3
+  - 美国丨yoyapai.com
+  - 美国丨yoyapai.com_1
+  - 美国丨yoyapai.com_2
+  - 美国丨yoyapai.com_3
   - 🇩🇪DE_18
   - 芬蘭
-  - 🇸🇬SG_3
-  - 🇸🇬SG_4
-  - 美國_1
-  - 🇯🇵JP_9
-  - 🇺🇸_US_美国
-  - 🇻🇳VN越南丨yoyapai.com
-  - 🇸🇬SG新加坡_4
-  - 美国节点_2
-  - 🇸🇬SG_5
-  - 韩国丨yoyapai.com
-  - 美国_6
+  - 美国丨yoyapai.com_4
+  - 法国
+  - 法国丨yoyapai.com
+  - 美国_7
+  - 美国节点_3
+  - 法国节点
+  - 美国_8
+  - 法国_1
+  - 乌克兰丨yoyapai.com
+  - 美国节点丨yoyapai.com
+  - 法国_2
+  - 美国_9
+  - 美国_10
+  - 美国_11
+  - 美国_12
+  - 法国_3
+  - 英国
   type: select
 rule-providers:
   Apple:
