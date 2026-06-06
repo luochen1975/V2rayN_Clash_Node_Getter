@@ -13,6 +13,48 @@ proxies:
   tls: false
   type: vmess
   uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+- name: 🇺🇸 美国 Akamai科技公司CDN网络节点
+  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
+  port: 443
+  server: 172.238.120.124
+  skip-cert-verify: false
+  type: trojan
+- name: 🇺🇸 美国 Akamai科技公司CDN网络节点 2
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  port: 443
+  server: 172.237.145.189
+  skip-cert-verify: false
+  sni: 172.237.145.189
+  type: trojan
+- alpn:
+  - http%2F1.1
+  name: 🇺🇸 美国 CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.121.9
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- auth: github.com%2FAlvin9999-newpac%2Ffanqiang
+  name: 🇫🇷 法国 ONLINE S.A.S.数据中心
+  password: github.com%2FAlvin9999-newpac%2Ffanqiang
+  port: 64772
+  server: 62.210.26.173
+  skip-cert-verify: false
+  sni: bing.com
+  type: hysteria2
+- name: 🇺🇸 美国 Akamai科技公司CDN网络节点 3
+  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
+  port: 443
+  server: 172.236.220.10
+  skip-cert-verify: false
+  sni: 172.236.220.10
+  type: trojan
 - name: 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
   password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
   port: 443
@@ -20,86 +62,48 @@ proxies:
   skip-cert-verify: false
   sni: www.rolll.click
   type: trojan
-- name: 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 2
-  password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m
+- name: 🇷🇴 罗马尼亚 starcorenode.com
+  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
   port: 443
-  server: 130.94.104.210
+  server: 185.137.157.254
   skip-cert-verify: false
-  sni: www.cdn-structure.click
+  sni: www.directorypipeline.click
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 英国 starcorenode.com
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - http%2F1.1
-  name: 🇺🇸 美国 CloudFlare节点
-  network: ws
-  password: humanity
+  name: 🇺🇸 美国 加利福尼亚
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
   port: 443
-  server: 104.20.6.134
+  server: 64.176.65.85
   skip-cert-verify: false
-  sni: www.calmloud.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 3
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
-  skip-cert-verify: false
-  sni: www.logger-guard.click
-  type: trojan
-- client-fingerprint: chrome
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇷🇺 俄罗斯 starcorenode.com
+  name: 🇺🇸 美国 佛罗里达州迈阿密市
   network: tcp
   port: 443
-  server: 85.234.114.53
+  server: 72.56.59.177
   servername: r1.mizulina.top
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 starcorenode.com
-  password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
-  port: 21273
-  server: 149.104.109.74
-  type: ss
-- name: 🇷🇺 俄罗斯 starcorenode.com 2
-  network: tcp
+- name: 🇩🇪 德国 starcorenode.com
+  password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
   port: 443
-  server: 109.120.138.95
+  server: 91.233.8.138
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: c2b6a323-19ec-4e4f-a95c-8b0e99aa7660
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇦 乌克兰 starcorenode.com
-  password: vJ4LrBqkqCYgGMO08YmmsMjQ3ZMtJ7Ey6Sxfpe
-  port: 41348
-  server: 5.34.177.228
-  type: ss
-- name: 🇺🇸 美国 Akamai科技公司CDN网络节点
-  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
-  port: 443
-  server: 172.238.120.124
-  skip-cert-verify: false
+  sni: www.homelywebs.click
   type: trojan
-- name: 🇺🇸 美国 CloudFlare节点 2
+- alpn:
+  - http%2F1.1
+  name: 🇺🇸 美国 CloudFlare节点 2
   network: ws
   port: 443
-  server: 172.67.70.149
+  server: 172.64.146.68
   servername: octopusss4.com
   skip-cert-verify: false
   tfo: false
@@ -110,39 +114,47 @@ proxies:
     headers:
       Host: octopusss4.com
     path: /tsghdws
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 台湾省台北市 中华电信
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
   - 8元老牌专线机场：cczzuu.top
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 2
-  - 🇬🇧 英国 starcorenode.com
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 3
-  - 🇷🇺 俄罗斯 starcorenode.com
-  - 🇺🇸 美国 starcorenode.com
-  - 🇷🇺 俄罗斯 starcorenode.com 2
-  - 🇺🇦 乌克兰 starcorenode.com
   - 🇺🇸 美国 Akamai科技公司CDN网络节点
+  - 🇺🇸 美国 Akamai科技公司CDN网络节点 2
+  - 🇺🇸 美国 CloudFlare节点
+  - 🇫🇷 法国 ONLINE S.A.S.数据中心
+  - 🇺🇸 美国 Akamai科技公司CDN网络节点 3
+  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  - 🇷🇴 罗马尼亚 starcorenode.com
+  - 🇺🇸 美国 加利福尼亚
+  - 🇺🇸 美国 佛罗里达州迈阿密市
+  - 🇩🇪 德国 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点 2
+  - 🇨🇳 台湾省台北市 中华电信
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 8元老牌专线机场：cczzuu.top
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 2
-  - 🇬🇧 英国 starcorenode.com
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 3
-  - 🇷🇺 俄罗斯 starcorenode.com
-  - 🇺🇸 美国 starcorenode.com
-  - 🇷🇺 俄罗斯 starcorenode.com 2
-  - 🇺🇦 乌克兰 starcorenode.com
   - 🇺🇸 美国 Akamai科技公司CDN网络节点
+  - 🇺🇸 美国 Akamai科技公司CDN网络节点 2
+  - 🇺🇸 美国 CloudFlare节点
+  - 🇫🇷 法国 ONLINE S.A.S.数据中心
+  - 🇺🇸 美国 Akamai科技公司CDN网络节点 3
+  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  - 🇷🇴 罗马尼亚 starcorenode.com
+  - 🇺🇸 美国 加利福尼亚
+  - 🇺🇸 美国 佛罗里达州迈阿密市
+  - 🇩🇪 德国 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点 2
+  - 🇨🇳 台湾省台北市 中华电信
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -152,68 +164,72 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 2
-  - 🇬🇧 英国 starcorenode.com
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 3
-  - 🇷🇺 俄罗斯 starcorenode.com
-  - 🇺🇸 美国 starcorenode.com
-  - 🇷🇺 俄罗斯 starcorenode.com 2
-  - 🇺🇦 乌克兰 starcorenode.com
   - 🇺🇸 美国 Akamai科技公司CDN网络节点
+  - 🇺🇸 美国 Akamai科技公司CDN网络节点 2
+  - 🇺🇸 美国 CloudFlare节点
+  - 🇫🇷 法国 ONLINE S.A.S.数据中心
+  - 🇺🇸 美国 Akamai科技公司CDN网络节点 3
+  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  - 🇷🇴 罗马尼亚 starcorenode.com
+  - 🇺🇸 美国 加利福尼亚
+  - 🇺🇸 美国 佛罗里达州迈阿密市
+  - 🇩🇪 德国 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点 2
+  - 🇨🇳 台湾省台北市 中华电信
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 2
-  - 🇬🇧 英国 starcorenode.com
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 3
-  - 🇷🇺 俄罗斯 starcorenode.com
-  - 🇺🇸 美国 starcorenode.com
-  - 🇷🇺 俄罗斯 starcorenode.com 2
-  - 🇺🇦 乌克兰 starcorenode.com
   - 🇺🇸 美国 Akamai科技公司CDN网络节点
+  - 🇺🇸 美国 Akamai科技公司CDN网络节点 2
+  - 🇺🇸 美国 CloudFlare节点
+  - 🇫🇷 法国 ONLINE S.A.S.数据中心
+  - 🇺🇸 美国 Akamai科技公司CDN网络节点 3
+  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  - 🇷🇴 罗马尼亚 starcorenode.com
+  - 🇺🇸 美国 加利福尼亚
+  - 🇺🇸 美国 佛罗里达州迈阿密市
+  - 🇩🇪 德国 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点 2
+  - 🇨🇳 台湾省台北市 中华电信
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
   - 8元老牌专线机场：cczzuu.top
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 2
-  - 🇬🇧 英国 starcorenode.com
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 3
-  - 🇷🇺 俄罗斯 starcorenode.com
-  - 🇺🇸 美国 starcorenode.com
-  - 🇷🇺 俄罗斯 starcorenode.com 2
-  - 🇺🇦 乌克兰 starcorenode.com
   - 🇺🇸 美国 Akamai科技公司CDN网络节点
+  - 🇺🇸 美国 Akamai科技公司CDN网络节点 2
+  - 🇺🇸 美国 CloudFlare节点
+  - 🇫🇷 法国 ONLINE S.A.S.数据中心
+  - 🇺🇸 美国 Akamai科技公司CDN网络节点 3
+  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  - 🇷🇴 罗马尼亚 starcorenode.com
+  - 🇺🇸 美国 加利福尼亚
+  - 🇺🇸 美国 佛罗里达州迈阿密市
+  - 🇩🇪 德国 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点 2
+  - 🇨🇳 台湾省台北市 中华电信
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 2
-  - 🇬🇧 英国 starcorenode.com
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 3
-  - 🇷🇺 俄罗斯 starcorenode.com
-  - 🇺🇸 美国 starcorenode.com
-  - 🇷🇺 俄罗斯 starcorenode.com 2
-  - 🇺🇦 乌克兰 starcorenode.com
   - 🇺🇸 美国 Akamai科技公司CDN网络节点
+  - 🇺🇸 美国 Akamai科技公司CDN网络节点 2
+  - 🇺🇸 美国 CloudFlare节点
+  - 🇫🇷 法国 ONLINE S.A.S.数据中心
+  - 🇺🇸 美国 Akamai科技公司CDN网络节点 3
+  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  - 🇷🇴 罗马尼亚 starcorenode.com
+  - 🇺🇸 美国 加利福尼亚
+  - 🇺🇸 美国 佛罗里达州迈阿密市
+  - 🇩🇪 德国 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点 2
+  - 🇨🇳 台湾省台北市 中华电信
   type: select
 - name: 📢 谷歌FCM
   proxies:
@@ -221,17 +237,18 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 8元老牌专线机场：cczzuu.top
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 2
-  - 🇬🇧 英国 starcorenode.com
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 3
-  - 🇷🇺 俄罗斯 starcorenode.com
-  - 🇺🇸 美国 starcorenode.com
-  - 🇷🇺 俄罗斯 starcorenode.com 2
-  - 🇺🇦 乌克兰 starcorenode.com
   - 🇺🇸 美国 Akamai科技公司CDN网络节点
+  - 🇺🇸 美国 Akamai科技公司CDN网络节点 2
+  - 🇺🇸 美国 CloudFlare节点
+  - 🇫🇷 法国 ONLINE S.A.S.数据中心
+  - 🇺🇸 美国 Akamai科技公司CDN网络节点 3
+  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  - 🇷🇴 罗马尼亚 starcorenode.com
+  - 🇺🇸 美国 加利福尼亚
+  - 🇺🇸 美国 佛罗里达州迈阿密市
+  - 🇩🇪 德国 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点 2
+  - 🇨🇳 台湾省台北市 中华电信
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -255,17 +272,18 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 8元老牌专线机场：cczzuu.top
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 2
-  - 🇬🇧 英国 starcorenode.com
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 3
-  - 🇷🇺 俄罗斯 starcorenode.com
-  - 🇺🇸 美国 starcorenode.com
-  - 🇷🇺 俄罗斯 starcorenode.com 2
-  - 🇺🇦 乌克兰 starcorenode.com
   - 🇺🇸 美国 Akamai科技公司CDN网络节点
+  - 🇺🇸 美国 Akamai科技公司CDN网络节点 2
+  - 🇺🇸 美国 CloudFlare节点
+  - 🇫🇷 法国 ONLINE S.A.S.数据中心
+  - 🇺🇸 美国 Akamai科技公司CDN网络节点 3
+  - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  - 🇷🇴 罗马尼亚 starcorenode.com
+  - 🇺🇸 美国 加利福尼亚
+  - 🇺🇸 美国 佛罗里达州迈阿密市
+  - 🇩🇪 德国 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点 2
+  - 🇨🇳 台湾省台北市 中华电信
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
